@@ -1,0 +1,2801 @@
+    1  2018-10-22 20:43:07 sudo su =
+    2  2018-10-22 20:43:16 sudo su -
+    3  2018-10-22 22:04:39 sudo passwd root
+    4  2018-10-23 10:48:40 wget http://download4.operacdn.com/ftp/pub/opera/desktop/51.0.2830.34/linux/opera-stable_51.0.2830.34_amd64.rpm
+    5  2018-10-23 10:49:03 sudo yum install opera-stable_51.0.2830.34_amd64.rpm
+    6  2018-10-23 10:49:33 sudo apt install -f
+    7  2018-10-23 10:49:44 sudo yum install -f
+    8  2018-10-23 10:57:29 cd Downloads/
+    9  2018-10-23 10:57:40 yum install adobe-release-x86_64-1.0-1.noarch.rpm
+   10  2018-10-23 10:57:56 sudo yum install adobe-release-x86_64-1.0-1.noarch.rpm
+   11  2018-10-23 11:03:08 sudo yum install chromium-libs-media-freeworld.x86_64
+   12  2018-10-23 11:26:19 cd Downloads/
+   13  2018-10-23 11:26:29 #yum install 
+   14  2018-10-23 11:26:30 ls -la
+   15  2018-10-23 11:26:54 yum update firefox
+   16  2018-10-23 11:26:59 sudo yum update firefox
+   17  2018-10-23 11:28:56 sudo su -
+   18  2018-10-23 11:32:13 unlink /usr/bin/firefox
+   19  2018-10-23 11:32:17 sudo unlink /usr/bin/firefox
+   20  2018-10-23 11:32:34 mv /usr/bin/firefox /usr/bin/firefox_bak
+   21  2018-10-23 11:32:42 cd /usr/local
+   22  2018-10-23 11:32:56 wget http://ftp.mozilla.org/pub/firefox/releases/62.0.3/linux-x86_64/en-US/firefox-62.0.3.tar.bz2
+   23  2018-10-23 11:33:01 sudo wget http://ftp.mozilla.org/pub/firefox/releases/62.0.3/linux-x86_64/en-US/firefox-62.0.3.tar.bz2
+   24  2018-10-23 11:33:08 tar xvjf firefox-62.0.3.tar.bz2
+   25  2018-10-23 11:33:13 sudo tar xvjf firefox-62.0.3.tar.bz2
+   26  2018-10-23 11:33:21 sudo ln -s /usr/local/firefox/firefox /usr/bin/firefox
+   27  2018-10-23 11:33:26 firefox &
+   28  2018-10-23 11:34:30 firefox -v
+   29  2018-10-23 11:34:42 firefox
+   30  2018-10-23 11:44:37 yum install terminator
+   31  2018-10-23 11:44:40 sudo yum install terminator
+   32  2018-10-23 11:45:01 kinit
+   33  2018-10-23 11:48:45 sudo dpkg-reconfigure keyboard-configuration
+   34  2018-10-23 11:50:45 localectl set-x11-keymap es
+   35  2018-10-23 11:51:12 sudo su 
+   36  2018-10-23 11:56:20 system-config-keyboard
+   37  2018-10-23 11:56:56 sudo su -
+   38  2018-10-23 11:57:08 sudo su
+   39  2018-10-23 12:33:00 sudo yum update 
+   40  2018-10-23 12:33:51 kinit
+   41  2018-10-23 12:33:59 sudo yum update 
+   42  2018-10-23 12:35:42 sudo yum install terminator
+   43  2018-10-23 12:38:36 sudo rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey
+   44  2018-10-23 12:38:42 sudo sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey" > /etc/yum.repos.d/atom.repo'
+   45  2018-10-23 12:38:53 sudo dnf install atom
+   46  2018-10-23 12:38:59 sudo yum install atom
+   47  2018-10-23 12:44:05 sudo dnf install atom-beta
+   48  2018-10-23 12:44:19 sudo yum install atom-beta
+   49  2018-10-23 12:48:43 python3 --version
+   50  2018-10-23 14:18:04 sudo yum install docker
+   51  2018-10-23 14:18:46 kinit
+   52  2018-10-23 14:18:52 sudo yum install docker
+   53  2018-10-23 14:21:04 sudo yum remove docker docker-common docker-selinux docker-engine
+   54  2018-10-23 14:21:23 sudo yum install docker
+   55  2018-10-23 14:21:54 cd wordpress_study/
+   56  2018-10-23 14:22:13 cd ~
+   57  2018-10-23 14:22:14 sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-selinux                   docker-engine-selinux                   docker-engine
+   58  2018-10-23 14:22:47 sudo yum install -y yum-utils   device-mapper-persistent-data   lvm2
+   59  2018-10-23 14:23:05 sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+   60  2018-10-23 14:23:16 sudo yum-config-manager --enable docker-ce-edge
+   61  2018-10-23 14:23:20 sudo yum-config-manager --enable docker-ce-test
+   62  2018-10-23 14:23:25 sudo yum install docker-ce
+   63  2018-10-23 14:25:54 sudo systemctl start docker
+   64  2018-10-23 14:26:01 sudo docker run hello-world
+   65  2018-10-23 14:28:10 ls -la .atom/
+   66  2018-10-23 14:36:03 mkdir ~/wordpress && cd $_
+   67  2018-10-23 14:36:48 pwd
+   68  2018-10-23 14:37:18 mkdir wordpress
+   69  2018-10-23 14:37:20 cd wordpress
+   70  2018-10-23 14:37:39 docker-compose up
+   71  2018-10-23 14:37:43 sudo docker-compose up
+   72  2018-10-23 14:39:00 cd ~
+   73  2018-10-23 14:39:02 ls -la
+   74  2018-10-23 14:39:20 sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-selinux                   docker-engine-selinux                   docker-engine                   docker-ce
+   75  2018-10-23 14:39:53 sudo rm /etc/yum.repos.d/docker*.repo
+   76  2018-10-23 14:40:00 export DOCKERURL="<DOCKER-EE-URL>"
+   77  2018-10-23 14:40:09 sudo -E sh -c 'echo "$DOCKERURL/rhel" > /etc/yum/vars/dockerurl'
+   78  2018-10-23 14:40:14 sudo sh -c 'echo "7" > /etc/yum/vars/dockerosversion'
+   79  2018-10-23 14:40:18 V
+   80  2018-10-23 14:40:19 sudo yum install -y yum-utils   device-mapper-persistent-data   lvm2
+   81  2018-10-23 14:40:31 sudo yum-config-manager --enable rhel-7-server-extras-rpms
+   82  2018-10-23 14:40:59 sudo -E yum-config-manager     --add-repo     "$DOCKERURL/rhel/docker-ee.repo"
+   83  2018-10-23 14:41:53 sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-selinux                   docker-engine-selinux                   docker-engine                   docker-ce
+   84  2018-10-23 14:42:58 sudo yum install -y yum-utils
+   85  2018-10-23 14:43:10 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   86  2018-10-23 14:44:07 wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   87  2018-10-23 14:44:17 sudo su -
+   88  2018-10-23 14:28:43 cd wordpress_study/
+   89  2018-10-23 14:29:37 #sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   90  2018-10-23 14:29:41 pwd
+   91  2018-10-23 14:29:45 cd ~
+   92  2018-10-23 14:29:53 sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   93  2018-10-23 14:30:32 sudo chmod +x /usr/local/bin/docker-compose
+   94  2018-10-23 14:30:37 docker-compose --version
+   95  2018-10-23 14:30:46 cd /home/tgabriel/docker/wordpress_study
+   96  2018-10-23 14:30:52 docker-compose up
+   97  2018-10-23 14:31:31 sudo docker-compose up
+   98  2018-10-23 14:32:04 ls -la
+   99  2018-10-23 14:32:23 docker-compose up
+  100  2018-10-23 14:32:36 sudo docker ps -a
+  101  2018-10-23 14:32:47 sudo lsof -i:8000
+  102  2018-10-23 14:32:53 sudo lsof -i
+  103  2018-10-23 14:33:06 sudo docker-compose up
+  104  2018-10-23 14:33:46 sudo docker ps -a
+  105  2018-10-23 14:34:03 sudo docker-compose up
+  106  2018-10-23 14:34:08 docker-compose up
+  107  2018-10-23 14:53:56 cd ~
+  108  2018-10-23 14:54:10 yum install -y docker.io
+  109  2018-10-23 14:55:23 yum install epel-release -y
+  110  2018-10-23 14:55:28 sudo yum install epel-release -y
+  111  2018-10-23 14:55:36 sudo su -
+  112  2018-10-23 14:50:45 cd wordpress_study/
+  113  2018-10-23 14:50:51 docker-compose up
+  114  2018-10-23 14:50:55 sudo docker-compose up
+  115  2018-10-23 14:51:48 cd ..
+  116  2018-10-23 14:51:51 cd wordpress
+  117  2018-10-23 14:51:57 vim docker-compose.yml 
+  118  2018-10-23 14:52:19 docker-compose up -d
+  119  2018-10-23 14:52:23 sudo docker-compose up -d
+  120  2018-10-23 14:52:57 ls -la
+  121  2018-10-23 14:52:59 rm docker-compose.yml 
+  122  2018-10-23 14:53:01 curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-wordpress/master/docker-compose.yml
+  123  2018-10-23 14:53:06 docker-compose up
+  124  2018-10-23 14:53:10 sudo docker-compose up
+  125  2018-10-23 15:00:31 pwd
+  126  2018-10-23 15:00:35 ls -la
+  127  2018-10-23 15:00:41 sudo docker-compose up
+  128  2018-10-23 15:09:15 vim docker-compose.yml 
+  129  2018-10-23 15:09:28 sudo docker-compose up
+  130  2018-10-23 15:09:37 docker-compose up
+  131  2018-10-23 15:09:40 sudo docker-compose up
+  132  2018-10-23 15:10:43 vim docker-compose.yml 
+  133  2018-10-23 15:11:21 docker-compose up
+  134  2018-10-23 15:11:24 sudo docker-compose up
+  135  2018-10-23 15:13:52 sudo su
+  136  2018-10-23 15:14:29 sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  137  2018-10-23 15:14:38 sudo chown "$USER":"$USER" /home/"$USER"/docker -R
+  138  2018-10-23 15:15:03 sudo chmod g+rwx "$HOME/docker" -R
+  139  2018-10-23 15:15:07 docker-compose up
+  140  2018-10-23 15:15:35 sudo su
+  141  2018-10-23 16:12:12 cd ..
+  142  2018-10-23 16:12:18 cd research_docker
+  143  2018-10-23 16:12:28 docker-compose up
+  144  2018-10-23 16:12:32 sudo docker-compose up
+  145  2018-10-23 16:13:57 docker-compose up
+  146  2018-10-23 16:14:01 sudo docker-compose up
+  147  2018-10-23 16:15:12 sudo docker-compose up 
+  148  2018-10-23 16:15:26 docker ps -a
+  149  2018-10-23 16:15:32 sudo docker ps -a
+  150  2018-10-23 16:15:55 sudo docker stop 61e23fea3d4b c2356b68b0c1 7ddde0e62781 3a86f0090b66
+  151  2018-10-23 16:16:02 sudo docker rm 61e23fea3d4b c2356b68b0c1 7ddde0e62781 3a86f0090b66
+  152  2018-10-23 16:16:14 docker-compose up
+  153  2018-10-23 16:16:22 sudo docker-compose up 
+  154  2018-10-23 16:16:31 sudo docker ps -a
+  155  2018-10-23 16:16:46 sudo docker stop 07b8fe44e110 dcaf42ab4364 a68b364a9ed0
+  156  2018-10-23 16:16:51 sudo docker rm 07b8fe44e110 dcaf42ab4364 a68b364a9ed0
+  157  2018-10-23 16:16:53 sudo docker ps -a
+  158  2018-10-23 16:16:58 vim docker-compose.yml 
+  159  2018-10-23 16:17:32 sudo docker-compose up 
+  160  2018-10-23 16:18:07 vim docker-compose.yml 
+  161  2018-10-23 16:18:26 sudo docker ps -a
+  162  2018-10-23 16:18:38 sudo docker stop 3e37c79c2b8a 5388e60240f6 ce7d1ea8e9c1
+  163  2018-10-23 16:18:48 sudo docker rm 3e37c79c2b8a 5388e60240f6 ce7d1ea8e9c1
+  164  2018-10-23 16:18:53 docker-compose up 
+  165  2018-10-23 16:18:58 sudo docker-compose up 
+  166  2018-10-23 18:41:21 sudo docker-compose up
+  167  2018-10-23 18:25:19 docker-compose up
+  168  2018-10-23 18:25:27 cd wordpress_study/
+  169  2018-10-23 18:25:29 docker-compose up
+  170  2018-10-23 18:25:33 sudo docker-compose up
+  171  2018-10-23 18:43:40 docker ps -a
+  172  2018-10-23 18:43:44 sudo docker ps -a
+  173  2018-10-23 18:44:43 sudo docker-compose up -d
+  174  2018-10-23 18:45:36 vim docker-compose.yml 
+  175  2018-10-23 19:00:14 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  176  2018-10-23 19:00:14 php -r "if (hash_file('SHA384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  177  2018-10-23 19:00:15 php composer-setup.php
+  178  2018-10-23 19:00:59 curl -sS https://getcomposer.org/installer | php
+  179  2018-10-23 19:01:25 php composer-setup.php --install-dir=bin --filename=composer
+  180  2018-10-23 19:03:45 cd /tmp
+  181  2018-10-23 19:03:49 sudo curl -sS https://getcomposer.org/installer | php
+  182  2018-10-23 19:03:57 DangerousTiger486
+  183  2018-10-23 19:04:27 php -v
+  184  2018-10-23 19:04:36 yum-config-manager --enable remi-php70
+  185  2018-10-23 19:04:40 cd ~
+  186  2018-10-23 19:04:45 sudo yum-config-manager --enable remi-php70
+  187  2018-10-23 19:05:01 sudo su 
+  188  2018-10-23 20:37:49 ls -la
+  189  2018-10-23 20:37:56 ./test.py
+  190  2018-10-23 20:37:59 sudo ./test.py
+  191  2018-10-23 20:38:40 ls -la
+  192  2018-10-23 20:38:57 python test.py 
+  193  2018-10-23 20:42:14 cd ..
+  194  2018-10-23 20:42:21 ls -la
+  195  2018-10-23 20:42:24 cd Downloads/
+  196  2018-10-23 20:42:26 ls -la
+  197  2018-10-23 20:42:29 cd backup/
+  198  2018-10-23 20:42:30 ls -la
+  199  2018-10-23 20:42:36 cd Documents/
+  200  2018-10-23 20:42:37 ls -la
+  201  2018-10-23 20:42:41 cd study/
+  202  2018-10-23 20:42:42 ls -la
+  203  2018-10-23 20:42:45 cd python/
+  204  2018-10-23 20:42:46 ls -la
+  205  2018-10-23 20:42:57 cd lynda_python_exercise_files/
+  206  2018-10-23 20:42:59 ls -la
+  207  2018-10-23 20:43:05 cd Chap01
+  208  2018-10-23 20:43:06 ls -la
+  209  2018-10-23 20:43:12 python hello.py 
+  210  2018-10-23 20:43:16 cd ..
+  211  2018-10-23 20:43:20 cd Chap02
+  212  2018-10-23 20:43:22 ls -la
+  213  2018-10-23 20:43:30 python function
+  214  2018-10-23 20:43:32 python function.py 
+  215  2018-10-23 20:43:38 cd ..
+  216  2018-10-23 20:43:41 cd Chap03
+  217  2018-10-23 20:43:42 ls -la
+  218  2018-10-23 20:43:47 cd ..
+  219  2018-10-23 20:43:49 cd Chap04
+  220  2018-10-23 20:43:51 ls -la
+  221  2018-10-23 20:43:55 cd ..
+  222  2018-10-23 20:43:58 cd Chap05
+  223  2018-10-23 20:43:59 ls -la
+  224  2018-10-23 20:44:08 python arithmetic.py 
+  225  2018-10-23 20:51:55 python test.py 
+  226  2018-10-23 21:04:37 cd Downloads/backup/Documents/study/python/exercise_files_old/Chap06/
+  227  2018-10-23 21:04:40 ./while.py 
+  228  2018-10-23 21:04:45 python while.py 
+  229  2018-10-23 21:04:58 man python
+  230  2018-10-23 21:06:20 cd ,,
+  231  2018-10-23 21:06:23 cd ..
+  232  2018-10-23 21:06:26 cd Chap06
+  233  2018-10-23 21:06:30 ls -la
+  234  2018-10-23 21:06:37 chmod 777 test.py 
+  235  2018-10-23 21:06:38 ./test.py 
+  236  2018-10-23 21:06:47 python test.py 
+  237  2018-10-23 21:03:52 cd Chap06
+  238  2018-10-23 21:03:57 python while.py 
+  239  2018-10-23 21:04:04 ./while.py 
+  240  2018-10-23 21:09:35 cd ..
+  241  2018-10-23 21:09:39 cd Chap06
+  242  2018-10-23 21:09:43 python test.py 
+  243  2018-10-23 21:10:25 /usr/bin/python -V
+  244  2018-10-23 21:10:32 /usr/bin/python3 -V
+  245  2018-10-23 21:10:49 python3 while.py 
+  246  2018-10-23 21:10:56 man python3
+  247  2018-10-23 21:18:19 python3.6 while.py 
+  248  2018-10-23 21:18:42 ./while.py 
+  249  2018-10-23 21:19:09 python3.6 tester.py 
+  250  2018-10-23 21:19:12 secret = 'swordfish'
+  251  2018-10-23 21:19:12 pw = ''
+  252  2018-10-23 21:19:12 auth = False
+  253  2018-10-23 21:19:12 count = 0
+  254  2018-10-23 21:19:12 max_attempt = 5
+  255  2018-10-23 21:19:12 while pw != secret:;     count += 1;     if count > max_attempt: break;     if count == 3: continue;     pw = input(f"{count}: What's the secret word? ")
+  256  2018-10-23 21:19:12 else:
+  257  2018-10-23 21:19:13 print("Authorized" if auth else "Calling the FBI ...")
+  258  2018-10-23 21:19:22 python3.6 tester.py 
+  259  2018-10-23 21:30:03 python3.6 while.py 
+  260  2018-10-23 19:40:58 sudo su
+  261  2018-10-23 21:12:49 wget https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tar.xz
+  262  2018-10-23 21:13:20 yum install python36
+  263  2018-10-23 21:13:25 sudo yum install python36
+  264  2018-10-23 21:14:20 alias python='python3.6'
+  265  2018-10-23 21:14:27 bash 
+  266  2018-10-23 21:14:31 python --version
+  267  2018-10-23 21:15:24 cd ~
+  268  2018-10-23 21:15:25 sudo yum -y update
+  269  2018-10-23 21:15:57 sudo yum -y install yum-utils
+  270  2018-10-23 21:16:05 sudo yum -y install https://centos7.iuscommunity.org/ius-release.rpm
+  271  2018-10-23 21:16:21 y
+  272  2018-10-23 21:16:26 sudo yum -y install python36u
+  273  2018-10-23 21:16:59 subscription-manager repos --enable rhel-7-server-optional-rpms   --enable rhel-server-rhscl-7-rpms
+  274  2018-10-23 21:17:54 yum install -y python36u python36u-pip
+  275  2018-10-24 11:48:59 cd ~/.ssh/config
+  276  2018-10-24 11:49:11 vim ~/.ssh/config
+  277  2018-10-24 11:49:47 ssh research01.misc.hst.phx2.redhat.com
+  278  2018-10-24 11:49:54 sudo ssh research01.misc.hst.phx2.redhat.com
+  279  2018-10-24 12:03:59 cd  /etc/ssh/ssh_config
+  280  2018-10-24 12:04:05 sudo vim /etc/ssh/ssh_config
+  281  2018-10-24 12:05:19 netstat -an|grep sshd
+  282  2018-10-24 12:05:32 netstat -an | grep sshd
+  283  2018-10-24 12:05:33 netstat -an | grep ssh
+  284  2018-10-24 12:06:53 vim /lib/systemd/system/sshd.socket
+  285  2018-10-24 12:07:06 systemctl --system daemon-reload
+  286  2018-10-24 12:07:16 netstat -an | grep sshd
+  287  2018-10-24 12:07:34 netstat -tanpou| grep 22
+  288  2018-10-24 12:14:51 ps aux | grep sshd 
+  289  2018-10-24 11:55:06 sudo lsof -i:22
+  290  2018-10-24 11:56:05 ls -la
+  291  2018-10-24 11:58:15 docker ps -la
+  292  2018-10-24 11:58:17 docker ps -a
+  293  2018-10-24 11:58:43 cd ~/.ssh/config
+  294  2018-10-24 11:58:46 cd ~/.ssh/
+  295  2018-10-24 11:58:48 ls -la
+  296  2018-10-24 11:59:09 mv config /etc/ssh
+  297  2018-10-24 11:59:14 sudo mv config /etc/ssh
+  298  2018-10-24 12:01:30 netstat -anp | grep 22
+  299  2018-10-24 12:11:53 ls -la
+  300  2018-10-24 12:11:56 cd ..
+  301  2018-10-24 12:12:03 rm -rfv .ssh/
+  302  2018-10-24 11:59:01 pwd
+  303  2018-10-24 11:59:17 ls -la
+  304  2018-10-24 11:59:38 rm config 
+  305  2018-10-24 11:59:40 sudo rm config 
+  306  2018-10-24 11:59:48 ls -la
+  307  2018-10-24 12:00:40 systemctl status sshd
+  308  2018-10-24 12:00:47 systemctl start sshd
+  309  2018-10-24 12:00:54 sudo su -
+  310  2018-10-23 22:26:15 systemctl suspend -i
+  311  2018-10-24 11:44:18 kinit tgabriel
+  312  2018-10-24 11:50:27 ssh research01.misc.hst.phx2.redhat.com
+  313  2018-10-24 11:50:40 ls -la ~/.ssh/config 
+  314  2018-10-24 11:51:21 chmod 600 ~/.ssh/config 
+  315  2018-10-24 11:51:30 chown $USER ~/.ssh/config
+  316  2018-10-24 11:51:32 ssh research01.misc.hst.phx2.redhat.com
+  317  2018-10-24 11:52:39 #mv ~/.ssh/config /etc/ssh/ssh_config
+  318  2018-10-24 11:52:48 ls -la /etc/ssh/ssh_config 
+  319  2018-10-24 11:52:54 cd /etc/ssh/ssh_config 
+  320  2018-10-24 11:52:56 cd /etc/ssh/
+  321  2018-10-24 11:53:00 ls -la
+  322  2018-10-24 11:53:10 vim ssh_config 
+  323  2018-10-24 11:53:47 sudo vim ssh_config 
+  324  2018-10-24 11:54:10 ssh research01.misc.hst.phx2.redhat.com
+  325  2018-10-24 11:54:36 ssh -vvv research01.misc.hst.phx2.redhat.com
+  326  2018-10-24 11:56:17 ls -la
+  327  2018-10-24 11:56:59 vim ssh_config 
+  328  2018-10-24 11:57:28 ssh -vvv research01.misc.hst.phx2.redhat.com
+  329  2018-10-24 12:08:09 vim ssh_config 
+  330  2018-10-24 12:08:37 sudo vim ssh_config 
+  331  2018-10-24 12:09:04 ssh -vvv research01.misc.hst.phx2.redhat.com
+  332  2018-10-24 13:47:32 iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+  333  2018-10-24 13:47:39 sudo iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+  334  2018-10-24 13:47:47 ssh -vvv research01.misc.hst.phx2.redhat.com
+  335  2018-10-24 13:54:40 vim ~/.ssh/config 
+  336  2018-10-24 13:56:14 vim /etc/ssh/ssh_config
+  337  2018-10-24 13:56:40 sudo vim /etc/ssh/ssh_config
+  338  2018-10-24 13:57:02 ssh -vvv research01.misc.hst.phx2.redhat.com
+  339  2018-10-24 13:57:13 ssh research01.misc.hst.phx2.redhat.com
+  340  2018-10-24 13:57:40 cd ~
+  341  2018-10-24 13:57:47 ssh research01.misc.hst.phx2.redhat.com
+  342  2018-10-24 13:57:53 kinit tgabriel
+  343  2018-10-24 13:58:00 ssh research01.misc.hst.phx2.redhat.com
+  344  2018-10-24 20:17:26 kinit tgabriel
+  345  2018-10-24 20:17:35 ssh research01.misc.hst.phx2.redhat.com
+  346  2018-10-24 16:59:09 kinit tgabriel
+  347  2018-10-24 17:42:19 cd Documents/projects/
+  348  2018-10-24 17:42:33 cd github/research-redhat-wp-theme-local/
+  349  2018-10-24 17:43:50 git fetch origin   
+  350  2018-10-24 17:43:57 git merge origin/master
+  351  2018-10-24 17:44:28 git checkout master
+  352  2018-10-24 17:44:54 git pull origin  master
+  353  2018-10-24 17:46:09 git pull https://github.com/frantisekz/research-redhat-wp-theme.git master
+  354  2018-10-24 17:46:52 git commit 
+  355  2018-10-24 17:47:07 git commit -a
+  356  2018-10-24 17:47:29 git push origin master 
+  357  2018-10-24 17:50:54 git status
+  358  2018-10-24 17:51:46 git checkout -b Change-student-vs-leader
+  359  2018-10-24 17:54:58 tig
+  360  2018-10-24 17:55:55 yum install tig
+  361  2018-10-24 17:56:01 sudo yum install tig
+  362  2018-10-24 17:56:41 tig
+  363  2018-10-24 17:57:36 man git
+  364  2018-10-24 17:57:49 man git-commit
+  365  2018-10-24 17:58:05 git commit -a
+  366  2018-10-24 18:00:59 git push origin Change-student-vs-leader 
+  367  2018-10-24 18:01:17 git status
+  368  2018-10-24 18:02:24 ls -la
+  369  2018-10-24 18:02:39 rm header-front.php 
+  370  2018-10-24 18:05:18 git status
+  371  2018-10-24 18:08:50 git pull https://github.com/Tessg22/research-redhat-wp-theme.git master
+  372  2018-10-24 18:09:30 cd ..
+  373  2018-10-24 18:09:38 git clone https://github.com/Tessg22/research-redhat-wp-theme.git
+  374  2018-10-24 18:10:28 ls -la
+  375  2018-10-24 18:10:37 cd ~
+  376  2018-10-24 18:10:44 cd Documents/projects/github/
+  377  2018-10-24 18:10:46 ls -la
+  378  2018-10-24 18:10:54 git clone https://github.com/Tessg22/research-redhat-wp-theme.git
+  379  2018-10-24 18:13:18 git status
+  380  2018-10-24 18:13:29 cd research-redhat-wp-theme
+  381  2018-10-24 18:13:32 git status 
+  382  2018-10-24 18:13:37 git commit -a
+  383  2018-10-24 18:14:30 git checkout -b Change-student-vs-leader
+  384  2018-10-24 18:14:35 git commit -a
+  385  2018-10-24 18:15:11 git push origin Change-student-vs-leader 
+  386  2018-10-24 20:23:25 git status 
+  387  2018-10-24 20:23:29 git commit -a
+  388  2018-10-24 20:23:54 git push origin Change-student-vs-leader 
+  389  2018-10-24 23:20:18 kinit tgabriel/
+  390  2018-10-24 23:20:21 kinit tgabriel
+  391  2018-10-24 23:20:30 cd docker/
+  392  2018-10-24 23:20:33 cd research/
+  393  2018-10-24 23:20:35 ls -la
+  394  2018-10-24 23:20:38 cd research_docker
+  395  2018-10-24 23:20:40 ls -la
+  396  2018-10-24 23:20:45 docker ps -a
+  397  2018-10-24 23:21:15 docker-compose up
+  398  2018-10-24 23:21:53 docker-compose up -d
+  399  2018-10-24 23:43:13 systemctl suspend -i
+  400  2018-10-25 17:17:22 yum install pavucontrol
+  401  2018-10-25 17:17:28 sudo yum install pavucontrol
+  402  2018-10-25 17:19:16 pavucontrol 
+  403  2018-10-26 11:29:16 sudo su -
+  404  2018-10-26 11:31:34 pwd
+  405  2018-10-26 11:31:36 sudo su 
+  406  2018-10-26 11:32:06 pwd
+  407  2018-10-26 11:33:29 sudo su -
+  408  2018-10-26 11:18:45 tar -jxvf firefox-63.0.tar.bz2 
+  409  2018-10-26 11:19:54 firefox --version
+  410  2018-10-26 11:20:03 yum update firefox
+  411  2018-10-26 11:20:36 sudo yum update firefox
+  412  2018-10-26 11:22:12 tar -ivh firefox-63.0.tar.bz2 
+  413  2018-10-26 11:22:29 rpm -ivh firefox-63.0.tar.bz2 
+  414  2018-10-26 11:26:54 wget https://ftp.mozilla.org/pub/firefox/releases/63.0/linux-x86_64/en-US/firefox-63.0.tar.bz2
+  415  2018-10-26 11:27:33 tar xvf firefox-63.0.tar.bz2 
+  416  2018-10-26 11:27:46 cd firefox
+  417  2018-10-26 11:27:57 firefox -v
+  418  2018-10-26 11:37:32 sudo su -
+  419  2018-10-26 13:19:37 kinit tgabriel
+  420  2018-10-26 13:29:00 sudo yum remove opera
+  421  2018-10-26 13:29:14 sudo yum remove opera-stable.x86_64 
+  422  2018-10-26 13:20:53 cd docker/wordpress_study/
+  423  2018-10-26 13:20:58 docker ps -a
+  424  2018-10-26 13:21:12 docker-compose up -d
+  425  2018-10-26 13:21:48 vim docker-compose.yml 
+  426  2018-10-26 13:22:28 docker ps -a
+  427  2018-10-26 13:43:11 systemctl suspend -i
+  428  2018-10-26 14:04:43 kinit tgabriel
+  429  2018-10-26 15:09:31 systemctl suspend -i
+  430  2018-10-27 13:14:39 cd docker/wordpress_study/
+  431  2018-10-27 13:14:43 docker ps -a
+  432  2018-10-27 13:15:05 docker-compose up -d
+  433  2018-10-27 13:15:14 docker ps -a
+  434  2018-10-27 13:15:30 cd ..
+  435  2018-10-27 13:15:33 cd research/
+  436  2018-10-27 13:15:46 docker-compose stop 
+  437  2018-10-27 13:16:10 docker-compose down
+  438  2018-10-27 13:16:15 cd research_docker
+  439  2018-10-27 13:16:18 docker-compose stop 
+  440  2018-10-27 13:16:24 docker ps -a
+  441  2018-10-27 13:16:35 docker-compose up -d
+  442  2018-10-27 13:16:38 docker ps -a
+  443  2018-10-27 13:16:45 docker-compose stop
+  444  2018-10-27 13:16:49 docker ps -a
+  445  2018-10-27 13:28:41 sudo su
+  446  2018-10-27 21:21:20 man -k "utils"
+  447  2018-10-27 21:41:42 man hostname
+  448  2018-10-27 23:46:59 systemctl suspend -i
+  449  2018-10-29 08:37:00 kinit tgabriel
+  450  2018-10-29 08:41:51 cd docker/research/research_docker
+  451  2018-10-29 08:41:53 ps -a
+  452  2018-10-29 08:41:56 docker ps -a
+  453  2018-10-29 08:42:19 docker-compose up -d
+  454  2018-10-29 08:42:22 docker ps -a
+  455  2018-10-29 10:08:40 ./get-data-spreadsheet.py 
+  456  2018-10-29 10:08:53 python get-data-spreadsheet.py 
+  457  2018-10-29 10:08:57 python3 get-data-spreadsheet.py 
+  458  2018-10-29 10:23:46 touch spreadsheet.py 
+  459  2018-10-29 10:26:41 #python3.6 while.py 
+  460  2018-10-29 10:09:32 cd Documents/projects/research/test/
+  461  2018-10-29 10:09:33 pip install --upgrade google-api-python-client oauth2client
+  462  2018-10-29 10:10:57 yum install pyasn1-modules
+  463  2018-10-29 10:11:00 sudo yum install pyasn1-modules
+  464  2018-10-29 10:12:14 pip install --upgrade oauth2client
+  465  2018-10-29 10:12:21 sudo pip install --upgrade oauth2client
+  466  2018-10-29 10:12:29 sudo pip install PyOpenSSL
+  467  2018-10-29 10:19:40 pip install --upgrade oauth2client
+  468  2018-10-29 10:22:46 sudo pip install gspread
+  469  2018-10-29 10:23:19 pip install gspread oauth2client
+  470  2018-10-29 10:29:33 sudo pypm install gspread
+  471  2018-10-29 10:30:24 python --version
+  472  2018-10-29 10:30:55 python3 --version
+  473  2018-10-29 10:24:40 python-3.6 spreadsheet.py 
+  474  2018-10-29 10:24:46 python3 spreadsheet.py 
+  475  2018-10-29 10:27:36 python3.6 spreadsheet.py
+  476  2018-10-29 10:27:52 yum install gspread
+  477  2018-10-29 10:27:56 sudo yum install gspread
+  478  2018-10-29 10:32:16 python3.6 spreadsheet.py 
+  479  2018-10-29 10:33:31 virtualenv --python=3.6 myvenv
+  480  2018-10-29 10:33:40 yum install virtualenv
+  481  2018-10-29 10:33:44 sudo yum install virtualenv
+  482  2018-10-29 10:34:57 wget https://bootstrap.pypa.io/get-pip.py
+  483  2018-10-29 10:35:17 python3.6 get-pip.py
+  484  2018-10-29 10:35:25 sudo python3.6 get-pip.py
+  485  2018-10-29 10:35:52 yum install virtualenv
+  486  2018-10-29 10:35:56 sudo yum install virtualenv
+  487  2018-10-29 10:36:46 pip install --user virtualenv
+  488  2018-10-29 10:37:09 source myvenv
+  489  2018-10-29 10:37:20 virtualenv --python=3.6 myvenv
+  490  2018-10-29 10:38:11 pip install --upgrade virtualenv
+  491  2018-10-29 10:38:21 virtualenv -p python3 envname
+  492  2018-10-29 10:38:39 virtualenv --python=3.6 myvenv
+  493  2018-10-29 10:39:49 python3 -m venv test
+  494  2018-10-29 10:40:03 source myvenv
+  495  2018-10-29 10:40:05 source test/
+  496  2018-10-29 10:40:08 source test
+  497  2018-10-29 10:40:37 virtualenv-3 ~/virtenvs/devconf --no-site-packages
+  498  2018-10-29 10:40:42 virtualenv-3 ~/virtenvs/test --no-site-packages
+  499  2018-10-29 10:40:59 yum install virtualenv-3 
+  500  2018-10-29 10:41:03 sudo yum install virtualenv-3 
+  501  2018-10-29 11:13:53 source envname/
+  502  2018-10-29 11:14:03 source envname/bin/activate
+  503  2018-10-29 11:14:23 python3.6 spreadsheet.py 
+  504  2018-10-29 11:15:39 pip install gspread
+  505  2018-10-29 11:15:44 python3.6 spreadsheet.py 
+  506  2018-10-29 11:16:30 pip install --upgrade oauth2client
+  507  2018-10-29 11:16:38 pip install PyOpenSSL
+  508  2018-10-29 11:16:44 python3.6 spreadsheet.py 
+  509  2018-10-29 11:18:51 virtualenv --python=3.6 envname
+  510  2018-10-29 11:34:05 mkdir ~/pydev
+  511  2018-10-29 11:34:27 cd ~/pydev
+  512  2018-10-29 11:34:33 python3 -m venv py36-venv
+  513  2018-10-29 11:34:39 source py36-env/bin/activate
+  514  2018-10-29 11:34:43 ls -la
+  515  2018-10-29 11:34:57 source py36-venv/bin/activate
+  516  2018-10-29 11:35:08 python3 -m pip install
+  517  2018-10-29 11:19:38 yum install virtualenv
+  518  2018-10-29 11:19:42 sudo yum install virtualenv
+  519  2018-10-29 11:24:40 subscription-manager repos --enable rhel-7-server-optional-rpms   --enable rhel-server-rhscl-7-rpms
+  520  2018-10-29 11:24:51 sudo su -
+  521  2018-10-29 10:27:02 python3.6 while.py 
+  522  2018-10-29 10:27:12 cd Chap06
+  523  2018-10-29 10:27:13 python3.6 while.py 
+  524  2018-10-29 11:36:32 python3.6 -m venv test
+  525  2018-10-29 11:36:45 source test/bin/activate
+  526  2018-10-29 11:37:32 cd test/
+  527  2018-10-29 11:37:43 python3.6 spreadsheet.py 
+  528  2018-10-29 11:38:04 python3 -m pip install gspread
+  529  2018-10-29 11:38:12 pip install --upgrade pip
+  530  2018-10-29 11:38:16 python3 -m pip install gspread
+  531  2018-10-29 11:38:23 python3.6 spreadsheet.py 
+  532  2018-10-29 11:38:44 python3 -m pip install oauth2client
+  533  2018-10-29 11:38:48 python3.6 spreadsheet.py 
+  534  2018-10-29 11:55:38 python3 -m pip install pygsheets
+  535  2018-10-29 11:57:04 python3.6 spreadsheet.py 
+  536  2018-10-29 17:33:50 python3.6 spreadsheet-original.py.py 
+  537  2018-10-29 17:33:54 python3.6 spreadsheet-original.py
+  538  2018-10-29 17:34:36 python3.6 spreadsheet.py
+  539  2018-10-29 17:46:33 history
+  540  2018-10-29 18:37:27 python3.6 -m venv test && source test/bin/activate && python3.6 spreadsheet.py
+  541  2018-10-29 18:37:39 python3.6 -m venv test && source test/bin/activate && python3.6 test/spreadsheet.py
+  542  2018-10-29 18:39:37 cd test && test/bin/python spreadsheet.py
+  543  2018-10-29 18:39:46 cd ..
+  544  2018-10-29 18:39:48 cd test && test/bin/python test/spreadsheet.py
+  545  2018-10-29 18:40:25 python3.6 -m venv test && source test/bin/activate
+  546  2018-10-29 18:41:02 python3.6 -m venv test && source test/bin/activate && python3.6 test/spreadsheet.py
+  547  2018-10-29 18:21:23 ddb whois tgabriel
+  548  2018-10-29 18:21:30 yum install ddb
+  549  2018-10-29 18:21:33 sudo yum install ddb
+  550  2018-10-29 18:21:50 whoami
+  551  2018-10-29 18:24:08 pwd
+  552  2018-10-29 18:38:18 python3.6 -m venv test/ && source test/bin/activate && python3.6 test/spreadsheet.py
+  553  2018-10-29 18:38:23 ls -la
+  554  2018-10-29 18:38:25 ls -la test/
+  555  2018-10-29 18:38:29 python3.6 -m venv test/ && source test/bin/activate && python3.6 test/spreadsheet.py
+  556  2018-10-29 17:47:43 source py36-venv/bin/activate
+  557  2018-10-29 17:47:46 ls -la
+  558  2018-10-29 17:48:02 virtualenv --python=3.6 envname
+  559  2018-10-29 17:48:05 virtualenv --python=3.6 envname/
+  560  2018-10-29 17:48:23 python3.6 -m venv test
+  561  2018-10-29 17:48:31 source test/bin/activate
+  562  2018-10-29 17:48:41 python3.6 spreadsheet.py
+  563  2018-10-29 17:48:52 python3 -m pip install gspread
+  564  2018-10-29 17:48:58 python3.6 spreadsheet.py
+  565  2018-10-29 17:49:04 python3 -m pip install oauth2client
+  566  2018-10-29 17:49:11 python3.6 spreadsheet.py
+  567  2018-10-29 17:49:57 python3 -m pip install json
+  568  2018-10-29 17:50:30 pip install --upgrade pip
+  569  2018-10-29 17:50:41 python3 -m pip install json
+  570  2018-10-29 18:41:21 python3.6 spreadsheet.py
+  571  2018-10-29 22:35:09 touch run_virt_da_py.sh 
+  572  2018-10-29 22:46:07 cd ..
+  573  2018-10-29 22:46:21 touch test.sh
+  574  2018-10-29 22:48:23 sh test.sh 
+  575  2018-10-29 22:48:46 sh run_virt_da_py.sh 
+  576  2018-10-29 22:51:31 python3.6 spreadsheet.py
+  577  2018-10-29 22:51:59 source test/bin/activate
+  578  2018-10-29 22:52:01 python3.6 spreadsheet.py
+  579  2018-10-29 22:52:43 sh run_virt_da_py.sh 
+  580  2018-10-29 22:53:01 cd test/
+  581  2018-10-29 22:53:02 sh run_virt_da_py.sh 
+  582  2018-10-29 22:22:10 cd test/
+  583  2018-10-29 22:22:12 source bin/activate
+  584  2018-10-29 22:22:24 ls -la
+  585  2018-10-29 22:22:35 python3.6 test/spreadsheet.py
+  586  2018-10-29 22:22:40 python3.6 spreadsheet.py
+  587  2018-10-29 22:23:02 history
+  588  2018-10-29 22:30:17 cd wp-content/plugins/
+  589  2018-10-29 22:30:19 cd myplugin/
+  590  2018-10-29 22:30:22 cd test
+  591  2018-10-29 22:30:26 source bin/activate
+  592  2018-10-29 22:30:31 python3.6 spreadsheet.py
+  593  2018-10-29 22:56:11 cd ..
+  594  2018-10-29 23:36:01 systemctl suspend -i
+  595  2018-10-29 22:53:45 cd ..
+  596  2018-10-29 22:53:48 sh run_virt_da_py.sh 
+  597  2018-10-30 12:36:38 cd ..
+  598  2018-10-30 12:36:39 cd /
+  599  2018-10-30 12:36:40 subscription-manager repos --enable rhel-7-server-optional-rpms   --enable rhel-server-rhscl-7-rpms
+  600  2018-10-30 12:36:49 sudo su -
+  601  2018-10-30 13:02:16 scl enable rh-python36 bash
+  602  2018-10-30 13:02:30 $ scl enable rh-python36 bash
+  603  2018-10-30 13:02:30 $ python3 -V
+  604  2018-10-30 13:02:30 Python 3.6.3
+  605  2018-10-30 13:02:30 $ python -V  # python now also points to Python3 
+  606  2018-10-30 13:02:30 Python 3.6.3
+  607  2018-10-30 13:02:30 $ mkdir ~/pydev
+  608  2018-10-30 13:02:30 $ cd ~/pydev
+  609  2018-10-30 13:02:30 $ python3 -m venv py36-venv
+  610  2018-10-30 13:02:30 $ source py36-env/bin/activate
+  611  2018-10-29 22:56:23 cd wp-content/plugins/myplugin/
+  612  2018-10-29 22:56:30 sh run_virt_da_py.sh
+  613  2018-10-30 11:36:38 echo -n test_command
+  614  2018-10-30 11:36:57 echo test_command
+  615  2018-10-30 11:38:02 cd test && source bin/activate && python3.6 spreadsheet.py
+  616  2018-10-30 11:52:18 cd ..
+  617  2018-10-30 11:52:28 python3.6 test.py 
+  618  2018-10-30 11:56:56 python3.6 /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test.py
+  619  2018-10-30 12:05:44 ls -la
+  620  2018-10-30 12:05:53 chmod +x test.py 
+  621  2018-10-30 12:05:54 ls -la
+  622  2018-10-30 12:12:55 chown www-data:www-data test.py 
+  623  2018-10-30 12:13:04 chown www-data test.py 
+  624  2018-10-30 12:17:21 cd ..
+  625  2018-10-30 12:17:32 ls -la /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin
+  626  2018-10-30 17:16:38 cd wp-content/plugins/myplugin/
+  627  2018-10-30 17:16:49 python3.6 test.py 
+  628  2018-10-30 17:26:27 cd test && source bin/activate && python3.6 spreadsheet.py
+  629  2018-10-30 17:27:20 cd test && source bin/activate && python3.6 spreadsheet.py >> test.txt
+  630  2018-10-30 17:27:29 touch test.txt
+  631  2018-10-30 17:27:30 cd test && source bin/activate && python3.6 spreadsheet.py >> test.txt
+  632  2018-10-30 17:27:36 cd test && source bin/activate && python3.6 spreadsheet.py > test.txt
+  633  2018-10-30 17:27:52 cd test; source bin/activate; python3.6 spreadsheet.py >> test.txt
+  634  2018-10-30 17:28:25 cd test && source bin/activate && python3.6 spreadsheet.py > test.txt
+  635  2018-10-30 17:28:32 pwd
+  636  2018-10-30 17:28:48 cd wp-content/plugins/myplugin/
+  637  2018-10-30 17:28:55 cd test && source bin/activate && python3.6 spreadsheet.py > test/test.txt
+  638  2018-10-30 17:29:29 cd test && source bin/activate && python3.6 spreadsheet.py >> /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/test.txt
+  639  2018-10-30 17:29:47 cd test; source bin/activate; python3.6 spreadsheet.py >> /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/test.txt
+  640  2018-10-30 17:30:42 python3.6 spreadsheet.py >> test.txt
+  641  2018-10-30 17:31:37 exit
+  642  2018-10-30 17:31:46 cd wp-content/plugins/myplugin/
+  643  2018-10-30 17:32:02 cd test; source bin/activate; python3.6 spreadsheet.py >> test.txt
+  644  2018-10-30 17:33:00 cd /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test; source /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/bin/activate; python3.6 spreadsheet.py >> test.txt
+  645  2018-10-30 13:04:21 history
+  646  2018-10-30 18:00:59 sudo su -
+  647  2018-10-30 20:06:24 vim a.txt 
+  648  2018-10-30 20:06:29 sudo vim a.txt 
+  649  2018-10-31 09:23:29 vim python_script.sh
+  650  2018-10-30 13:07:34 vim test.pu
+  651  2018-10-30 13:07:38 vim test.py
+  652  2018-10-30 13:07:46 ls -la
+  653  2018-10-30 13:08:02 python3 test.py 
+  654  2018-10-30 13:08:45 vim test.py
+  655  2018-10-30 13:09:15 python3 test.py 
+  656  2018-10-30 13:10:43 vim test.py
+  657  2018-10-30 13:11:49 cd docker/wordpress_study/wp-content/plugins/myplugin/
+  658  2018-10-30 13:11:51 ls -la
+  659  2018-10-30 13:12:15 chmo 666 test.py 
+  660  2018-10-30 13:12:19 chmod 666 test.py 
+  661  2018-10-30 13:12:22 ls --la
+  662  2018-10-30 13:12:24 ls -la
+  663  2018-10-30 13:12:43 chmod 744 test.py 
+  664  2018-10-30 13:12:44 ls -la
+  665  2018-10-30 13:12:57 chmod 766 test.py 
+  666  2018-10-30 13:12:58 ls -la
+  667  2018-10-30 13:13:06 chmod 755 test.py 
+  668  2018-10-30 13:13:08 ls -la
+  669  2018-10-30 13:13:21 touch test.txt
+  670  2018-10-30 13:13:23 ls -la
+  671  2018-10-30 13:13:31 chmod 666 test.txt 
+  672  2018-10-30 13:13:32 ls -la
+  673  2018-10-30 13:14:44 vim test.txt 
+  674  2018-10-30 13:16:24 chmod +x test.py
+  675  2018-10-30 13:17:30 mkdir scripts
+  676  2018-10-30 13:17:48 vim scripts/test.py
+  677  2018-10-30 13:18:14 sudo chown www-data:root scripts
+  678  2018-10-30 13:18:44 ls -la
+  679  2018-10-30 13:18:56 sudo su -
+  680  2018-10-30 13:19:15 sudo chown www-data:root scripts
+  681  2018-10-30 13:19:26 sudo chown www-data:root scripts/test.py
+  682  2018-10-30 13:19:29 ls -la
+  683  2018-10-30 13:19:41 sudo chmod +x scripts/test.py
+  684  2018-10-30 13:20:50 rm -rfv scripts/
+  685  2018-10-30 13:20:53 sudo rm -rfv scripts/
+  686  2018-10-30 13:21:01 ls -la
+  687  2018-10-30 13:21:08 rm test.txt 
+  688  2018-10-30 13:21:11 ls -la
+  689  2018-10-30 17:53:31 cd ..
+  690  2018-10-30 17:53:43 sudo vim test.txt 
+  691  2018-10-30 18:30:16 which python
+  692  2018-10-30 18:35:01 chgrp www-data wp-content/plugins/myplugin/test/spreadsheet.py 
+  693  2018-10-30 18:35:06 sudo chgrp www-data wp-content/plugins/myplugin/test/spreadsheet.py 
+  694  2018-10-30 18:35:32 sudo chmod +x wp-content/plugins/myplugin/test/spreadsheet.py 
+  695  2018-10-30 22:34:01 systemctl suspend -i
+  696  2018-10-31 09:36:52 kinit tgabriel
+  697  2018-10-31 09:37:01 ssh research01.misc.hst.phx2.redhat.com
+  698  2018-10-31 09:42:25 cd /home/tgabriel/Documents/projects/github/research-redhat-wp-theme
+  699  2018-10-31 09:42:31 git status
+  700  2018-10-31 09:42:45 git commit -a
+  701  2018-10-31 09:44:01 git status
+  702  2018-10-31 09:44:47 git checkout -b length_char_list_topics
+  703  2018-10-31 09:44:58 git commit -a
+  704  2018-10-31 09:45:31 git push origin length_char_list_topics 
+  705  2018-10-31 10:39:19 git status
+  706  2018-10-31 10:39:22 git commit -a
+  707  2018-10-31 10:40:09 git push origin length_char_list_topics 
+  708  2018-10-31 11:20:37 man sudo
+  709  2018-10-31 11:21:28 sudo -H -u www-data
+  710  2018-10-31 11:22:09 sudo su www-data
+  711  2018-10-31 12:57:22 sudo visudo
+  712  2018-10-31 13:24:47 cd docker/wordpress_study
+  713  2018-10-31 13:24:51 docker ps 
+  714  2018-10-31 13:24:53 docker ps -a
+  715  2018-10-31 13:25:30 docker rm 72997973b572 922fd493ab45 764b7fb5a728
+  716  2018-10-31 13:25:37 docker stop 72997973b572 922fd493ab45 764b7fb5a728
+  717  2018-10-31 13:25:40 docker rm 72997973b572 922fd493ab45 764b7fb5a728
+  718  2018-10-31 13:25:50 docker-compose up
+  719  2018-10-31 13:27:03 cd ..
+  720  2018-10-31 13:27:07 git clone https://github.com/nezhar/wordpress-docker-compose.git
+  721  2018-10-31 13:27:15 cd wordpress-docker-compose/
+  722  2018-10-31 13:27:21 docker-compose up
+  723  2018-10-31 13:29:12 docker-compose up -d
+  724  2018-10-31 13:36:09 echo $PATH
+  725  2018-10-31 13:36:54 which python
+  726  2018-10-31 13:42:13 sudo visudo
+  727  2018-10-31 13:44:19 docker-compose up -d
+  728  2018-10-31 13:44:26 docker-compose up
+  729  2018-10-31 13:49:28 docker ps -a
+  730  2018-10-31 13:49:41 sudo docker exec -i -t 1d6d2c6d0313 /bin/bash
+  731  2018-10-31 13:50:17 sudo docker exec -it 1d6d2c6d0313 bash
+  732  2018-10-31 13:55:26 ls -la
+  733  2018-10-30 13:02:48 python3 -V
+  734  2018-10-30 13:02:57 python -V
+  735  2018-10-30 13:03:06 scl enable rh-python36 bash
+  736  2018-10-30 13:03:17 python3 -V
+  737  2018-10-30 13:03:25 python -V
+  738  2018-10-30 13:03:36 mkdir ~/pydev
+  739  2018-10-30 13:03:42 cd ~/pydev
+  740  2018-10-30 13:03:45 ls -la
+  741  2018-10-30 13:03:50 python3 -m venv py36-venv
+  742  2018-10-30 13:03:56 source py36-env/bin/activate
+  743  2018-10-30 13:04:02 source py36-venv/bin/activate
+  744  2018-10-30 13:04:28 python3 -m pip install oauth2client
+  745  2018-10-30 13:04:49 python3 -m pip install gspread
+  746  2018-10-30 13:04:59 pip install --upgrade pip
+  747  2018-10-30 13:05:08 python3 -m pip install gspread
+  748  2018-10-30 13:05:13 python3 -m pip install oauth2client
+  749  2018-10-30 13:08:13 python3 -m pip install sys
+  750  2018-10-31 14:25:15 git clone https://github.com/buildkite/python-docker-example.git
+  751  2018-10-31 14:25:30 cd python-docker-example/
+  752  2018-10-31 14:25:41 docker-compose up
+  753  2018-10-30 18:36:28 sudo vim test.txt 
+  754  2018-10-30 18:39:15 ll
+  755  2018-10-30 18:39:30 mkdir testa
+  756  2018-10-30 18:39:41 chmod -R 777 testa/
+  757  2018-10-30 18:40:09 setfacl -m d:o:rwx testa/
+  758  2018-10-30 18:40:14 getfacl testa/
+  759  2018-10-30 18:42:21 pwd
+  760  2018-10-30 18:42:25 cd testa/
+  761  2018-10-30 18:42:26 pwd
+  762  2018-10-30 18:46:24 ll
+  763  2018-10-30 18:46:27 cat a.txt 
+  764  2018-10-30 18:46:34 ls -ld .
+  765  2018-10-30 18:46:38 ll
+  766  2018-10-30 18:46:51 rm a.txt 
+  767  2018-10-30 18:46:55 ll
+  768  2018-10-30 18:47:00 cd ..
+  769  2018-10-30 18:47:12 chmod -R 644 testa/
+  770  2018-10-30 18:47:19 sudo chmod -R 644 testa/
+  771  2018-10-30 18:47:40 ls -ld testa/
+  772  2018-10-30 18:48:10 chmod 777 testa/
+  773  2018-10-30 18:48:41 ls -ld .
+  774  2018-10-30 18:49:23 ls -ld wp-content/plugins/myplugin/test
+  775  2018-10-30 18:49:40 chmod w+o wp-content/plugins/myplugin/test
+  776  2018-10-30 18:49:47 chmod o+w wp-content/plugins/myplugin/test
+  777  2018-10-30 18:49:49 ls -ld wp-content/plugins/myplugin/test
+  778  2018-10-30 20:03:12 python wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/a.txt
+  779  2018-10-30 20:03:15 sudo python wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/a.txt
+  780  2018-10-30 20:03:44 python wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/a.txt
+  781  2018-10-31 14:22:57 docker run -it --rm myapp
+  782  2018-10-31 14:32:56 cp ../wordpress_study/wp-content/plugins/myplugin wp-content/plugins/
+  783  2018-10-31 14:33:06 ls -la wp-content/plugins/
+  784  2018-10-31 14:33:15 sudo cp ../wordpress_study/wp-content/plugins/myplugin wp-content/plugins/
+  785  2018-10-31 14:33:27 ls -la wp-content/plugins/
+  786  2018-10-31 14:33:48 sudo cp wp-content/plugins/ ../wordpress_study/wp-content/plugins/myplugin
+  787  2018-10-31 14:33:51 ls -la wp-content/plugins/
+  788  2018-10-31 14:34:47 nautilus
+  789  2018-10-31 14:35:15 sudo nautilus
+  790  2018-10-30 17:55:31 python3.6 /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/spreadsheet.py >> /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/test.txt
+  791  2018-10-30 17:59:27 echo "Hello world" >> /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test.txt
+  792  2018-10-30 18:18:59 python3.6 wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/test.txt
+  793  2018-10-30 18:20:15 python3 -m pip install gspread
+  794  2018-10-30 18:20:27 python3 -m install gspread
+  795  2018-10-30 18:21:01 cd wp-content/plugins/myplugin/test & . wp-content/plugins/myplugin/test/bin/activate & python3.6 wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/test.txt
+  796  2018-10-30 18:21:20 cd wp-content/plugins/myplugin/test && . wp-content/plugins/myplugin/test/bin/activate && python3.6 wp-content/plugins/myplugin/test/spreadsheet.py > wp-content/plugins/myplugin/test/test.txt
+  797  2018-10-30 18:50:39 cd ..
+  798  2018-10-30 18:50:45 python3.6 test/spreadsheet.py > test.txt
+  799  2018-10-30 19:57:09 cd ..
+  800  2018-10-30 19:57:14 ls -la testa/
+  801  2018-10-30 19:57:22 vim a.txt 
+  802  2018-10-30 19:58:01 sudo vim a.txt 
+  803  2018-10-30 19:58:20 sudo vim testa/a.txt 
+  804  2018-10-30 19:59:33 sudo vim wp-content/plugins/myplugin/test/a.txt 
+  805  2018-10-30 20:01:29 sudo su -
+  806  2018-10-30 20:10:04 python3.6 /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/spreadsheet.py >> /home/tgabriel/docker/wordpress_study/wp-content/plugins/myplugin/test/a.txt
+  807  2018-10-30 20:10:49 sudo www-data touch a.txt
+  808  2018-10-30 20:11:04 su - www-data
+  809  2018-10-30 20:11:13 sudo su www-data
+  810  2018-10-30 20:12:37 ll
+  811  2018-10-30 20:13:12 chgrp www-data .
+  812  2018-10-30 20:13:18 ll .
+  813  2018-10-30 20:13:33 chown -R :www-data .
+  814  2018-10-30 20:13:46 sudo chown -R :www-data .
+  815  2018-10-30 20:13:51 ll
+  816  2018-10-30 20:14:42 sudo chmod -R g+s .
+  817  2018-10-30 20:14:43 ll
+  818  2018-10-30 20:14:59 sudo su www-data
+  819  2018-10-30 20:16:57 sudo chmod -R g+w .
+  820  2018-10-30 20:17:00 sudo su www-data
+  821  2018-10-30 20:17:43 sudo chmod -R g+s .
+  822  2018-10-30 20:17:45 sudo su www-data
+  823  2018-10-30 20:22:01 touch xyz
+  824  2018-10-30 20:22:03 ll xyz
+  825  2018-10-30 20:22:15 mkdir xyzsd
+  826  2018-10-30 20:22:20 ll xyzsd/
+  827  2018-10-30 20:22:25 ls -ld xyzsd/
+  828  2018-10-30 20:24:09 sudo su 
+  829  2018-10-30 20:31:45 python3.6 wp-content/plugins/myplugin/test/spreadsheet.py >> wp-content/plugins/myplugin/test/a.txt & ls -l wp-content/plugins/myplugin/test/a.txt
+  830  2018-10-30 20:32:12 sudo su www-data
+  831  2018-10-31 15:50:53 man yum
+  832  2018-10-31 15:52:54 sudo su -
+  833  2018-10-31 16:01:35 docker image pull python
+  834  2018-10-31 16:01:41 docker ps -a
+  835  2018-10-31 16:02:01 docker imaged
+  836  2018-10-31 16:02:03 docker images
+  837  2018-10-31 16:02:40 docker create -t -i python bash
+  838  2018-10-31 16:03:25 docker start -a -i e8e31725d0d
+  839  2018-10-31 16:09:28 ls -la
+  840  2018-10-31 16:09:32 docker ps -a
+  841  2018-10-31 16:09:59 cd wordpress_study/
+  842  2018-10-31 16:10:06 vim docker-compose.yml 
+  843  2018-10-31 16:48:34 history
+  844  2018-10-31 14:27:23 cd docker/python-docker-example/
+  845  2018-10-31 14:27:30 docker ps -a
+  846  2018-10-31 14:27:46 docker stop 8b93a7230ce0 a8f1b96d0844 293b557ca625
+  847  2018-10-31 14:28:01 docker rm 8b93a7230ce0 a8f1b96d0844 293b557ca625
+  848  2018-10-31 14:28:13 docker stop 9a6506986219 1d6d2c6d0313 054bf924be5e
+  849  2018-10-31 14:28:19 docker ps -a
+  850  2018-10-31 14:28:25 docker-compose up
+  851  2018-10-31 14:28:39 vim docker-compose.yml 
+  852  2018-10-31 14:28:51 docker-compose up
+  853  2018-10-31 14:37:37 ps -a
+  854  2018-10-31 14:37:42 docker ps -a
+  855  2018-10-31 14:37:53 docker stop fb6159502631 6a163d2754e8 eb64008362da
+  856  2018-10-31 14:38:00 docker rm fb6159502631 6a163d2754e8 eb64008362da
+  857  2018-10-31 14:38:04 cd ..
+  858  2018-10-31 14:38:06 ls -la 
+  859  2018-10-31 14:38:13 rm -rfv python-docker-example
+  860  2018-10-31 14:38:20 sudo rm -rfv python-docker-example
+  861  2018-10-31 14:38:29 ls -la
+  862  2018-10-31 14:40:36 cd wordpress_study
+  863  2018-10-31 14:40:42 docker-compose stop
+  864  2018-10-31 14:43:46 ls -la
+  865  2018-10-31 14:43:54 vim docker-compose.yml 
+  866  2018-10-31 14:45:24 docker sudo apt-get install python
+  867  2018-10-31 14:54:30 docker ps -a
+  868  2018-10-31 14:54:44 docker exec -it 1d6d2c6d0313 bash
+  869  2018-10-31 14:54:53 docker-compose up -d
+  870  2018-10-31 14:55:01 vim docker-compose.yml 
+  871  2018-10-31 14:55:12 docker-compose up -d
+  872  2018-10-31 14:55:18 docker exec -it 1d6d2c6d0313 bash
+  873  2018-10-31 14:55:25 docker ps -a
+  874  2018-10-31 14:55:49 docker stop 9a6506986219 1d6d2c6d0313 054bf924be5e
+  875  2018-10-31 14:55:56 docker rm 9a6506986219 1d6d2c6d0313 054bf924be5e
+  876  2018-10-31 14:56:01 docker ps -a
+  877  2018-10-31 14:56:12 docker exec -it e3f8c0647049 bash
+  878  2018-11-02 15:24:30 cd docker/wordpress_study/
+  879  2018-11-02 15:24:34 docker ps -a
+  880  2018-11-02 15:24:44 docker-compose up -d
+  881  2018-11-02 15:25:11 docker exec -it 156a2f1df2a0 bash
+  882  2018-11-02 15:46:59 docker-compose up -d
+  883  2018-11-02 15:47:04 docker-compose stop
+  884  2018-11-02 15:47:08 docker-compose up -d
+  885  2018-11-02 15:49:32 docker ps -a
+  886  2018-11-02 15:49:37 docker exec -it 156a2f1df2a0 bash
+  887  2018-11-05 14:13:57 rpm -ivh XMind-ZEN-for-Linux-64bit.rpm 
+  888  2018-11-05 14:14:06 yum install libappindicator
+  889  2018-11-05 14:14:10 sudo yum install libappindicator
+  890  2018-11-05 14:14:55 rpm -ivh XMind-ZEN-for-Linux-64bit.rpm 
+  891  2018-11-05 14:14:59 sudo rpm -ivh XMind-ZEN-for-Linux-64bit.rpm 
+  892  2018-11-05 10:39:21 cd ..
+  893  2018-11-05 10:39:24 ls pla
+  894  2018-11-05 10:39:27 ls -la
+  895  2018-11-05 10:39:52 mkdir uploads/2018/11
+  896  2018-11-05 10:39:57 mkdir -R uploads/2018/11
+  897  2018-11-05 10:40:04 mkdir uploads
+  898  2018-11-05 10:40:11 mkdir uploads/2018
+  899  2018-11-05 10:40:13 mkdir uploads/2018/11
+  900  2018-11-05 10:40:16 ls -la
+  901  2018-11-05 10:40:37 chmod o+w -R uploads/
+  902  2018-11-05 17:22:28 ls -la wp-content/plugins/
+  903  2018-11-05 17:22:44 ls -la wp-content/plugins/myplugin
+  904  2018-11-05 17:23:07 ls -la wp-content/plugins/myplugin/spreadsheet/
+  905  2018-11-05 17:24:37 chmod 776 wp-content/plugins/myplugin/spreadsheet/spreadsheet-title.py 
+  906  2018-11-05 17:24:39 ls -la wp-content/plugins/myplugin/spreadsheet/
+  907  2018-11-05 17:24:46 chmod 774 wp-content/plugins/myplugin/spreadsheet/spreadsheet-title.py 
+  908  2018-11-05 17:24:47 ls -la wp-content/plugins/myplugin/spreadsheet/
+  909  2018-11-05 17:24:53 chmod 775 wp-content/plugins/myplugin/spreadsheet/spreadsheet-title.py 
+  910  2018-11-05 17:24:54 ls -la wp-content/plugins/myplugin/spreadsheet/
+  911  2018-11-05 17:26:55 cp spreadsheet-original.py spreadsheet-date.py
+  912  2018-11-05 17:27:02 #ls -la wp-content/plugins/myplugin/spreadsheet/
+  913  2018-11-05 17:27:15 cp wp-content/plugins/myplugin/spreadsheet/spreadsheet-original.py wp-content/plugins/myplugin/spreadsheet/spreadsheet-date.py
+  914  2018-11-05 17:27:19 ls -la wp-content/plugins/myplugin/spreadsheet/
+  915  2018-11-05 17:42:59 cd wp-content/plugins/test/
+  916  2018-11-05 17:43:01 ls -la
+  917  2018-11-05 17:43:06 cd spreadsheet/
+  918  2018-11-05 17:43:08 vim {
+  919  2018-11-05 17:43:28 vim 
+  920  2018-11-05 17:43:45 vim client_secret.json
+  921  2018-11-05 17:50:46 ls -la
+  922  2018-11-05 17:51:02 chmod g+x spreadsheet.py
+  923  2018-11-05 17:51:04 ls -la
+  924  2018-11-05 17:51:14 sudo chmod g+x spreadsheet.py
+  925  2018-11-05 17:51:20 ls -la
+  926  2018-11-05 17:52:12 sudo chmod g+t spreadsheet.py
+  927  2018-11-05 17:52:13 ls -la
+  928  2018-11-05 17:52:29 sudo chmod o+t spreadsheet.py
+  929  2018-11-05 17:52:30 ls -la
+  930  2018-11-05 17:52:40 sudo chmod o+s spreadsheet.py
+  931  2018-11-05 17:52:41 ls -la
+  932  2018-11-05 17:53:30 sudo chmod o+s spreadsheet-title.py
+  933  2018-11-05 17:53:31 ls -la
+  934  2018-11-05 17:53:35 sudo chmod o+t spreadsheet-title.py
+  935  2018-11-05 17:53:37 ls -la
+  936  2018-11-05 18:14:38 #sudo chmod g+t spreadsheet.py
+  937  2018-11-02 16:02:54 cd docker/wordpress_study/
+  938  2018-11-02 16:02:57 docker ps -a
+  939  2018-11-02 16:03:06 docker-compose up -d
+  940  2018-11-05 09:06:01 cd ..
+  941  2018-11-05 09:06:04 cd wordpress_study/
+  942  2018-11-05 09:06:07 docker ps -a
+  943  2018-11-05 09:06:18 docker-compose up -d
+  944  2018-11-05 09:06:24 docker ps -a
+  945  2018-11-05 09:06:35 docker-compose stop
+  946  2018-11-05 09:06:41 cd ..
+  947  2018-11-05 09:06:43 cd research/
+  948  2018-11-05 09:06:46 docker-compose stop
+  949  2018-11-05 09:06:50 docker-compose up -d
+  950  2018-11-05 09:06:54 cd research_docker
+  951  2018-11-05 09:06:55 docker-compose up -d
+  952  2018-11-05 09:07:01 docker ps -a
+  953  2018-11-05 09:07:54 cd ..
+  954  2018-11-05 09:07:58 cd wordpress_study/
+  955  2018-11-05 09:08:00 docker-compose up -d
+  956  2018-11-05 09:34:40 vim docker-compose.yml 
+  957  2018-11-05 09:48:52 docker-compose up -d
+  958  2018-11-05 09:48:57 docker ps -a
+  959  2018-11-05 09:49:35 docker-compose up -d
+  960  2018-11-05 09:49:38 vim docker-compose.yml 
+  961  2018-11-05 10:20:38 cd wp-content/plugins/
+  962  2018-11-05 10:20:45 git clone https://github.com/ezekg/sitepoint-programmatically-insert-wp-posts.git
+  963  2018-11-05 10:20:49 ls -la
+  964  2018-11-05 10:20:53 cd sitepoint-programmatically-insert-wp-posts/
+  965  2018-11-05 10:35:55 cd ..
+  966  2018-11-05 10:36:12 cd themes/twentyseventeen/
+  967  2018-11-05 10:36:15 ls -la
+  968  2018-11-05 10:37:29 cd ..
+  969  2018-11-05 10:37:34 cd plugins/
+  970  2018-11-05 10:37:38 git clone https://github.com/dansullyLT/rs-csv-importer.git
+  971  2018-11-05 17:09:26 cd ..
+  972  2018-11-05 17:09:33 docker-compose stop
+  973  2018-11-05 17:09:39 docker-compose up -d
+  974  2018-11-05 17:17:01 vim docker-compose.yml 
+  975  2018-11-05 17:17:10 docker ps -a
+  976  2018-11-05 17:17:24 docker exec -it 156a2f1df2a0 bash
+  977  2018-11-05 18:15:31 sudo su 
+  978  2018-11-05 18:15:41 systemctl suspend -i
+  979  2018-11-06 16:59:31 cd docker/wordpress_study/wp-content/plugins/myplugin/languages/
+  980  2018-11-06 16:59:34 ls -la
+  981  2018-11-06 16:59:44 chmod o+w myplugin.pot 
+  982  2018-11-06 16:59:57 cd ..
+  983  2018-11-06 17:00:09 chmod o+w languages/
+  984  2018-11-07 09:20:11 vim test2
+  985  2018-11-07 09:19:57 vim test
+  986  2018-11-07 09:13:30 kinit tgabriel
+  987  2018-11-07 09:13:41 ssh research01.misc.hst.phx2.redhat.com
+  988  2018-11-07 15:55:05 systemctl suspend -i
+  989  2018-11-08 09:49:06 kinit tgabriel
+  990  2018-11-08 09:49:41 ssh research01.misc.hst.phx2.redhat.com
+  991  2018-11-08 22:51:34 cd Downloads/
+  992  2018-11-08 22:51:35 ls -la
+  993  2018-11-08 22:52:03 cd firefox-63.0.tar.bz2
+  994  2018-11-08 22:52:21 tar xvf firefox-63.0.tar.bz2
+  995  2018-11-08 22:52:31 cd firefox-63.0.tar.bz2
+  996  2018-11-08 22:52:35 cd firefox-63.0
+  997  2018-11-08 22:52:41 ls -la
+  998  2018-11-08 22:52:45 cd firefox/
+  999  2018-11-08 22:52:49 ls -la
+ 1000  2018-11-08 22:53:54 vim ./firefox &
+ 1001  2018-11-08 22:56:30 cd /usr/local
+ 1002  2018-11-08 22:56:34 cd
+ 1003  2018-11-08 22:56:35 cd /usr/local
+ 1004  2018-11-08 22:56:37 ls -la
+ 1005  2018-11-08 22:57:19 mv ~/Downloads/firefox-63.0.tar.bz2 .
+ 1006  2018-11-08 22:57:23 sudo mv ~/Downloads/firefox-63.0.tar.bz2 .
+ 1007  2018-11-08 22:57:31 ls -la
+ 1008  2018-11-08 22:57:44 rm firefox-62.0.3.tar.bz2 
+ 1009  2018-11-08 22:57:50 sudo rm firefox-62.0.3.tar.bz2 
+ 1010  2018-11-08 22:57:52 ls -la
+ 1011  2018-11-08 22:58:15 chown root:root firefox-63.0.tar.bz2 
+ 1012  2018-11-08 22:58:19 sudo chown root:root firefox-63.0.tar.bz2 
+ 1013  2018-11-08 22:58:22 ls -la
+ 1014  2018-11-08 22:58:35 tar xvjf firefox-63.0.tar.bz2 
+ 1015  2018-11-08 22:58:45 rm firefox
+ 1016  2018-11-08 22:58:49 rm -rfv firefox
+ 1017  2018-11-08 22:58:52 sudo rm -rfv firefox
+ 1018  2018-11-08 22:58:55 tar xvjf firefox-63.0.tar.bz2 
+ 1019  2018-11-08 22:59:01 sudo tar xvjf firefox-63.0.tar.bz2 
+ 1020  2018-11-08 22:59:23 sudo ln -s /usr/local/firefox/firefox /usr/bin/firefox
+ 1021  2018-11-08 22:59:40 ls -la /usr/bin/firefox
+ 1022  2018-11-08 22:59:48 cd /usr/bin/firefox
+ 1023  2018-11-08 22:59:50 cd /usr/bin/
+ 1024  2018-11-08 22:59:52 ls -la
+ 1025  2018-11-08 23:00:03 rm firefox 
+ 1026  2018-11-08 23:00:06 sudo rm firefox 
+ 1027  2018-11-08 23:00:09 ls -la
+ 1028  2018-11-08 23:00:37 cd /usr/local
+ 1029  2018-11-08 23:00:39 ls -la
+ 1030  2018-11-08 23:00:43 sudo ln -s /usr/local/firefox/firefox /usr/bin/firefox
+ 1031  2018-11-08 23:00:54 firefox &
+ 1032  2018-11-08 23:02:03 yum update firefox
+ 1033  2018-11-08 23:02:08 sudo yum update firefox
+ 1034  2018-11-08 23:04:43 sudo mv /usr/bin/firefox /usr/bin/firefox-old
+ 1035  2018-11-08 23:04:50 ls -la /usr/bi
+ 1036  2018-11-08 23:05:23 sudo ln -s ~/Downloads/firefox/firefox /usr/bin/firefox
+ 1037  2018-11-09 17:27:57 cd ../../wordpress_study/
+ 1038  2018-11-09 17:28:11 docker exec -it 156a2f1df2a0 bash
+ 1039  2018-11-10 14:10:49 cd ..
+ 1040  2018-11-10 14:10:56 cd wordpress_study/
+ 1041  2018-11-10 14:10:59 ls -la
+ 1042  2018-11-10 14:11:05 vim wp-config.php
+ 1043  2018-11-10 14:11:22 cat <?php 
+ 1044  2018-11-10 14:11:22 /** 
+ 1045  2018-11-10 14:11:22 define('DB_COLLATE', ''); 
+ 1046  2018-11-10 14:11:22 /**#@+ 
+ 1047  2018-11-10 14:11:22 define('AUTH_KEY',         'bef6fbaeacaed63676cdb305ba9ff50b37840d4e'); 
+ 1048  2018-11-10 14:11:22 define('SECURE_AUTH_KEY',  '9701dbd28311d8fb22dabed3c54864100066c9e5'); 
+ 1049  2018-11-10 14:11:22 define('LOGGED_IN_KEY',    'd98a19da70a00fe0108d0224050355b616b1af21'); 
+ 1050  2018-11-10 14:11:22 define('NONCE_KEY',        'd4f7253fa16858eb733d79d6534f44653628647e'); 
+ 1051  2018-11-10 14:11:22 define('AUTH_SALT',        '3ca6602783d813900ad4609105e3cc66135d297b'); 
+ 1052  2018-11-10 14:11:22 define('SECURE_AUTH_SALT', '0457007ce3811fcaaeafb99d10cc6c1cbac11425'); 
+ 1053  2018-11-10 14:11:22 define('LOGGED_IN_SALT',   '8d16c2abadc2ed32a7ba0614480a48f55914a320'); 
+ 1054  2018-11-10 14:11:22 define('NONCE_SALT',       'a1ca9037e41247759fc6a4c76125a73049b27ffe'); 
+ 1055  2018-11-10 14:11:22 /**#@-*/ 
+ 1056  2018-11-10 14:11:22 /** 
+ 1057  2018-11-10 14:11:29 ls -la
+ 1058  2018-11-10 14:11:33 cat wp-config.php
+ 1059  2018-11-10 14:12:01 docker-compose stop
+ 1060  2018-11-10 14:12:58 docker-compose run -d
+ 1061  2018-11-10 14:13:02 docker-compose up -d
+ 1062  2018-11-10 14:53:16 cd ..
+ 1063  2018-11-10 14:53:22 cd wordpress-develop/
+ 1064  2018-11-10 14:53:23 phpunit
+ 1065  2018-11-10 15:08:46 php --version
+ 1066  2018-11-10 15:25:50 cd /
+ 1067  2018-11-10 15:26:07 ls -la etc/ssl/
+ 1068  2018-11-10 15:27:12 yum info libressl2.6-libcrypto-2.6.5-r0
+ 1069  2018-11-10 15:27:56 touch etc/ssl/openssl.cnf
+ 1070  2018-11-10 15:28:00 sudo touch etc/ssl/openssl.cnf
+ 1071  2018-11-10 15:28:09 ls -la etc/ssl/
+ 1072  2018-11-10 15:29:11 sudo rm etc/ssl/openssl.cnf
+ 1073  2018-11-10 15:29:13 ls -la etc/ssl/
+ 1074  2018-11-10 15:34:24 rpm -qi libcrypto1.1-1.1.1-r5
+ 1075  2018-11-10 15:56:29 ls -la etc/ssl/
+ 1076  2018-11-10 16:29:10 git clone https://github.com/akahigeg/wordpress-plugin-unittest-on-docker.git
+ 1077  2018-11-09 09:05:36 kinit tgabriel
+ 1078  2018-11-09 14:30:21 cd docker/wordpress_study/
+ 1079  2018-11-09 14:30:23 docker ps -a
+ 1080  2018-11-09 14:30:31 docker-compose up -d 
+ 1081  2018-11-09 17:16:55 cd ../research/research_docker
+ 1082  2018-11-09 17:16:58 docker-compose up -d 
+ 1083  2018-11-09 17:21:41 docker ps -a
+ 1084  2018-11-09 17:27:34 docker exec -it 17775d9ddab9 bash
+ 1085  2018-11-09 17:36:32 systemctl suspend -i
+ 1086  2018-11-10 14:07:47 docker exec -it 17775d9ddab9 bash
+ 1087  2018-11-10 14:08:21 wget https://phar.phpunit.de/phpunit-6.5.phar
+ 1088  2018-11-10 14:08:30 chmod +x phpunit-6.5.phar
+ 1089  2018-11-10 14:08:38 sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
+ 1090  2018-11-10 14:08:49 phpunit --version
+ 1091  2018-11-10 14:09:25 cd ..
+ 1092  2018-11-10 14:09:29 git clone git://develop.git.wordpress.org/ wordpress-develop
+ 1093  2018-11-10 14:09:52 cd wordpress-develop
+ 1094  2018-11-10 14:10:22 ls -la
+ 1095  2018-11-10 14:10:43 vim wp-config.php
+ 1096  2018-11-10 14:12:13 ls -la
+ 1097  2018-11-10 14:12:19 rm wp-config-sample.php
+ 1098  2018-11-10 14:12:21 ls -la
+ 1099  2018-11-10 14:12:43 vim wp-config.php
+ 1100  2018-11-10 14:14:33 npm install -g grunt-cli
+ 1101  2018-11-10 14:14:44 yum install npm
+ 1102  2018-11-10 14:14:50 sudo yum install npm
+ 1103  2018-11-10 14:22:05 npm install -g grunt-cli
+ 1104  2018-11-10 14:22:20 sudo npm install -g grunt-cli
+ 1105  2018-11-10 14:22:36 yum install npm
+ 1106  2018-11-10 14:22:41 sudo npm install -g grunt-cli
+ 1107  2018-11-10 14:22:58 npm install
+ 1108  2018-11-10 14:51:34 grunt build 
+ 1109  2018-11-10 14:51:55 grunt watch
+ 1110  2018-11-10 14:55:54 cd ..
+ 1111  2018-11-10 14:56:00 rm -rfv wordpress-develop/
+ 1112  2018-11-10 14:56:36 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+ 1113  2018-11-10 14:56:42 php wp-cli.phar --info
+ 1114  2018-11-10 14:56:57 ls -la
+ 1115  2018-11-10 14:57:01 chmod +x wp-cli.phar
+ 1116  2018-11-10 14:57:07 sudo mv wp-cli.phar /usr/local/bin/wp
+ 1117  2018-11-10 14:57:14 ls -la
+ 1118  2018-11-10 14:57:22 wp --info
+ 1119  2018-11-10 14:57:35 wp cli update
+ 1120  2018-11-10 14:57:45 sudo wp cli update
+ 1121  2018-11-10 14:58:43 phpunit -v
+ 1122  2018-11-10 14:58:47 phpunit --version
+ 1123  2018-11-10 14:59:16 mkdir unittest-wordpress
+ 1124  2018-11-10 14:59:18 cd unittest-wordpress/
+ 1125  2018-11-10 14:59:24 wp scaffold plugin-tests restrict-content-pro
+ 1126  2018-11-10 15:01:01 cd ..
+ 1127  2018-11-10 15:01:04 cd wordpress_study/
+ 1128  2018-11-10 15:01:08 wp scaffold plugin-tests restrict-content-pro
+ 1129  2018-11-10 15:01:42 cd ..
+ 1130  2018-11-10 15:01:46 cd unittest-wordpress/
+ 1131  2018-11-10 15:01:47 php -v
+ 1132  2018-11-10 15:01:55 apt-get update
+ 1133  2018-11-10 15:01:57 apt-get install php7.0-mysql
+ 1134  2018-11-10 15:03:12 ls -la
+ 1135  2018-11-10 15:03:19 cd ..
+ 1136  2018-11-10 15:03:22 rm -rfv unittest-wordpress/
+ 1137  2018-11-10 15:03:31 mkdir svn/wordpress-dev
+ 1138  2018-11-10 15:03:38 mkdir svn/
+ 1139  2018-11-10 15:03:41 mkdir svn/wordpress-dev
+ 1140  2018-11-10 15:03:51 cd svn/wordpress-dev
+ 1141  2018-11-10 15:03:56 svn co http://develop.svn.wordpress.org/trunk/
+ 1142  2018-11-10 15:04:10 cd svn/wordpress-dev/trunk/
+ 1143  2018-11-10 15:04:14 cd trunk/
+ 1144  2018-11-10 15:04:21 svn up
+ 1145  2018-11-10 15:04:27 phpunit
+ 1146  2018-11-10 15:04:38 phpunit tests/phpunit/tests/cache
+ 1147  2018-11-10 15:05:34 cd .
+ 1148  2018-11-10 15:05:36 cd ..
+ 1149  2018-11-10 15:05:44 rm -rfv svn/
+ 1150  2018-11-10 15:06:08 cd wordpress_study/wp-content/plugins/
+ 1151  2018-11-10 15:06:14 wp scaffold plugin-tests myplugin
+ 1152  2018-11-10 15:07:40 yum install php71-
+ 1153  2018-11-10 15:10:59 ls -la
+ 1154  2018-11-10 15:11:13 mv myplugin/ my-plugin
+ 1155  2018-11-10 15:11:14 ls -la
+ 1156  2018-11-10 15:11:21 wp scaffold plugin-tests myplugin
+ 1157  2018-11-10 15:11:30 mv my-plugin/ myplugin
+ 1158  2018-11-10 15:11:50 ls -la
+ 1159  2018-11-10 15:13:00 wp scaffold loco-translate
+ 1160  2018-11-10 15:14:55 yum install php71-php-pecl-mysql.x86_64 
+ 1161  2018-11-10 15:15:00 sudoyum install php71-php-pecl-mysql.x86_64 
+ 1162  2018-11-10 15:15:04 sudo yum install php71-php-pecl-mysql.x86_64 
+ 1163  2018-11-10 15:16:24 wp scaffold plugin-tests loco-translate/
+ 1164  2018-11-10 15:16:43 php --version
+ 1165  2018-11-10 15:17:40 phpunit --version
+ 1166  2018-11-10 15:18:01 wget https://phar.phpunit.de/phpunit-nightly.phar
+ 1167  2018-11-10 15:18:08 php phpunit-nightly.phar --version
+ 1168  2018-11-10 15:18:17 wp scaffold plugin-tests loco-translate/
+ 1169  2018-11-10 15:18:24 php --version
+ 1170  2018-11-10 15:19:49 cd ..
+ 1171  2018-11-10 15:19:52 ls -la
+ 1172  2018-11-10 15:19:57 docker-compose run wordpress vendor/bin/phpunit
+ 1173  2018-11-10 15:20:10 docker ps -a
+ 1174  2018-11-10 15:20:33 docker-compose run wordpress_study_my-wp_1 vendor/bin/phpunit
+ 1175  2018-11-10 15:20:58 cd ..
+ 1176  2018-11-10 15:21:08 git clone https://github.com/Soluto/wordpress-plugin-tests-template.git
+ 1177  2018-11-10 15:21:16 ls -la
+ 1178  2018-11-10 15:21:25 cd wordpress-plugin-tests-template/
+ 1179  2018-11-10 15:21:26 ls -la
+ 1180  2018-11-10 15:21:33 cd src/
+ 1181  2018-11-10 15:21:34 ls -la
+ 1182  2018-11-10 15:22:01 cd ..
+ 1183  2018-11-10 15:22:03 ls -la
+ 1184  2018-11-10 15:22:06 docker-compose up --build
+ 1185  2018-11-10 15:23:36 ls -la\
+ 1186  2018-11-10 15:23:38 ls -la
+ 1187  2018-11-10 15:23:46 vim Dockerfile
+ 1188  2018-11-10 15:24:03 sudo docker-compose up --build
+ 1189  2018-11-10 15:25:19 ls -l etc/ssl/openssl.cnf
+ 1190  2018-11-10 15:25:24 ls -la etc/ssl/openssl.cnf
+ 1191  2018-11-10 15:25:39 ls -la /etc/ssl/openssl.cnf
+ 1192  2018-11-10 15:28:16 docker-compose up --build
+ 1193  2018-11-10 15:29:24 vim Dockerfile
+ 1194  2018-11-10 15:29:40 ls -la
+ 1195  2018-11-10 15:29:52 vim Dockerfile 
+ 1196  2018-11-10 15:36:54 vim Dockerfile
+ 1197  2018-11-10 15:47:17 cd ..
+ 1198  2018-11-10 15:47:24 rm -rfv wordpress-plugin-tests-template/
+ 1199  2018-11-10 15:47:27 ls -la
+ 1200  2018-11-10 15:48:33 wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
+ 1201  2018-11-10 15:48:39 chmod +x phpunit
+ 1202  2018-11-10 15:48:44 ./phpunit --version
+ 1203  2018-11-10 15:48:51 composer require --dev phpunit/phpunit ^7
+ 1204  2018-11-10 15:49:59 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+ 1205  2018-11-10 15:50:05 php wp-cli.phar --info
+ 1206  2018-11-10 15:50:14 chmod +x wp-cli.phar
+ 1207  2018-11-10 15:50:15 sudo mv wp-cli.phar /usr/local/bin/wp
+ 1208  2018-11-10 15:50:36 composer require --dev phpunit/phpunit ^7
+ 1209  2018-11-10 15:51:20 cd wordpress_study/
+ 1210  2018-11-10 15:51:21 wp scaffold plugin-tests plugin-name
+ 1211  2018-11-10 15:53:40 cd ..
+ 1212  2018-11-10 15:53:41 ls -la
+ 1213  2018-11-10 15:54:01 cd phpunit
+ 1214  2018-11-10 15:54:06 rm phpunit 
+ 1215  2018-11-10 15:54:10 ls -la
+ 1216  2018-11-10 15:54:15 mkdir tester
+ 1217  2018-11-10 15:54:17 cd tester/
+ 1218  2018-11-10 15:55:08 vim Dockerfile
+ 1219  2018-11-10 15:55:49 docker run --name test-mysql --network='ziprecipes_default' -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+ 1220  2018-11-10 15:56:15 docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+ 1221  2018-11-10 15:56:21 docker ps -a
+ 1222  2018-11-10 15:57:00 docker stop d59293737f00 85b974b7a266 266ac8e068e0 73c184afe77c e8e31725d0d4
+ 1223  2018-11-10 15:57:06 docker rm d59293737f00 85b974b7a266 266ac8e068e0 73c184afe77c e8e31725d0d4
+ 1224  2018-11-10 15:57:09 docker ps -a
+ 1225  2018-11-10 15:57:14 docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+ 1226  2018-11-10 15:57:34 ls -la
+ 1227  2018-11-10 15:57:46 cd ..
+ 1228  2018-11-10 15:57:48 ls -la
+ 1229  2018-11-10 15:57:51 cd tester/
+ 1230  2018-11-10 15:58:03 ls -la /
+ 1231  2018-11-10 16:00:48 cd ..
+ 1232  2018-11-10 16:00:51 rm -rfv tester/
+ 1233  2018-11-10 16:00:54 ls -la
+ 1234  2018-11-10 16:00:59 git clone https://github.com/akahigeg/wordpress-plugin-unittest-on-docker.git
+ 1235  2018-11-10 16:01:04 ls -la
+ 1236  2018-11-10 16:01:09 cd wordpress-plugin-unittest-on-docker
+ 1237  2018-11-10 16:01:16 docker-compose up -d
+ 1238  2018-11-10 16:01:56 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1239  2018-11-10 16:02:47 docker ps -a
+ 1240  2018-11-10 16:03:01 docker stop 632361c03979
+ 1241  2018-11-10 16:03:08 docker rm 632361c03979
+ 1242  2018-11-10 16:03:19 docker stop 3ca9b8e23bb3 f6dc88dc5ed7
+ 1243  2018-11-10 16:03:26 docker rm 3ca9b8e23bb3 f6dc88dc5ed7
+ 1244  2018-11-10 16:03:31 docker ps -a
+ 1245  2018-11-10 16:03:42 docker-compose up -d
+ 1246  2018-11-10 16:04:06 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1247  2018-11-10 16:05:37 vim docker-compose.yml 
+ 1248  2018-11-10 16:07:05 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1249  2018-11-10 16:07:12 vim docker-compose.yml 
+ 1250  2018-11-10 16:08:12 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1251  2018-11-10 16:08:18 docker ps -a
+ 1252  2018-11-10 16:08:28 docker-compose up -d
+ 1253  2018-11-10 16:08:44 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1254  2018-11-10 16:09:49 docker ps -a
+ 1255  2018-11-10 16:10:42 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1256  2018-11-10 16:10:57 docker-compose exec wordpress_1 wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1257  2018-11-10 16:11:08 docker ps -a
+ 1258  2018-11-10 16:11:34 docker-compose exec wordpress_1 wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1259  2018-11-10 16:11:46 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1260  2018-11-10 16:12:10 docker-compose up -d
+ 1261  2018-11-10 16:12:50 #docker exec -it 17775d9ddab9 bash
+ 1262  2018-11-10 16:13:03 #docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --
+ 1263  2018-11-10 16:13:07 docker ps -a
+ 1264  2018-11-10 16:13:16 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1265  2018-11-10 16:14:06 vim docker-compose.yml 
+ 1266  2018-11-10 16:14:19 vim Dockerfile 
+ 1267  2018-11-10 16:14:56 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1268  2018-11-10 16:16:54 docker-compose exec wordpress-plugin-unittest-on-docker_wordpress_1 wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1269  2018-11-10 16:17:02 docker ps -a
+ 1270  2018-11-10 16:17:15 docker-compose exec wordpress-plugin-unittest-on-docker_wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1271  2018-11-10 16:18:00 cd ~/docker/
+ 1272  2018-11-10 16:18:09 mkdir wordpress
+ 1273  2018-11-10 16:18:23 git clone https://github.com/akahigeg/wordpress-plugin-unittest-on-docker.git
+ 1274  2018-11-10 16:18:28 la -l
+ 1275  2018-11-10 16:18:30 la -la
+ 1276  2018-11-10 16:18:37 ls -la
+ 1277  2018-11-10 16:19:00 cd wordpress
+ 1278  2018-11-10 16:19:01 docker-compose up -d
+ 1279  2018-11-10 16:19:11 ls -la
+ 1280  2018-11-10 16:19:14 docker-compose up -d
+ 1281  2018-11-10 16:19:24 vim docker-compose.yml 
+ 1282  2018-11-10 16:19:37 vim Dockerfile 
+ 1283  2018-11-10 16:19:56 ls -la
+ 1284  2018-11-10 16:20:48 vim .env
+ 1285  2018-11-10 16:20:56 ls -la
+ 1286  2018-11-10 16:21:02 docker-compose up -d
+ 1287  2018-11-10 16:22:48 fdisk -l
+ 1288  2018-11-10 16:22:53 sudo fdisk -l
+ 1289  2018-11-10 16:24:16 docker ps -a
+ 1290  2018-11-10 16:24:18 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1291  2018-11-10 16:24:34 docker-compose exec wordpress_wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1292  2018-11-10 16:25:30 docker-compose wordpress wp core install
+ 1293  2018-11-10 16:25:41 docker-compose exec wordpress wp core install
+ 1294  2018-11-10 16:25:56 vim docker-compose.yml 
+ 1295  2018-11-10 16:26:27 docker-compose exec wordpress_wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1296  2018-11-10 16:26:30 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1297  2018-11-10 16:26:40 docker ps -a
+ 1298  2018-11-10 16:27:38 cd ..
+ 1299  2018-11-10 16:27:42 cd wordpress_study/
+ 1300  2018-11-10 16:27:45 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1301  2018-11-10 16:27:50 docker ps -a
+ 1302  2018-11-10 16:30:21 cd ..
+ 1303  2018-11-10 16:30:32 docker-compose up -d
+ 1304  2018-11-10 16:31:49 docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1305  2018-11-10 16:32:39 git clone https://github.com/akahigeg/wordpress-plugin-unittest-on-docker.git
+ 1306  2018-11-10 16:32:46 cd wordpress-plugin-unittest-on-docker
+ 1307  2018-11-10 16:32:48 docker-compose up -d
+ 1308  2018-11-10 16:32:57 #docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1309  2018-11-10 16:33:00 docker ps -a
+ 1310  2018-11-10 16:33:33 docker stop a633ba448cd1 9fa8babe4030 9c644e367353 96b0a81dd37c 306c48fb136c a4bead66d9ee
+ 1311  2018-11-10 16:33:42 docker rm a633ba448cd1 9fa8babe4030 9c644e367353 96b0a81dd37c 306c48fb136c a4bead66d9ee
+ 1312  2018-11-10 16:33:44 docker ps -a
+ 1313  2018-11-10 16:33:49 docker-compose up -d
+ 1314  2018-11-10 16:33:56 #docker-compose exec wordpress wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1315  2018-11-10 16:34:16 #docker exec -it 17775d9ddab9 bash
+ 1316  2018-11-10 16:34:47 docker-compose exec a633ba448cd1 wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1317  2018-11-10 16:35:04 docker-compose exec docker_wordpress_1 wp core install --allow-root --url=http://www.example.com/ --title=testing --admin_user=wpadmin --admin_email=wpadmin@example.com
+ 1318  2018-11-10 16:36:06 ls -la
+ 1319  2018-11-10 16:36:23 docker-compose exec wordpress wp scaffold plugin-tests my-plugin --allow-root
+ 1320  2018-11-10 16:36:35 wp scaffold plugin-tests my-plugin --allow-root
+ 1321  2018-11-10 16:36:41 ls -la
+ 1322  2018-11-10 16:37:04 wp scaffold plugin-tests my-plugin --allow-root
+ 1323  2018-11-10 16:37:07 ls -la
+ 1324  2018-11-10 16:37:15 cd ..
+ 1325  2018-11-10 16:37:17 ls -la
+ 1326  2018-11-10 16:37:43 wp scaffold plugin-tests my-plugin --allow-root
+ 1327  2018-11-10 16:37:52 cd wordpress-plugin-unittest-on-docker
+ 1328  2018-11-10 16:37:54 wp scaffold plugin-tests my-plugin --allow-root
+ 1329  2018-11-10 16:37:58 ls -la
+ 1330  2018-11-10 16:38:30 cd docker/
+ 1331  2018-11-10 16:38:31 ls -la
+ 1332  2018-11-10 16:38:36 cd wordpress-plugin-unittest-on-docker
+ 1333  2018-11-10 16:38:37 ls -la
+ 1334  2018-11-10 16:38:42 wp scaffold plugin-tests my-plugin --allow-root
+ 1335  2018-11-10 16:38:51 wp core download
+ 1336  2018-11-10 16:39:03 wp scaffold plugin-tests my-plugin --allow-root
+ 1337  2018-11-10 16:40:11 php --version
+ 1338  2018-11-10 16:40:31 docker ps -a
+ 1339  2018-11-10 16:40:50 #docker exec -it 7387c809e7c2 bash
+ 1340  2018-11-10 16:40:52 docker exec -it 7387c809e7c2 bash
+ 1341  2018-11-10 16:41:05 docker-compose up -d
+ 1342  2018-11-10 16:41:08 docker exec -it 7387c809e7c2 bash
+ 1343  2018-11-10 16:41:59 cd docker/wordpress-plugin-unittest-on-docker/
+ 1344  2018-11-10 16:42:01 docker exec -it 7387c809e7c2 bash
+ 1345  2018-11-10 16:42:05 docker-compose up -d
+ 1346  2018-11-10 16:42:07 docker exec -it 7387c809e7c2 bash
+ 1347  2018-11-10 16:43:07 cd docker/wordpress-plugin-unittest-on-docker/
+ 1348  2018-11-10 16:43:09 docker-compose up -d
+ 1349  2018-11-10 16:43:12 docker exec -it 7387c809e7c2 bash
+ 1350  2018-11-10 16:43:45 docker-compose up -d
+ 1351  2018-11-10 16:43:48 docker exec -it 7387c809e7c2 bash
+ 1352  2018-11-10 16:44:11 ls -la
+ 1353  2018-11-10 16:50:52 cd ,,
+ 1354  2018-11-10 16:50:55 cd ..
+ 1355  2018-11-10 16:51:00 rm -rfv wordpress-plugin-unittest-on-docker
+ 1356  2018-11-10 16:51:04 svn co https://develop.svn.wordpress.org/trunk/ wordpress-develop
+ 1357  2018-11-10 16:51:42 cd wordpress-develop/
+ 1358  2018-11-10 16:51:44 ls -la
+ 1359  2018-11-10 16:53:29 docker run --name wptest-mysql --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=wordpress --env MYSQL_USER=root --env MYSQL_PASSWORD=root -p 0.0.0.0:914:3306 --restart=always -d mysql:5.7
+ 1360  2018-11-10 16:53:44 docker ps -a
+ 1361  2018-11-10 16:54:09 docker stop 7387c809e7c2 3f20d3d4d9b2
+ 1362  2018-11-10 16:54:14 docker rm 7387c809e7c2 3f20d3d4d9b2
+ 1363  2018-11-10 16:55:23 vim ~/.bash_profile
+ 1364  2018-11-10 21:20:48 cp ~/Downloads/backup/Documents/certifications/ .
+ 1365  2018-11-10 21:20:55 cd ..
+ 1366  2018-11-10 21:21:01 cp ~/Downloads/backup/Documents/certifications/ ~/Documents/
+ 1367  2018-11-10 21:21:43 cp -r ~/Downloads/backup/Documents/certifications/ ~/Documents/
+ 1368  2018-11-10 21:23:19 ls -la Documents/
+ 1369  2018-11-10 21:23:31 cp -rv ~/Downloads/backup/Documents/india/ ~/Documents/
+ 1370  2018-11-11 16:38:20 cd ~/Downloads/
+ 1371  2018-11-11 16:39:09 rpm -U php71w-common-7.1.23-1.w7.x86_64.rpm
+ 1372  2018-11-11 16:41:14 rpm -U php71-php-mbstring-7.1.24-1.el7.remi.x86_64.rpm
+ 1373  2018-11-11 16:41:20 sudo rpm -U php71-php-mbstring-7.1.24-1.el7.remi.x86_64.rpm
+ 1374  2018-11-11 16:42:01 yum info php71-php-mbstring.x86_64 
+ 1375  2018-11-11 16:42:45 npm install -g grunt-cli
+ 1376  2018-11-11 16:42:53 sudo npm install -g grunt-cli
+ 1377  2018-11-11 16:43:04 npm install
+ 1378  2018-11-11 16:50:17 cd ~/Downloads/
+ 1379  2018-11-11 16:50:28 sudo rpm -U php71-php-xml-7.1.24-1.el7.remi.x86_64.rpm
+ 1380  2018-11-11 16:51:14 yum info php
+ 1381  2018-11-11 16:52:39 yum search php71
+ 1382  2018-11-11 16:53:00 sudo yum install rh-php71.x86_64
+ 1383  2018-11-11 16:53:55 sudo yum install rh-php71-php-common.x86_64
+ 1384  2018-11-11 16:54:26 sudo yum install rh-php71-php-mbstring.x86_64
+ 1385  2018-11-11 16:55:14 sudo yum install php71.x86_64
+ 1386  2018-11-11 16:57:19 sudo yum install php71-php-pdo.x86_64 php71-php-mbstring.x86_64 
+ 1387  2018-11-11 17:06:06 php --version
+ 1388  2018-11-11 17:06:30 sudo service httpd restart 
+ 1389  2018-11-11 17:06:45 systemctl status httpd.service
+ 1390  2018-11-11 17:08:11 systemctl start httpd.service
+ 1391  2018-11-11 17:08:19 sudo su -
+ 1392  2018-11-11 13:51:55 cd ~/Downloads/
+ 1393  2018-11-11 13:52:34 rpm -U adobe-release-x86_64-1.0-1.noarch.rpm
+ 1394  2018-11-11 13:52:45 rpm -U php-xml-7.3.0-0.2.RC5.fc30.aarch64.rpm
+ 1395  2018-11-11 13:53:00 yum install ld-linux-aarch64.so.1
+ 1396  2018-11-11 13:53:05 sudo yum install ld-linux-aarch64.so.1
+ 1397  2018-11-11 13:55:31 yum --enablerepo remi install php-xml
+ 1398  2018-11-11 13:55:36 sudo yum --enablerepo remi install php-xml
+ 1399  2018-11-11 13:58:43 yum search php-xml
+ 1400  2018-11-11 13:59:26 yum install php-xml.x86_64
+ 1401  2018-11-11 13:59:30 sudo yum install php-xml.x86_64
+ 1402  2018-11-11 14:00:08 yum install rh-php71-php-xml.x86_64
+ 1403  2018-11-11 14:00:13 sudo yum install rh-php71-php-xml.x86_64
+ 1404  2018-11-11 14:01:37 yum search php-mbstring
+ 1405  2018-11-11 14:01:52 sudo yum install rh-php71-php-mbstring.x86_64
+ 1406  2018-11-11 14:17:17 yum search php
+ 1407  2018-11-11 14:19:13 yum install php71*
+ 1408  2018-11-11 14:19:17 sudo yum install php71*
+ 1409  2018-11-11 14:20:52 php --version
+ 1410  2018-11-11 14:26:07 yum search php-dom
+ 1411  2018-11-11 14:26:22 yum search php7.1-dom
+ 1412  2018-11-11 14:26:44 phpunit --version
+ 1413  2018-11-11 14:29:55 sudo yum remove phpunit
+ 1414  2018-11-11 14:47:50 cd !
+ 1415  2018-11-11 14:47:53 cd ~
+ 1416  2018-11-11 14:48:05 sudo su -
+ 1417  2018-11-11 16:18:20 cd wordpress-develop
+ 1418  2018-11-11 16:18:55 svn co https://develop.svn.wordpress.org/trunk/ wordpress-develop
+ 1419  2018-11-11 16:19:07 cd wordpress-develop
+ 1420  2018-11-11 16:19:10 phpunit --version
+ 1421  2018-11-11 16:19:17 ls -la
+ 1422  2018-11-11 16:19:28 mv wp-tests-config-sample.php wp-tests-config.php
+ 1423  2018-11-11 16:19:32 vim wp-tests-config.php
+ 1424  2018-11-11 16:20:43 yum search php-mbstring
+ 1425  2018-11-11 16:20:59 yum install rh-php71-php-mbstring.x86_64
+ 1426  2018-11-11 16:21:04 sudo yum install rh-php71-php-mbstring.x86_64
+ 1427  2018-11-11 16:21:50 sudo yum install php-mbstring.x86_64 php71-php-mbstring.x86_64
+ 1428  2018-11-11 16:22:41 sudo yum install php-common(x86-64)
+ 1429  2018-11-11 16:23:09 yum search php-common
+ 1430  2018-11-11 16:23:25 sudo yum install rh-php71-php-common.x86_64 php-common.x86_64 php71-php-common.x86_64
+ 1431  2018-11-11 16:24:16 sudo yum update php-common-5.4.16-45.el7.x86_64
+ 1432  2018-11-11 16:25:32 vim /etc/yum/pluginconf.d/search-disabled-repos.conf
+ 1433  2018-11-11 16:26:31 sudo vim /etc/yum/pluginconf.d/search-disabled-repos.conf
+ 1434  2018-11-11 16:26:45 sudo yum install rh-php71-php-common.x86_64 php-common.x86_64 php71-php-common.x86_64
+ 1435  2018-11-11 16:27:12 sudo yum install php-mbstring.x86_64 php71-php-mbstring.x86_6
+ 1436  2018-11-11 16:32:57 sudo yum install php71w-mbstring
+ 1437  2018-11-11 16:33:56 sudo yum install php70w-mbstring
+ 1438  2018-11-11 16:36:01 sudo yum install php71w-mbstring
+ 1439  2018-11-11 16:38:11 #rpm -U 
+ 1440  2018-11-11 16:40:18 sudo yum install php71-mbstring
+ 1441  2018-11-11 16:43:22 npm install
+ 1442  2018-11-11 16:47:34 npm install -g grunt-cli
+ 1443  2018-11-11 16:47:42 sudo npm install -g grunt-cli
+ 1444  2018-11-11 16:47:59 grunt build 
+ 1445  2018-11-11 16:48:20 grunt watch
+ 1446  2018-11-11 17:07:03 cd ~/docker/
+ 1447  2018-11-11 17:07:06 docker ps -a
+ 1448  2018-11-11 17:07:33 docker stop 156a2f1df2a0 c3fe090ac7d9 8d9dad43d232 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1449  2018-11-11 17:07:48 #docker stop 59c34c10820b 24a9006fcc1e
+ 1450  2018-11-11 17:07:49 docker ps -a
+ 1451  2018-11-11 17:07:54 docker stop 59c34c10820b 24a9006fcc1e
+ 1452  2018-11-11 17:07:59 docker rm 59c34c10820b 24a9006fcc1e
+ 1453  2018-11-11 17:08:02 docker ps -a
+ 1454  2018-11-11 17:12:30 sudo vim /etc/yum/pluginconf.d/search-disabled-repos.conf
+ 1455  2018-11-11 18:12:47 ls -la
+ 1456  2018-11-11 18:12:53 cd ~
+ 1457  2018-11-11 18:12:55 ls -la
+ 1458  2018-11-11 18:13:02 rm -rfv wordpress-develop
+ 1459  2018-11-11 18:13:11 ls -la
+ 1460  2018-11-11 18:13:44 rm opera-stable_51.0.2830.34_amd64.rpm .test2.swp test.py .test.swp
+ 1461  2018-11-11 18:13:46 ls -la\
+ 1462  2018-11-11 18:13:49 ls -la
+ 1463  2018-11-11 16:49:10 cd ~
+ 1464  2018-11-11 16:49:17 cd wordpress-develop/
+ 1465  2018-11-11 16:49:18 phpunit
+ 1466  2018-11-11 16:59:44 sudo yum install -y php7.1-xml php7.1-xsl php7.1-mbstring php7.1-readline php7.1-zip php7.1-mysql php7.1-phpdbg php7.1-interbase php7.1-sybase php7.1 php7.1-sqlite3 php7.1-tidy php7.1-opcache php7.1-pspell php7.1-json php7.1-xmlrpc php7.1-curl php7.1-ldap php7.1-bz2 php7.1-cgi php7.1-imap php7.1-cli php7.1-dba php7.1-dev php7.1-intl php7.1-fpm php7.1-recode php7.1-odbc php7.1-gmp php7.1-common php7.1-pgsql php7.1-bcmath php7.1-snmp php7.1-soap php7.1-mcrypt php7.1-gd php7.1-enchant libapache2-mod-php7.1 libphp7.1-embed
+ 1467  2018-11-11 17:01:24 sudo yum install php71u-xml
+ 1468  2018-11-11 17:02:04 yum-config-manager --enable remi-php70
+ 1469  2018-11-11 17:02:10 sudo yum-config-manager --enable remi-php70
+ 1470  2018-11-11 17:02:19 yum install php-dom
+ 1471  2018-11-11 17:02:23 sudo yum install php-dom
+ 1472  2018-11-11 17:05:16 phpuniy
+ 1473  2018-11-11 17:05:19 phpunit
+ 1474  2018-11-11 17:57:49 which phpunit
+ 1475  2018-11-11 17:57:53 vim /usr/local/bin/phpunit
+ 1476  2018-11-11 18:01:14 file /usr/local/bin/phpunit
+ 1477  2018-11-11 18:01:17 vim /usr/local/bin/phpunit
+ 1478  2018-11-11 18:04:19 rpm -qi php-common
+ 1479  2018-11-11 18:05:47 yum history
+ 1480  2018-11-11 18:06:27 man localinstal 
+ 1481  2018-11-11 18:06:31 man yum localinstal 
+ 1482  2018-11-11 18:07:26 rpm -qa --last | less
+ 1483  2018-11-11 18:16:03 #rpm -qa --last | lesscd ..
+ 1484  2018-11-11 18:16:05 cd ..
+ 1485  2018-11-11 18:16:08 ls -la
+ 1486  2018-11-05 17:16:26 python wp-content/plugins/myplugin/spreadsheet/spreadsheet.py
+ 1487  2018-11-05 17:16:36 python wp-content/plugins/myplugin/spreadsheet/spreadsheet-title.py.py
+ 1488  2018-11-05 17:16:38 python wp-content/plugins/myplugin/spreadsheet/spreadsheet-title.py
+ 1489  2018-11-11 19:19:29 cd ~
+ 1490  2018-11-11 19:19:31 cd docker/
+ 1491  2018-11-11 19:19:34 docker ps -a
+ 1492  2018-11-11 19:19:47 #docker-compose up -d
+ 1493  2018-11-11 19:19:50 cd wordpress_study/
+ 1494  2018-11-11 19:19:52 docker-compose up -d
+ 1495  2018-11-11 19:22:37 cd ..
+ 1496  2018-11-11 19:22:40 ls -la
+ 1497  2018-11-10 16:56:46 cd docker/wordpress-develop/
+ 1498  2018-11-10 16:56:48 ls -la
+ 1499  2018-11-10 16:56:53 phpunit
+ 1500  2018-11-10 16:57:20 docker ps -a
+ 1501  2018-11-10 16:58:26 vim DOMDocument
+ 1502  2018-11-10 16:58:33 phpunit
+ 1503  2018-11-10 16:59:03 yum install php-xml
+ 1504  2018-11-10 16:59:07 sudo yum install php-xml
+ 1505  2018-11-10 17:01:05 yum install php71-php-xml.x86_64 
+ 1506  2018-11-10 17:01:10 sudo yum install php71-php-xml.x86_64 
+ 1507  2018-11-10 17:01:49 phpunit
+ 1508  2018-11-10 17:02:01 docker ps -a
+ 1509  2018-11-10 17:02:08 docker stop 08023cb8e612
+ 1510  2018-11-10 17:02:13 docker rm 08023cb8e612
+ 1511  2018-11-10 17:02:35 $ docker run --name wptest-mysql --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=wordpress --env MYSQL_USER=root --env MYSQL_PASSWORD=root -p 0.0.0.0:914:3306 --restart=always -d mysql:5.7
+ 1512  2018-11-10 17:02:43 ls -la
+ 1513  2018-11-10 17:02:49 $ docker run --name wptest-mysql --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=wordpress --env MYSQL_USER=root --env MYSQL_PASSWORD=root -p 0.0.0.0:914:3306 --restart=always -d mysql:5.7
+ 1514  2018-11-10 17:03:03 docker run --name wptest-mysql --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=wordpress --env MYSQL_USER=root --env MYSQL_PASSWORD=root -p 0.0.0.0:914:3306 --restart=always -d mysql:5.7
+ 1515  2018-11-10 17:03:08 phpunit
+ 1516  2018-11-10 17:04:15 #sudo yum install php71w-xml
+ 1517  2018-11-10 17:04:19 php --version
+ 1518  2018-11-10 17:04:23 sudo yum install php71w-xml
+ 1519  2018-11-10 17:05:51 sudo yum install php71w-xml.x86_64
+ 1520  2018-11-10 17:06:28 cd ..
+ 1521  2018-11-10 17:06:34 rm -rfv wordpress-develop/
+ 1522  2018-11-10 17:06:37 ls -la
+ 1523  2018-11-10 17:09:10 git clone https://github.com/frozzare/docker-wptest.git
+ 1524  2018-11-10 17:09:17 cd docker-wptest
+ 1525  2018-11-10 17:09:28 docker run --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -d mysql:5
+ 1526  2018-11-10 17:09:38 docker run --rm -v $(pwd):/opt --link mysql frozzare/wptest:7.0 vendor/bin/phpunit
+ 1527  2018-11-10 17:13:04 cd ..
+ 1528  2018-11-10 17:13:09 rm -rfv docker-wptest
+ 1529  2018-11-10 17:13:11 ls -la
+ 1530  2018-11-10 17:13:16 cd ~
+ 1531  2018-11-10 17:16:18 systemctl suspend -i
+ 1532  2018-11-11 13:47:10 cd docker/
+ 1533  2018-11-11 13:47:17 cd wordpress_study/
+ 1534  2018-11-11 13:47:24 cd wp-content/plugins/number
+ 1535  2018-11-11 13:47:26 ll
+ 1536  2018-11-11 13:48:19 composer require phpunit/phpunit:^5 --dev
+ 1537  2018-11-11 13:49:43 sudo apt-get update
+ 1538  2018-11-11 13:49:56 sudo yum update
+ 1539  2018-11-11 13:50:47 sudo yum install php7.1-xml
+ 1540  2018-11-11 14:01:09 composer require phpunit/phpunit:^5 --dev
+ 1541  2018-11-11 14:02:32 composer update
+ 1542  2018-11-11 14:02:43 composer require cviebrock/eloquent-sluggable
+ 1543  2018-11-11 14:02:53 composer require phpunit/phpunit:^5 --dev
+ 1544  2018-11-11 14:03:14 php --version
+ 1545  2018-11-11 14:23:27 yum install composer -y
+ 1546  2018-11-11 14:23:34 sudo yum install composer
+ 1547  2018-11-11 14:25:02 php -m
+ 1548  2018-11-11 18:08:09 sudo su -
+ 1549  2018-11-11 19:43:10 composer require phpunit/phpunit:^5 --dev
+ 1550  2018-11-11 19:43:22 yum install php7
+ 1551  2018-11-11 19:43:27 sudo yum install php7
+ 1552  2018-11-11 19:44:03 sudo yum install php70-php-q
+ 1553  2018-11-11 19:45:05 sudo yum install epel-release
+ 1554  2018-11-11 19:45:26 sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+ 1555  2018-11-11 19:46:03 sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+ 1556  2018-11-11 19:46:11 sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+ 1557  2018-11-11 19:46:19 sudo yum install yum-utils
+ 1558  2018-11-11 19:46:41 sudo subscription-manager repos --enable=rhel-7-server-optional-rpms
+ 1559  2018-11-11 19:47:07 subscription-manager repos --list
+ 1560  2018-11-11 19:47:13 sudo su -
+ 1561  2018-11-11 20:02:28 composer require phpunit/phpunit:^5 --dev
+ 1562  2018-11-11 20:03:30 #composer require phpunit/phpunit:^5 --dev
+ 1563  2018-11-11 20:03:57 systemctl suspend -i
+ 1564  2018-11-12 16:20:24 #docker run --rm -v $(pwd):/app composer/composer:latest require --dev phpunit/phpunit ^6.0
+ 1565  2018-11-12 16:38:53 systemctl suspend -i
+ 1566  2018-11-12 16:13:24 git clone https://github.com/JulienBreux/phpunit-docker.git
+ 1567  2018-11-12 16:13:34 cd phpunit-docker/
+ 1568  2018-11-12 16:13:40 docker build -t phpunit/phpunit .
+ 1569  2018-11-12 16:14:16 cd ..
+ 1570  2018-11-12 16:14:19 cd ~
+ 1571  2018-11-12 16:14:22 cd docker/
+ 1572  2018-11-12 16:14:26 docker pull phpunit/phpunit
+ 1573  2018-11-12 16:19:24 ls -la
+ 1574  2018-11-12 16:19:29 docker ps -a
+ 1575  2018-11-12 16:19:40 #vim ExampleClass.php
+ 1576  2018-11-12 16:19:51 cd wordpress_study
+ 1577  2018-11-12 16:19:53 vim ExampleClass.php
+ 1578  2018-11-12 16:20:28 docker run --rm -v $(pwd):/app composer/composer:latest require --dev phpunit/phpunit ^6.0
+ 1579  2018-11-12 16:25:27 vim ExampleTest.php
+ 1580  2018-11-12 16:25:51 docker run -v $(pwd):/app --rm phpunit/phpunit:latest --bootstrap ExampleClass.php ExampleTest.php
+ 1581  2018-11-12 16:33:07 mv ExampleClass.php wp-content/plugins/number/
+ 1582  2018-11-12 16:33:18 mv ExampleTest.php wp-content/plugins/number/
+ 1583  2018-11-12 16:33:24 cd wp-content/plugins/number/
+ 1584  2018-11-12 16:33:26 ls -la
+ 1585  2018-11-12 16:34:00 cd ..
+ 1586  2018-11-12 16:34:08 mkdir unit-test
+ 1587  2018-11-12 16:34:28 mv number/ExampleClass.php ./unit-test/
+ 1588  2018-11-12 16:34:37 mv number/ExampleTest.php ./unit-test/
+ 1589  2018-11-12 16:34:39 ls -la
+ 1590  2018-11-12 16:34:44 ls -la number/
+ 1591  2018-11-12 16:34:49 cd unit-test/
+ 1592  2018-11-12 16:34:51 ls -la
+ 1593  2018-11-12 16:35:07 #ls -la ../../../
+ 1594  2018-11-12 16:35:20 mv ../../../composer.json .
+ 1595  2018-11-12 16:35:22 ls -la
+ 1596  2018-11-12 16:35:30 mv ../../../composer.lock .
+ 1597  2018-11-12 16:35:45 mv -Rv ../../../vendor/ .
+ 1598  2018-11-12 16:35:48 mv -rv ../../../vendor/ .
+ 1599  2018-11-12 16:35:52 mv ../../../vendor/ .
+ 1600  2018-11-12 16:35:56 sudo mv ../../../vendor/ .
+ 1601  2018-11-12 16:36:15 ls -la
+ 1602  2018-11-12 16:36:27 docker run -v $(pwd):/app --rm phpunit/phpunit:latest --bootstrap ExampleClass.php ExampleTest.php
+ 1603  2018-11-13 20:47:25 cd ../../../
+ 1604  2018-11-13 20:47:27 ls -la
+ 1605  2018-11-13 20:47:33 docker-compose up -d
+ 1606  2018-11-13 20:47:43 docker ps -a
+ 1607  2018-11-14 09:33:09 cd ../../../../research/research_docker/
+ 1608  2018-11-14 09:33:15 docker-compose up -d
+ 1609  2018-11-14 09:50:10 docker ps -a
+ 1610  2018-11-14 09:53:00 docker exec -it 17775d9ddab9 bash
+ 1611  2018-11-15 22:41:39 cd ..
+ 1612  2018-11-15 22:41:48 cd wordpress_clean/
+ 1613  2018-11-15 22:42:05 docker ps -a
+ 1614  2018-11-15 22:42:15 docker-compose up -d
+ 1615  2018-11-15 22:42:23 docker ps -a
+ 1616  2018-11-15 22:49:10 docker-compose stop
+ 1617  2018-11-15 22:49:14 docker ps -a
+ 1618  2018-11-15 23:09:57 vim docker-compose.yml 
+ 1619  2018-11-13 20:46:54 cd docker/wordpress_study/wp-content/plugins/unit-test/
+ 1620  2018-11-13 20:47:02 docker run -v $(pwd):/app --rm phpunit/phpunit:latest --bootstrap ExampleClass.php ExampleTest.php
+ 1621  2018-11-13 22:33:13 systemctl suspend -i
+ 1622  2018-11-14 09:28:31 #docker-compose up -d
+ 1623  2018-11-14 09:53:30 docker exec -it 156a2f1df2a0 bash
+ 1624  2018-11-14 10:16:45 which php
+ 1625  2018-11-14 10:16:59 which php72
+ 1626  2018-11-14 10:19:17 php72 -v
+ 1627  2018-11-14 10:23:38 which composer
+ 1628  2018-11-14 13:30:22 docker ps -a
+ 1629  2018-11-14 17:09:23 systemctl suspend -i
+ 1630  2018-11-16 23:47:10 cd ..
+ 1631  2018-11-16 23:47:16 cd wordpress_study/
+ 1632  2018-11-16 23:47:20 docker ps -a
+ 1633  2018-11-16 23:47:25 docker-compose up -d
+ 1634  2018-11-16 13:57:15 cd docker/research/research_docker
+ 1635  2018-11-16 13:57:20 docker ps -a
+ 1636  2018-11-16 13:57:28 docker-compose up -d
+ 1637  2018-11-16 17:12:53 systemctl suspend -i
+ 1638  2018-11-16 20:42:20 docker ps -a
+ 1639  2018-11-16 20:45:17 docker-compose stop
+ 1640  2018-11-16 20:45:30 docker-compose up -d
+ 1641  2018-11-16 22:22:43 docker-compose stop
+ 1642  2018-11-16 22:22:48 docker-compose up -d
+ 1643  2018-11-16 22:38:13 docker-compose stop
+ 1644  2018-11-16 22:38:33 docker-compose up -d
+ 1645  2018-11-16 22:45:59 docker-compose stop
+ 1646  2018-11-16 22:46:10 docker-compose up -d
+ 1647  2018-11-17 01:13:22 systemctl suspend -i
+ 1648  2018-11-19 09:22:58 kinit tgabriel
+ 1649  2018-11-19 11:26:43 systemctl suspend -i
+ 1650  2018-11-20 14:16:02 cd docker/research/research_docker
+ 1651  2018-11-20 14:16:08 docker-compose up -d
+ 1652  2018-11-20 17:09:15 docker-compose stop
+ 1653  2018-11-20 17:09:20 docker-compose up -d
+ 1654  2018-11-20 17:47:53 systemctl suspend -i
+ 1655  2018-11-21 13:00:40 docker-compose stop
+ 1656  2018-11-21 13:00:55 docker-compose up -d
+ 1657  2018-11-21 13:19:28 docker-compose stop
+ 1658  2018-11-21 13:19:34 docker-compose up -d
+ 1659  2018-11-21 17:34:47 systemctl suspend -i
+ 1660  2018-11-25 10:58:11 sudo su -
+ 1661  2018-11-22 23:09:16 cd docker/wordpress_study/
+ 1662  2018-11-22 23:09:21 docker-compose up -d
+ 1663  2018-11-22 23:29:51 systemctl suspend -i
+ 1664  2018-11-23 11:18:29 cd ..
+ 1665  2018-11-23 11:18:34 cd research/research_docker
+ 1666  2018-11-23 11:18:40 docker-compose stop
+ 1667  2018-11-23 11:18:46 docker-compose up -d
+ 1668  2018-11-23 11:24:52 cd ..
+ 1669  2018-11-23 11:24:57 cd wordpress_clean/
+ 1670  2018-11-23 11:24:59 docker-compose up -d
+ 1671  2018-11-23 16:56:00 systemctl suspend -i
+ 1672  2018-11-28 15:48:35 ssh research01.misc.hst.phx2.redhat.com
+ 1673  2018-11-28 15:48:42 kinit tgabriel
+ 1674  2018-11-28 15:48:50 ssh research01.misc.hst.phx2.redhat.com
+ 1675  2018-11-28 16:39:51 cd docker/research/research_docker
+ 1676  2018-11-28 16:40:06 #docker exec -it 156a2f1df2a0 bash
+ 1677  2018-11-28 16:40:24 docker ps -a
+ 1678  2018-11-28 16:40:51 docker exec -it 17775d9ddab9 bash
+ 1679  2018-11-29 10:04:24 cd docker/research/research_docker
+ 1680  2018-11-29 10:04:28 docker-compose up -d
+ 1681  2018-11-29 09:40:34 kinit tgabriel
+ 1682  2018-11-29 09:42:49 ssh research01.misc.hst.phx2.redhat.com
+ 1683  2018-11-29 12:52:27 kinit tgabriel
+ 1684  2018-11-29 12:52:39 ssh research01.misc.hst.phx2.redhat.com
+ 1685  2018-11-29 14:41:20 kinit tgabriel
+ 1686  2018-11-29 14:41:27 ssh research01.misc.hst.phx2.redhat.com
+ 1687  2018-11-29 18:30:42 docker-compose stop
+ 1688  2018-11-29 18:30:52 docker-compose up -d
+ 1689  2018-11-29 20:08:08 docker-compose stop
+ 1690  2018-11-29 20:08:10 docker-compose up -d
+ 1691  2018-11-29 20:08:22 docker ps -a
+ 1692  2018-11-29 20:08:39 docker rm 99f2a0de7112 c6e6e2530cd4
+ 1693  2018-11-29 20:08:41 docker ps -a
+ 1694  2018-11-29 20:08:57 docker stop 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1695  2018-11-29 20:09:03 docker up 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1696  2018-11-29 20:09:08 docker run 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1697  2018-11-29 20:09:23 docker-compose up -d
+ 1698  2018-11-29 20:09:32 docker-compose stop
+ 1699  2018-11-29 20:09:35 docker-compose up -d
+ 1700  2018-11-29 19:35:19 docker-compose stop
+ 1701  2018-11-29 19:35:29 docker-compose up -d
+ 1702  2018-11-29 14:49:31 cd docker/research/research_docker/wp-content/plugins/
+ 1703  2018-11-29 14:49:41 cd research_internship/
+ 1704  2018-11-29 14:49:43 ls -la
+ 1705  2018-11-29 14:50:45 git init
+ 1706  2018-11-29 14:51:36 git remote add origin https://github.com/Tessg22/Research-Internship.git
+ 1707  2018-11-29 14:51:48 git remote -v
+ 1708  2018-11-29 14:52:10 git add .
+ 1709  2018-11-29 14:52:50 git commit -m "Research program"
+ 1710  2018-11-29 14:53:19 git push origin master
+ 1711  2018-11-29 15:45:05 cd ..
+ 1712  2018-11-29 15:45:14 docker-compose stop
+ 1713  2018-11-29 15:45:20 docker-compose up -d
+ 1714  2018-11-29 15:49:33 kinit tgabriel
+ 1715  2018-11-29 15:49:48 ssh research01.misc.hst.phx2.redhat.com
+ 1716  2018-11-29 17:18:54 systemctl suspend -i
+ 1717  2018-11-29 18:20:37 docker-compose stop
+ 1718  2018-11-29 18:20:41 docker-compose up -d
+ 1719  2018-11-29 18:21:07 docker ps -a
+ 1720  2018-11-29 18:21:23 docker-compose stop
+ 1721  2018-11-29 18:21:27 docker-compose up -d
+ 1722  2018-11-29 18:22:16 docker stop  931a26221060 22e9acdfa489
+ 1723  2018-11-29 18:22:21 docker rm  931a26221060 22e9acdfa489
+ 1724  2018-11-29 18:22:28 docker-compose stop
+ 1725  2018-11-29 18:22:34 docker-compose up -d
+ 1726  2018-11-29 18:22:44 docker ps -a
+ 1727  2018-11-29 18:22:54 docker stop  c27a45462aaf c0a3b29fcc5f 
+ 1728  2018-11-29 18:22:57 docker rm  c27a45462aaf c0a3b29fcc5f 
+ 1729  2018-11-29 18:23:08 ls -la
+ 1730  2018-11-29 18:23:18 docker ls -la
+ 1731  2018-11-29 18:23:22 docker ps -a
+ 1732  2018-11-29 18:29:38 docker stop 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1733  2018-11-29 18:29:45 docker run 17775d9ddab9 cb5c1a40a593 cb33748815ef
+ 1734  2018-11-29 21:28:12 docker ps -a
+ 1735  2018-11-29 21:28:33 docker-compose stop
+ 1736  2018-11-29 21:28:40 docker-compose up -d
+ 1737  2018-11-29 21:29:51 docker ps -a
+ 1738  2018-11-29 22:54:56 ls -la
+ 1739  2018-11-29 22:55:21 ls -la
+ 1740  2018-11-29 23:28:42 ls -la wp-content/
+ 1741  2018-11-29 21:41:03 #docker-compose 
+ 1742  2018-11-29 21:41:06 docker ps -a
+ 1743  2018-11-29 23:07:51 ls -la wp-content/plugins/
+ 1744  2018-11-29 23:08:39 docker exec -it 17775d9ddab9 bash
+ 1745  2018-11-29 23:09:31 docker-compose stop
+ 1746  2018-11-29 23:09:40 docker-compose up -d
+ 1747  2018-11-29 23:10:03 docker exec -it 17775d9ddab9 bash
+ 1748  2018-11-29 23:10:16 docker ps -a
+ 1749  2018-11-29 23:10:28 docker exec -it 2d842eaf274f bash
+ 1750  2018-11-29 23:11:19 vim docker-compose.yml
+ 1751  2018-11-29 23:11:31 docker ps -a
+ 1752  2018-11-29 23:11:36 docker-compose stop
+ 1753  2018-11-29 23:11:43 docker-compose up -d
+ 1754  2018-11-29 23:17:45 docker ps -a
+ 1755  2018-11-29 23:35:24 docker exec -it 2d842eaf274f bash
+ 1756  2018-11-29 23:35:36 docker exec -it eb978eb5c5b7 bash
+ 1757  2018-11-29 23:38:49 ls -la
+ 1758  2018-11-29 23:39:01 rm .docker-compose.yml.swp
+ 1759  2018-11-29 23:39:06 vim docker-compose.yml
+ 1760  2018-11-29 23:39:55 vim .htaccess 
+ 1761  2018-11-29 23:50:44 #docker-compose up
+ 1762  2018-11-29 23:51:04 history >> test.txt
+ 1763  2018-11-29 23:51:07 vim test.txt 
+ 1764  2018-11-29 23:51:21 cat test.txt | grep pip
+ 1765  2018-11-30 09:16:52 ls -la
+ 1766  2018-11-30 09:15:05 ls -la
+ 1767  2018-11-30 09:15:18 chown tgabriel research_docker
+ 1768  2018-11-30 09:15:21 sudo chown tgabriel research_docker
+ 1769  2018-11-30 09:15:28 ls -la
+ 1770  2018-11-30 09:15:34 sudo chgrp tgabriel research_docker
+ 1771  2018-11-30 09:15:36 ls -la
+ 1772  2018-11-30 09:15:51 chmod 777 research_docker
+ 1773  2018-11-30 09:15:52 ls -la
+ 1774  2018-11-30 09:16:02 cd ..
+ 1775  2018-11-30 09:16:04 ls -la
+ 1776  2018-11-30 09:17:42 #sudo chgrp tgabriel -R research/research_docker/*
+ 1777  2018-11-30 09:17:44 cd research/
+ 1778  2018-11-30 09:17:54 sudo chgrp tgabriel -R research_docker/*
+ 1779  2018-11-30 09:18:03 sudo chown tgabriel -R research_docker/*
+ 1780  2018-11-29 23:00:25 chmod -R 755 wp-content
+ 1781  2018-11-29 23:03:31 sudo chgrp www-data wp-content/
+ 1782  2018-11-29 23:04:02 ls -la
+ 1783  2018-11-29 23:04:19 sudo chgrp tgabriel wp-content/
+ 1784  2018-11-29 23:04:21 ls -la
+ 1785  2018-11-29 23:04:29 cd wp-content/
+ 1786  2018-11-29 23:04:31 ls -la
+ 1787  2018-11-29 23:04:46 ls -la uploads/
+ 1788  2018-11-29 23:04:59 ls -la uploads/2018/
+ 1789  2018-11-29 23:25:13 ls -la
+ 1790  2018-11-29 23:25:14 cd ..
+ 1791  2018-11-29 23:25:17 ls -la
+ 1792  2018-11-29 23:25:46 chmod -R 654 wp-content
+ 1793  2018-11-29 23:26:28 chmod -R u-x wp-content
+ 1794  2018-11-29 23:26:32 sudo chmod -R u-x wp-content
+ 1795  2018-11-29 23:26:42 ls -la
+ 1796  2018-11-29 23:26:54 ls -la wp-content/
+ 1797  2018-11-29 23:27:25 sudo chmod -R 775 wp-content
+ 1798  2018-11-29 23:27:28 ls -la wp-content/
+ 1799  2018-11-29 23:29:03 sudo chmod -R 755 wp-content
+ 1800  2018-11-29 23:29:05 ls -la wp-content/
+ 1801  2018-11-29 23:36:08 vim docker-compose.yml
+ 1802  2018-11-29 23:43:17 docker-compose stop
+ 1803  2018-11-29 23:43:28 docker-compose up
+ 1804  2018-11-29 23:44:13 docker-compose up -d
+ 1805  2018-11-29 23:44:23 docker ps -a
+ 1806  2018-11-29 23:44:54 docker exec -it eb978eb5c5b7 bash
+ 1807  2018-11-29 23:56:55 systemctl suspend -i
+ 1808  2018-11-30 08:52:55 vim docker-compose.yml
+ 1809  2018-11-30 08:53:59 docker-compose stop
+ 1810  2018-11-30 08:54:07 docker-compose up -d
+ 1811  2018-11-30 08:54:42 docker ps -a
+ 1812  2018-11-30 08:54:53 vim docker-compose.yml
+ 1813  2018-11-30 08:55:07 docker-compose stop
+ 1814  2018-11-30 08:55:12 docker ps -a
+ 1815  2018-11-30 08:55:14 docker-compose up -d
+ 1816  2018-11-30 08:55:17 docker ps -a
+ 1817  2018-11-30 08:56:27 vim docker-compose.yml
+ 1818  2018-11-30 08:56:47 docker ps -a
+ 1819  2018-11-30 08:56:49 docker-compose stop
+ 1820  2018-11-30 08:56:55 docker-compose up -d
+ 1821  2018-11-30 08:57:15 vim docker-compose.yml
+ 1822  2018-11-30 08:57:25 docker-compose up -d
+ 1823  2018-11-30 08:57:31 docker ps -a
+ 1824  2018-11-30 08:59:00 docker-compose stop
+ 1825  2018-11-30 08:59:05 docker-compose up -d
+ 1826  2018-11-30 08:59:08 docker ps -a
+ 1827  2018-11-30 08:59:50 docker stop 156a2f1df2a0 c3fe090ac7d9 8d9dad43d232
+ 1828  2018-11-30 08:59:53 docker ps -a
+ 1829  2018-11-30 09:00:05 docker rm 156a2f1df2a0 c3fe090ac7d9 8d9dad43d232
+ 1830  2018-11-30 09:00:07 docker ps -a
+ 1831  2018-11-30 09:01:21 docker rm 490b02e9a74c cb5c1a40a593 cb33748815ef
+ 1832  2018-11-30 09:01:25 docker stop 490b02e9a74c cb5c1a40a593 cb33748815ef
+ 1833  2018-11-30 09:01:36 docker rm 490b02e9a74c cb5c1a40a593 cb33748815ef
+ 1834  2018-11-30 09:02:14 docker-compose up -d
+ 1835  2018-11-30 09:02:20 docker ps -a
+ 1836  2018-11-30 09:40:52 docker-compose stop
+ 1837  2018-11-30 09:40:57 docker-compose up -d
+ 1838  2018-11-30 10:18:17 ls -la
+ 1839  2018-11-30 10:18:45 history >> test
+ 1840  2018-11-30 10:18:47 ls -la
+ 1841  2018-11-30 10:18:57 cat test | grep pip
+ 1842  2018-11-30 10:13:52 cd docker/research/research_docker
+ 1843  2018-11-30 10:13:55 docker ps -a
+ 1844  2018-11-30 10:14:28 docker exec -it 1d1706f306ca bash
+ 1845  2018-11-30 10:52:28 kinit tgabriel
+ 1846  2018-11-30 10:52:37 ssh research01.misc.hst.phx2.redhat.com
+ 1847  2018-11-30 13:42:32 man extundelete
+ 1848  2018-11-30 14:14:43 ls -la docker/research/research_docker/wp-content/
+ 1849  2018-11-30 14:51:04 cd Downloads/
+ 1850  2018-11-30 14:51:08 cd wordpress
+ 1851  2018-11-30 14:51:09 ls -la
+ 1852  2018-11-30 14:52:13 touch test
+ 1853  2018-11-30 14:52:14 ls -la
+ 1854  2018-11-30 14:52:31 chmod 644 test 
+ 1855  2018-11-30 14:52:32 ls -la
+ 1856  2018-11-30 14:53:40 chmod 766 test 
+ 1857  2018-11-30 14:53:41 ls -la
+ 1858  2018-11-30 14:53:51 chmod 744 test 
+ 1859  2018-11-30 14:53:51 ls -la
+ 1860  2018-11-30 14:54:01 chmod 755 test 
+ 1861  2018-11-30 14:54:02 ls -la
+ 1862  2018-11-30 14:54:47 ls -la ~/docker/research/research_docker/
+ 1863  2018-11-30 15:03:54 man mv
+ 1864  2018-12-05 13:25:43 docker-compose stop
+ 1865  2018-12-05 13:25:48 docker-compose up -d
+ 1866  2018-12-05 16:08:22 uname -a
+ 1867  2018-12-05 16:09:30 yum update
+ 1868  2018-12-05 16:09:34 sudo su -
+ 1869  2018-12-05 16:46:57 cd wp-content/themes/research-rh/
+ 1870  2018-12-05 16:46:59 ls -la
+ 1871  2018-12-05 16:47:23 #scp file.txt root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes
+ 1872  2018-12-05 16:47:24 pwd
+ 1873  2018-12-05 16:47:58 scp single-post-internships-general.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1874  2018-12-05 16:48:17 scp single-post-internships_cooperation-with-teachers.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1875  2018-12-05 16:48:35 scp single-post-internships_courses-and-workshops.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1876  2018-12-05 11:20:53 cd docker/research/research_docker
+ 1877  2018-12-05 11:20:56 docker ps -a
+ 1878  2018-12-05 11:21:03 docker-compose up -d
+ 1879  2018-12-05 12:11:40 kinit tgabriel
+ 1880  2018-12-05 12:11:49 ssh research01.misc.hst.phx2.redhat.com
+ 1881  2018-12-05 16:21:15 kinit
+ 1882  2018-12-05 16:21:26 klist
+ 1883  2018-12-05 16:21:30 ssh research01.misc.hst.phx2.redhat.com
+ 1884  2018-12-05 23:23:20 systemctl suspend -i
+ 1885  2018-12-05 17:08:18 ls -la
+ 1886  2018-12-05 17:08:44 cd wp-content/
+ 1887  2018-12-05 17:08:46 ls -la
+ 1888  2018-12-05 17:10:08 vim index.php 
+ 1889  2018-12-05 21:26:54 cd themes
+ 1890  2018-12-05 21:26:56 ls -la
+ 1891  2018-12-05 21:35:00 cd research-rh
+ 1892  2018-12-05 21:35:07 ls -la
+ 1893  2018-12-05 21:35:33 scp single-post-internships-general.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1894  2018-12-05 21:35:47 scp single-post-internships_cooperation-with-teachers.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1895  2018-12-05 21:36:04 scp single-post-internships_courses-and-workshops.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1896  2018-12-05 21:36:58 scp single-post-internships_open-positions.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 1897  2018-12-05 21:37:57 scp js/scripts.js root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/js/
+ 1898  2018-12-05 21:38:46 vim style.css 
+ 1899  2018-12-05 21:40:39 cd ../../plugins/
+ 1900  2018-12-05 21:40:42 ls -la
+ 1901  2018-12-05 21:41:09 scp cf7-google-sheets-connector root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1902  2018-12-05 21:41:38 scp -R cf7-google-sheets-connector root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1903  2018-12-05 21:42:24 scp -r cf7-google-sheets-connector root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1904  2018-12-05 21:43:58 ls -la
+ 1905  2018-12-05 21:44:15 scp -r contact-form-7 root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1906  2018-12-05 21:45:26 ls -la
+ 1907  2018-12-05 21:48:09 scp -r popup-anything-on-click root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1908  2018-12-05 21:49:06 ls -la
+ 1909  2018-12-05 21:50:14 scp -r research_internship root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1910  2018-12-05 21:58:07 ls research_internship/spreadsheet
+ 1911  2018-12-05 21:58:21 ls -la research_internship/spreadsheet
+ 1912  2018-12-05 21:59:06 ls -la
+ 1913  2018-12-05 22:29:59 scp -r research-extra-cpt root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 1914  2018-12-06 16:41:17 ssh research01.misc.hst.phx2.redhat.com
+ 1915  2018-12-06 18:12:19 cd docker/research/research_docker
+ 1916  2018-12-06 18:12:27 cd wp-content/themes/research-r
+ 1917  2018-12-06 18:12:29 cd wp-content/themes/research-rh
+ 1918  2018-12-06 18:13:06 scp -r single-post-internships_open-positions.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 1919  2018-12-07 10:00:33 cd docker/research/research_docker
+ 1920  2018-12-07 10:00:36 docker-compose up -d
+ 1921  2018-12-07 10:02:25 ssh research01.misc.hst.phx2.redhat.com
+ 1922  2018-12-07 18:04:18 systemctl suspend -i
+ 1923  2018-12-07 22:12:36 docker-compose stop
+ 1924  2018-12-07 22:12:44 docker-compose up -d
+ 1925  2018-12-08 00:21:32 ./phpunit --version
+ 1926  2018-12-08 00:21:39 cd ..
+ 1927  2018-12-08 00:21:40 ./phpunit --version
+ 1928  2018-12-08 00:21:55 cd unit-test/
+ 1929  2018-12-08 00:21:56 ./vendor/bin/phpunit --version
+ 1930  2018-12-08 00:22:33 phpunit
+ 1931  2018-12-08 00:25:06 sudo composer
+ 1932  2018-12-08 00:25:20 sudo ln -s /usr/bin/php71 /usr/bin/php
+ 1933  2018-12-08 00:25:23 phpunit
+ 1934  2018-12-08 00:26:03 sudo ln -s /usr/bin/php72 /usr/bin/php
+ 1935  2018-12-08 00:26:08 phpunit
+ 1936  2018-12-08 00:26:19 ./vendor/bin/phpunit --version
+ 1937  2018-12-08 00:26:49 cd ..
+ 1938  2018-12-08 00:26:56 phpunit
+ 1939  2018-12-08 00:27:54 wget https://phar.phpunit.de/phpunit-nightly.phar
+ 1940  2018-12-08 00:28:06 ./vendor/bin/phpunit --version
+ 1941  2018-12-08 00:28:11 phpunit --version
+ 1942  2018-12-08 00:28:22 wget https://phar.phpunit.de/phpunit-nightly.pharphp phpunit-nightly.phar --version
+ 1943  2018-12-08 00:28:27 php phpunit-nightly.phar --version
+ 1944  2018-12-08 00:28:33 php72 phpunit-nightly.phar --version
+ 1945  2018-12-08 00:28:50 wp scaffold plugin-tests my-plugin
+ 1946  2018-12-08 00:30:16 chmod +x phpunit-6.5.phar
+ 1947  2018-12-08 00:31:22 #phpunit-7.5.0.phar
+ 1948  2018-12-08 00:31:35 wget https://phar.phpunit.de/phpunit-7.5.0.phar
+ 1949  2018-12-08 00:31:46 chmod +x phpunit-7.5.0.phar
+ 1950  2018-12-08 00:31:57 sudo mv phpunit-7.5.0.phar /usr/local/bin/phpunit
+ 1951  2018-12-08 00:32:06 phpunit --version
+ 1952  2018-12-08 00:34:29 phpunit
+ 1953  2018-12-08 00:35:04 phpunit --version
+ 1954  2018-12-08 00:38:18 python3 -v
+ 1955  2018-12-08 00:38:32 python3 -V
+ 1956  2018-12-08 00:38:53 python3 -m venv tutorial-env
+ 1957  2018-12-08 00:39:02 source tutorial-env/bin/activate
+ 1958  2018-12-08 00:39:09 phpunit --version
+ 1959  2018-12-08 15:11:46 sudo rpm -ivh expressvpn-1.5.1-1.i386.rpm 
+ 1960  2018-12-09 20:08:58 git init
+ 1961  2018-12-09 20:09:40 git remote add origin https://github.com/Tessg22/Research-Internship-Program.git
+ 1962  2018-12-09 20:09:55 git remote -v
+ 1963  2018-12-09 20:10:25 git add .
+ 1964  2018-12-09 20:10:48 git commit -m "First Commit"
+ 1965  2018-12-09 20:11:12 git push origin master
+ 1966  2018-12-09 21:32:36 python spreadsheet-row.py 
+ 1967  2018-12-09 21:58:08 ls -la
+ 1968  2018-12-09 21:34:08 docker ps -a
+ 1969  2018-12-09 21:34:27 docker exec -it 1d1706f306ca bash
+ 1970  2018-12-09 21:38:08 docker-compose stop
+ 1971  2018-12-09 21:38:15 docker-compose up -d
+ 1972  2018-12-09 21:41:28 docker exec -it 1d1706f306ca bash
+ 1973  2018-12-08 01:00:47 systemctl suspend -i
+ 1974  2018-12-08 15:13:19 expressvpn --help
+ 1975  2018-12-08 15:13:28 expressvpn activate ECBSGRRMHLTOZKGD8M8XZOY
+ 1976  2018-12-08 15:13:35 expressvpn activate
+ 1977  2018-12-08 15:14:04 expressvpn list
+ 1978  2018-12-08 15:14:25 expressvpn list| grep uk
+ 1979  2018-12-08 15:14:42 expressvpn connect ukel
+ 1980  2018-12-08 15:15:03 expressvpn disconnect 
+ 1981  2018-12-08 15:16:35 expressvpn status
+ 1982  2018-12-08 15:36:04 phpunit --version
+ 1983  2018-12-08 15:36:54 which composer
+ 1984  2018-12-08 15:38:23 export PATH=~/.composer/vendor/bin/:$PATH
+ 1985  2018-12-08 15:38:25 phpunit --version
+ 1986  2018-12-08 15:38:53 echo $PATH
+ 1987  2018-12-08 15:39:39 export PATH=$PATH
+ 1988  2018-12-08 15:39:42 echo $PATH
+ 1989  2018-12-08 15:40:20 PATH=$(getconf PATH)
+ 1990  2018-12-08 15:40:21 echo $PATH
+ 1991  2018-12-08 15:42:14 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+ 1992  2018-12-08 15:42:15 echo $PATH
+ 1993  2018-12-08 15:42:26 whereis ls
+ 1994  2018-12-08 15:42:57 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin
+ 1995  2018-12-08 15:42:58 ls
+ 1996  2018-12-08 15:43:08 PATH=nothing
+ 1997  2018-12-08 15:43:09 ls
+ 1998  2018-12-08 15:43:18 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+ 1999  2018-12-08 15:43:19 ls
+ 2000  2018-12-08 15:43:31 PATH=nothing
+ 2001  2018-12-08 15:43:33 ls
+ 2002  2018-12-08 15:43:43 /usr/bin/ls
+ 2003  2018-12-08 15:43:49 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+ 2004  2018-12-08 15:43:58 vim /etc/profile
+ 2005  2018-12-08 15:44:13 vim .bash_profile 
+ 2006  2018-12-08 15:57:19 wget https://phar.phpunit.de/phpunit-6.5.phar
+ 2007  2018-12-08 15:57:27 chmod +x phpunit-6.5.phar
+ 2008  2018-12-08 15:57:34 sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
+ 2009  2018-12-08 15:57:45 phpunit --version
+ 2010  2018-12-08 15:57:48 sudo phpunit --version
+ 2011  2018-12-08 15:58:00 sudo su -
+ 2012  2018-12-08 16:00:24 #sudo ln -s /usr/bin/php72Q /usr/bin/php
+ 2013  2018-12-08 16:00:34 pwd php72
+ 2014  2018-12-08 16:00:42 whereis php72
+ 2015  2018-12-08 16:01:23 mkdir /usr/bin/php
+ 2016  2018-12-08 16:01:41 cd /usr/bin/
+ 2017  2018-12-08 16:01:43 ls -la
+ 2018  2018-12-08 16:02:02 ls -la | grep php
+ 2019  2018-12-08 16:02:22 sudo ln -s /usr/bin/php72 /usr/bin/php
+ 2020  2018-12-08 16:02:29 sudo ln -s /usr/bin/php /usr/bin/php72
+ 2021  2018-12-08 16:02:45 php --version
+ 2022  2018-12-08 16:03:31 /usr/bin/php
+ 2023  2018-12-08 16:03:49 /usr/bin/php_backup
+ 2024  2018-12-08 16:03:57 mv /usr/bin/php_backup
+ 2025  2018-12-08 16:04:13 mv /usr/bin/php /usr/bin/php_backup
+ 2026  2018-12-08 16:04:16 sudo mv /usr/bin/php /usr/bin/php_backup
+ 2027  2018-12-08 16:04:21 ls -la | grep php
+ 2028  2018-12-08 16:04:40 ln -s /usr/bin/php72 /usr/bin/php
+ 2029  2018-12-08 16:04:43 sudo ln -s /usr/bin/php72 /usr/bin/php
+ 2030  2018-12-08 16:04:48 php --version
+ 2031  2018-12-08 16:05:02 sudo phpunit --version
+ 2032  2018-12-08 16:05:28 cd ~
+ 2033  2018-12-08 16:05:30 wget https://phar.phpunit.de/phpunit-6.5.phar
+ 2034  2018-12-08 16:05:37 chmod +x phpunit-6.5.phar
+ 2035  2018-12-08 16:05:42 sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
+ 2036  2018-12-08 16:05:46 phpunit --version
+ 2037  2018-12-08 16:05:55 svn co https://develop.svn.wordpress.org/trunk/ wordpress-develop
+ 2038  2018-12-08 16:06:11 cd wordpress-develop
+ 2039  2018-12-08 16:07:20 yum install mariadb
+ 2040  2018-12-08 16:07:25 sudo yum install mariadb
+ 2041  2018-12-08 16:08:24 mysql -u root -p
+ 2042  2018-12-08 16:09:17 mysql --help
+ 2043  2018-12-08 16:11:26 sudo yum install mariadb-server
+ 2044  2018-12-08 16:11:48 sudo systemctl enable mariadb
+ 2045  2018-12-08 16:11:48 sudo systemctl start mariadb
+ 2046  2018-12-08 16:12:05 sudo mysql_secure_installation
+ 2047  2018-12-08 16:12:45 mysql -u root -p
+ 2048  2018-12-08 16:13:54 mv wp-tests-config-sample.php wp-tests-config.php
+ 2049  2018-12-08 16:13:56 vim wp-tests-config.php
+ 2050  2018-12-08 16:14:31 npm install -g grunt-cli
+ 2051  2018-12-08 16:14:47 sudo npm install -g grunt-cli
+ 2052  2018-12-08 16:15:18 npm install
+ 2053  2018-12-08 16:18:17 grunt build
+ 2054  2018-12-08 16:18:46 phpunit
+ 2055  2018-12-08 16:22:14 cd ..
+ 2056  2018-12-08 16:22:37 mv wordpress-develop docker/wordpress_study/wp-content/plugins/wordpress-develop
+ 2057  2018-12-08 16:22:45 cd docker/wordpress_study/wp-content/plugins/
+ 2058  2018-12-08 16:22:47 ls -la
+ 2059  2018-12-08 16:22:50 cd wordpress-develop
+ 2060  2018-12-08 16:22:54 phpunit
+ 2061  2018-12-08 16:23:15 rm -rfv ../unit-test/
+ 2062  2018-12-08 16:23:19 sudo rm -rfv ../unit-test/
+ 2063  2018-12-08 16:23:32 cd ../
+ 2064  2018-12-08 16:23:33 ls -la
+ 2065  2018-12-08 21:05:05 mkdir phpunit
+ 2066  2018-12-08 21:05:09 cd phpunit/
+ 2067  2018-12-08 21:05:27 composer require phpunit/phpunit
+ 2068  2018-12-08 21:06:30 ls -la
+ 2069  2018-12-08 21:11:50 composer dump-autoload -o
+ 2070  2018-12-08 21:19:16 phpunit
+ 2071  2018-12-08 21:20:20 ./vendor/bin/phpunit 
+ 2072  2018-12-08 21:28:10 ./vendor/bin/phpunit
+ 2073  2018-12-08 21:40:49 phpunit test.php
+ 2074  2018-12-08 21:41:07 phpunit tests/unit/SampleTest.php 
+ 2075  2018-12-08 21:42:25 ./vendor/bin/phpunit
+ 2076  2018-12-09 00:04:49 systemctl suspend -i
+ 2077  2018-12-09 20:54:14 ssh research01.misc.hst.phx2.redhat.com
+ 2078  2018-12-09 22:39:41 pip install youtube-dl
+ 2079  2018-12-09 22:39:48 sudo pip install youtube-dl
+ 2080  2018-12-10 15:17:32 ls -la
+ 2081  2018-12-10 15:17:42 ls -la phpunit/
+ 2082  2018-12-10 15:18:45 pwd
+ 2083  2018-12-10 15:17:10 ./vendor/bin/phpunit tests/unit/FunctionTest.php 
+ 2084  2018-12-10 15:17:13 sudo ./vendor/bin/phpunit tests/unit/FunctionTest.php 
+ 2085  2018-12-10 15:19:37 python spreadsheet-row.py 
+ 2086  2018-12-13 10:55:28 vim userChrome.css
+ 2087  2018-12-13 11:04:43 vim userChrome.css
+ 2088  2018-12-13 11:06:34 killall firefox
+ 2089  2018-12-13 11:06:37 firefox
+ 2090  2018-12-13 18:49:28 cd ~/docker/research/research_docker/wp-content/plugins/research
+ 2091  2018-12-13 18:49:32 cd ~/docker/research/research_docker/wp-content/plugins/research_internship/
+ 2092  2018-12-13 18:49:34 ls -la
+ 2093  2018-12-13 18:50:04 scp -r spreadsheet/* root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/research_internship/spreadsheet/
+ 2094  2018-12-13 18:34:29 scp -r root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/research_internship/admin/spreadsheet_to_research.php .
+ 2095  2018-12-13 18:34:39 ls -la
+ 2096  2018-12-13 18:49:10 #scp -r popup-anything-on-click root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/research_internship/spreadsheet/
+ 2097  2018-12-09 22:29:37 phpunit tests/unit/FunctionTest.php 
+ 2098  2018-12-09 22:36:22 ./vendor/bin/phpunit
+ 2099  2018-12-09 23:03:26 ./vendor/bin/phpunit tests/unit/FunctionTest.php 
+ 2100  2018-12-09 23:06:26 systemctl suspend -i
+ 2101  2018-12-10 15:23:06 ./vendor/bin/phpunit tests/unit/FunctionTest_1.php.php 
+ 2102  2018-12-10 15:23:08 ./vendor/bin/phpunit tests/unit/FunctionTest_1.php
+ 2103  2018-12-10 17:06:23 systemctl suspend -i
+ 2104  2018-12-12 08:53:24 ssh research01.misc.hst.phx2.redhat.com
+ 2105  2018-12-13 16:02:26 mount
+ 2106  2018-12-13 16:04:36 lsusb
+ 2107  2018-12-13 18:31:51 ssh research01.misc.hst.phx2.redhat.com
+ 2108  2018-12-13 19:13:57 killall firefox
+ 2109  2018-12-13 22:32:29 systemctl suspend -i
+ 2110  2018-12-14 09:37:28 expressvpn disconnect 
+ 2111  2018-12-14 09:37:59 expressvpn status 
+ 2112  2018-12-14 09:39:24 yum remove expressvpn
+ 2113  2018-12-14 09:39:28 sudo yum remove expressvpn
+ 2114  2018-12-14 10:08:01 cd ..
+ 2115  2018-12-14 10:08:10 cd research/
+ 2116  2018-12-14 10:08:15 ls -la
+ 2117  2018-12-14 10:08:18 cd research_docker
+ 2118  2018-12-14 10:08:22 docker-compose up -d
+ 2119  2018-12-14 11:47:05 cd ../../../../wordpress_clean/
+ 2120  2018-12-14 11:47:08 docker-compose up -d
+ 2121  2018-12-17 12:18:54 cd ~/docker/research/research_docker/
+ 2122  2018-12-17 12:19:00 docker-compose stop
+ 2123  2018-12-17 12:19:17 docker-compose up -d
+ 2124  2018-12-17 15:06:16 #vim Dockerfile
+ 2125  2018-12-17 15:06:25 history >> test
+ 2126  2018-12-17 15:06:32 cat test | grep scp
+ 2127  2018-12-17 15:07:17 scp -r root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/research_internship/admin/spreadsheet_to_research.php .
+ 2128  2018-12-17 15:08:16 ssh research01.misc.hst.phx2.redhat.com
+ 2129  2018-12-17 22:37:57 yum install mkvmerge
+ 2130  2018-12-17 22:38:00 sudo yum install mkvmerge
+ 2131  2018-12-14 09:44:09 cd docker/research/research_docker/wp-content/plugins/research_internship/spreadsheet/
+ 2132  2018-12-14 09:44:11 ls -la
+ 2133  2018-12-14 09:44:16 cd ..
+ 2134  2018-12-14 09:44:18 ls -la
+ 2135  2018-12-14 09:44:23 cd ..
+ 2136  2018-12-14 09:44:25 ls -la
+ 2137  2018-12-14 09:45:26 cd ../../../../wordpress_study/wp-content/plugins/phpunit/
+ 2138  2018-12-14 10:14:45 ssh research01.misc.hst.phx2.redhat.com
+ 2139  2018-12-14 11:45:58 docker ps -a
+ 2140  2018-12-14 14:32:08 ls -la
+ 2141  2018-12-14 14:32:16 phpunit spreadsheet_to_research.php 
+ 2142  2018-12-14 14:32:32 phpunit tests/unit/FunctionTest_1.php 
+ 2143  2018-12-14 14:32:52 ./vendor/bin/phpunit tests/unit/FunctionTest_1.php
+ 2144  2018-12-14 17:31:43 systemctl suspend -i
+ 2145  2018-12-17 10:35:07 docker ps -a
+ 2146  2018-12-17 12:17:28 pwd
+ 2147  2018-12-17 22:48:15 systemctl suspend -i
+ 2148  2018-12-18 10:48:34 ssh research01.misc.hst.phx2.redhat.com
+ 2149  2018-12-21 09:42:38 vim .htaccess
+ 2150  2018-12-21 11:15:49 ls -la
+ 2151  2018-12-21 11:16:25 sudo chmod 744 -R wp-content
+ 2152  2018-12-21 11:16:37 ls -la
+ 2153  2018-12-21 11:16:52 ls -la wp-content/
+ 2154  2018-12-24 22:37:12 sudo yum install flatpak
+ 2155  2018-12-24 22:38:14 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ 2156  2018-12-24 22:38:19 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ 2157  2018-12-24 22:38:48 reboot
+ 2158  2018-12-24 22:43:33 steam
+ 2159  2018-12-24 22:44:39 flatpak run com.valvesoftware.Steam
+ 2160  2018-12-24 22:45:23 yum update flatpak
+ 2161  2018-12-24 22:45:32 sudo yum update flatpak
+ 2162  2018-12-24 22:46:07 flatpak run com.valvesoftware.Steam
+ 2163  2018-12-25 18:11:26 ls -la
+ 2164  2018-12-25 18:11:41 chmod 777 12/
+ 2165  2018-12-25 18:11:42 ls -la
+ 2166  2018-12-25 17:54:56 docker-compose up -d
+ 2167  2018-12-25 17:55:25 docker ps -a
+ 2168  2018-12-25 17:18:56 cd docker/
+ 2169  2018-12-25 17:19:00 docker-compose up -d
+ 2170  2018-12-25 17:19:08 cdr research/
+ 2171  2018-12-25 17:19:13 cd research/
+ 2172  2018-12-25 17:19:15 cd research_docker
+ 2173  2018-12-25 17:19:17 docker-compose up -d
+ 2174  2018-12-26 17:52:42 docker ps 0a
+ 2175  2018-12-26 17:52:45 docker ps -a
+ 2176  2018-12-26 17:59:11 docker-compose up -d
+ 2177  2018-12-26 18:00:30 docker ps -a
+ 2178  2018-12-26 20:10:18 cd oop_sandbox/
+ 2179  2018-12-26 20:10:20 pwd
+ 2180  2018-12-26 20:12:30 docker build -t php-docker-apache-example .
+ 2181  2018-12-26 20:13:17 docker run -d -p 8080:80 php-docker-apache-example
+ 2182  2018-12-26 20:18:00 docker-compose up -d
+ 2183  2018-12-26 20:17:07 vim index.php
+ 2184  2018-12-31 12:35:56 sudo su -
+ 2185  2018-12-31 12:36:11 su -
+ 2186  2018-12-31 12:35:37 sudo su -
+ 2187  2018-12-31 09:53:45 cd ~/
+ 2188  2018-12-31 09:53:51 ssh research01.misc.hst.phx2.redhat.com
+ 2189  2019-01-01 11:46:08 kill firefox
+ 2190  2019-01-01 17:54:04 cd docker/project-x/
+ 2191  2019-01-01 17:54:08 docker-compose up -d
+ 2192  2019-01-02 14:53:03 cd ~/docker/
+ 2193  2019-01-02 14:53:13 cd research/research_docker/
+ 2194  2019-01-02 14:53:16 chmod 777 wp-content/uploads
+ 2195  2019-01-02 14:53:34 ls -la wp-content/
+ 2196  2019-01-02 14:55:23 sudo chmod 755 wp-content/uploads
+ 2197  2019-01-02 14:55:32 chmod 755 wp-content/uploads
+ 2198  2019-01-02 14:55:33 ls -la wp-content/
+ 2199  2019-01-02 14:55:50 ls -la
+ 2200  2019-01-02 14:56:14 chown 33:tape wp-content/uploads
+ 2201  2019-01-02 14:56:18 sudo chown 33:tape wp-content/uploads
+ 2202  2019-01-02 14:56:26 ls -la wp-content/
+ 2203  2019-01-02 14:56:53 sudo chown tgabriel:tgabriel wp-content/uploads
+ 2204  2019-01-02 14:56:56 ls -la wp-content/
+ 2205  2019-01-02 14:59:45 cd wp-content/
+ 2206  2019-01-02 14:59:47 chmod 755 uploads
+ 2207  2019-01-02 15:00:22 cd uploads/
+ 2208  2019-01-02 15:00:24 ls -la
+ 2209  2019-01-02 15:00:42 ls -la 2017
+ 2210  2019-01-02 15:01:42 cd ..
+ 2211  2019-01-02 15:01:46 sudo chown -R apache:apache uploads
+ 2212  2019-01-02 15:03:21 sudo chown -R tgabriel:tgabriel uploads
+ 2213  2019-01-01 23:50:01 systemctl suspend -i
+ 2214  2019-01-02 10:31:31 cd docker/research/research_docker
+ 2215  2019-01-02 10:31:36 docker-compose up -d
+ 2216  2019-01-02 15:07:21 ps aux | egrep ‘(apache|httpd)’
+ 2217  2019-01-02 15:07:26 ps aux | egrep ‘apache|httpd’
+ 2218  2019-01-02 15:07:33 sudo su -
+ 2219  2019-01-02 15:09:12 cd wp-content/
+ 2220  2019-01-02 15:09:14 chown -R www-data:www-data uploads
+ 2221  2019-01-02 15:09:26 sudo chown -R www-data:www-data uploads
+ 2222  2019-01-02 15:10:11 chown -R tgabriel:tgabriel uploads
+ 2223  2019-01-02 15:10:13 sudo chown -R tgabriel:tgabriel uploads
+ 2224  2019-01-02 15:11:29 sudo chown -R 33:33 uploads
+ 2225  2019-01-02 17:26:43 systemctl suspend -i
+ 2226  2019-01-03 11:09:37 ssh research01.misc.hst.phx2.redhat.com
+ 2227  2019-01-04 11:00:27 cd docker/
+ 2228  2019-01-04 11:00:33 cd research/research_docker
+ 2229  2019-01-04 11:00:37 docker-compose up -d
+ 2230  2019-01-04 12:30:07 cd ..
+ 2231  2019-01-04 12:30:14 cd wordpress_clean/
+ 2232  2019-01-04 12:30:15 docker-compose up -d
+ 2233  2019-01-04 17:52:23 systemctl suspend -i
+ 2234  2019-01-06 20:07:48 #python36 wp-content/plugins/
+ 2235  2019-01-06 20:07:49 cd ..
+ 2236  2019-01-06 20:07:54 cd research/research_docker
+ 2237  2019-01-06 20:08:22 python36 wp-content/plugins/research_internship/spreadsheet/spreadsheet-test.py
+ 2238  2019-01-06 20:09:02 #docker exec -it 1d1706f306ca bash
+ 2239  2019-01-06 20:09:04 docker ps -a
+ 2240  2019-01-06 20:09:22 #docker exec -it 1d1706f306ca bash
+ 2241  2019-01-06 20:09:24 docker exec -it 1d1706f306ca bash
+ 2242  2019-01-07 09:21:45 cd docker/research/research_docker
+ 2243  2019-01-07 09:21:49 docker exec -it 1d1706f306ca bash
+ 2244  2019-01-08 14:02:34 composer require google/apiclient:^2.0
+ 2245  2019-01-08 14:04:30 vim test.php
+ 2246  2019-01-08 14:07:54 <?php
+ 2247  2019-01-08 14:07:54 require __DIR__ . '/vendor/autoload.php';
+ 2248  2019-01-08 14:07:54 if (php_sapi_name() != 'cli') {
+ 2249  2019-01-08 14:07:54 }
+ 2250  2019-01-08 14:07:54 /**
+ 2251  2019-01-08 14:07:55 function getClient() {     $client = new Google_Client();
+ 2252  2019-01-08 14:07:55 }
+ 2253  2019-01-08 14:07:55 // Get the API client and construct the service object.
+ 2254  2019-01-08 14:07:55 $client = getClient();
+ 2255  2019-01-08 14:07:55 $service = new Google_Service_Sheets($client);
+ 2256  2019-01-08 14:07:55 // Prints the names and majors of students in a sample spreadsheet:
+ 2257  2019-01-08 14:07:55 // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+ 2258  2019-01-08 14:07:55 $spreadsheetId = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
+ 2259  2019-01-08 14:07:55 $range = 'Class Data!A2:E';
+ 2260  2019-01-08 14:07:55 $response = $service->spreadsheets_values->get($spreadsheetId, $range);
+ 2261  2019-01-08 14:07:55 $values = $response->getValues();
+ 2262  2019-01-08 14:07:55 if (empty($values)) {
+ 2263  2019-01-08 14:07:55 } else {
+ 2264  2019-01-08 14:08:26 composer require google/apiclient:^2.0
+ 2265  2019-01-07 19:23:32 systemctl suspend -i
+ 2266  2019-01-09 12:33:07 docker-compose up -d
+ 2267  2019-01-08 16:03:58 cat history >> test.txt
+ 2268  2019-01-08 16:04:08 cat history > test.txt
+ 2269  2019-01-08 16:04:29 history | grep scp > test.txt
+ 2270  2019-01-08 16:04:32 ls -la
+ 2271  2019-01-08 16:04:40 vim test.txt 
+ 2272  2019-01-08 16:05:39 scp -R hookpress-master root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 2273  2019-01-08 16:05:44 scp -r hookpress-master root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 2274  2019-01-08 17:38:15 systemctl suspend -i
+ 2275  2019-01-09 11:34:14 #scp -r  root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 2276  2019-01-09 11:34:15 pwd
+ 2277  2019-01-09 11:34:19 cd .
+ 2278  2019-01-09 11:34:20 cd ..
+ 2279  2019-01-09 11:34:35 cd wordpress_clean/wp-content/plugins/
+ 2280  2019-01-09 11:34:48 scp -r cf7-to-zapier.1.3.1.zip root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 2281  2019-01-09 11:36:08 scp -r cf7-to-zapier/ root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/
+ 2282  2019-01-09 17:12:54 systemctl suspend -i
+ 2283  2019-01-10 12:33:37 cd docker/wordpress_clean
+ 2284  2019-01-10 12:33:44 docker-compose up -d
+ 2285  2019-01-10 12:33:59 cd ..
+ 2286  2019-01-10 12:34:04 cd project-x/
+ 2287  2019-01-10 12:34:06 docker-compose up -d
+ 2288  2019-01-10 18:01:22 systemctl suspend -i
+ 2289  2019-01-12 17:33:47 history | grep mysql >> test.txt
+ 2290  2019-01-12 17:33:50 vim test.txt 
+ 2291  2019-01-12 13:55:02 cd docker/project-x
+ 2292  2019-01-12 13:55:04 docker-compose up -d
+ 2293  2019-01-12 17:08:42 cd ..
+ 2294  2019-01-12 17:08:45 cd research/research_docker
+ 2295  2019-01-12 17:08:46 docker-compose up -d
+ 2296  2019-01-12 17:29:14 ssh research01.misc.hst.phx2.redhat.com
+ 2297  2019-01-12 12:22:10 sudo su -
+ 2298  2019-01-12 22:39:29 top
+ 2299  2019-01-14 18:53:35 sudo apt-get install pulseaudio-utils lame mpg123
+ 2300  2019-01-14 18:53:45 sudo yum install pulseaudio-utils lame mpg123
+ 2301  2019-01-14 18:55:56 pacmd list-sources | egrep '^\s+name:.*\.monitor'
+ 2302  2019-01-14 18:56:38 parecord --channels=1 -d <alsa_output.pci-0000_00_1f.3.analog-stereo.monitor> filename.wav
+ 2303  2019-01-14 18:56:48 parecord --channels=1 -d alsa_output.pci-0000_00_1f.3.analog-stereo.monitor filename.wav
+ 2304  2019-01-14 18:57:35 ls -la
+ 2305  2019-01-14 18:57:53 parecord --channels=1 -d alsa_output.pci-0000_00_1f.3.analog-stereo.monitor filename.wav
+ 2306  2019-01-14 18:58:07 ls -la
+ 2307  2019-01-16 13:50:30 cd docker/research/research_docker
+ 2308  2019-01-16 13:50:34 docker-compose stop
+ 2309  2019-01-16 13:50:42 docker-compose up -d
+ 2310  2019-01-18 10:32:44 cd docker/research/research_docker/
+ 2311  2019-01-18 10:32:54 docker exec -it 1d1706f306ca bash
+ 2312  2019-01-18 10:49:35 docker-compose exec composer install
+ 2313  2019-01-18 10:42:21 composer require google/apiclient:^2.0
+ 2314  2019-01-18 10:42:26 ls -la
+ 2315  2019-01-18 10:42:41 chmod 555 composer.json 
+ 2316  2019-01-18 10:42:44 sudo chmod 555 composer.json 
+ 2317  2019-01-18 10:42:52 chmod 555 composer.json 
+ 2318  2019-01-18 10:42:56 ls -la
+ 2319  2019-01-18 10:43:08 chmod 666 composer.json 
+ 2320  2019-01-18 10:43:11 sudo chmod 666 composer.json 
+ 2321  2019-01-18 10:43:13 ls -la
+ 2322  2019-01-18 10:43:20 composer require google/apiclient:^2.0
+ 2323  2019-01-18 14:41:25 yum install composer
+ 2324  2019-01-18 14:41:29 sudo yum install composer
+ 2325  2019-01-18 14:42:26 sudo yum install composer --skip-broken
+ 2326  2019-01-18 14:37:48 cd docker/research/research_docker
+ 2327  2019-01-18 14:37:54 docker ps -a
+ 2328  2019-01-18 14:38:09 docker exec -it 1d1706f306ca bash
+ 2329  2019-01-19 21:44:12 docker-compose stop
+ 2330  2019-01-19 21:44:19 docker-compose up -d
+ 2331  2019-01-22 10:03:04 cd docker/research/research_docker
+ 2332  2019-01-22 10:03:07 docker-compose up -d
+ 2333  2019-01-22 12:32:30 vim quickstart.php
+ 2334  2019-01-22 12:23:27 cd docker/research/research_docker
+ 2335  2019-01-22 12:23:30 docker exec -it 1d1706f306ca bash
+ 2336  2019-01-23 17:26:30 docker-compose stop
+ 2337  2019-01-23 17:26:36 docker-compose up -d
+ 2338  2019-01-23 17:31:03 cd docker/research/research_docker
+ 2339  2019-01-23 17:31:04 docker-compose up -d
+ 2340  2019-01-24 09:26:18 cd docker/research/research_docker
+ 2341  2019-01-24 09:26:20 docker-compose up -d
+ 2342  2019-01-24 11:31:29 cd docker/project-x/
+ 2343  2019-01-24 11:31:30 docker-compose up -d
+ 2344  2019-01-27 20:14:33 cd docker/research/research_docker
+ 2345  2019-01-27 20:14:35 docker-compose up -d
+ 2346  2019-01-29 09:20:57 cd docker/research/research_docker
+ 2347  2019-01-29 09:20:59 docker-compose up -d
+ 2348  2019-01-29 09:29:24 cd docker/research/research_docker
+ 2349  2019-01-29 09:29:25 docker-compose up -d
+ 2350  2019-01-30 15:39:39 cd docker/project-x/
+ 2351  2019-01-30 15:39:40 docker-compose up -d
+ 2352  2019-01-31 16:33:25 cd docker/research/research_docker
+ 2353  2019-01-31 16:33:26 docker-compose up -d
+ 2354  2019-01-31 17:27:02 cd ~/
+ 2355  2019-01-31 17:27:05 cd docker/project-x/
+ 2356  2019-01-31 17:27:07 docker-compose up -d
+ 2357  2019-02-01 10:30:03 cd docker/research/research_docker
+ 2358  2019-02-01 10:30:05 ls -la
+ 2359  2019-02-01 10:30:10 touch .env
+ 2360  2019-02-01 10:30:14 vim .env 
+ 2361  2019-02-01 10:30:54 ls -la
+ 2362  2019-02-01 10:31:12 vim .gitignore
+ 2363  2019-02-01 10:31:46 npm i dotenv
+ 2364  2019-02-01 10:32:26 npm install dotenv
+ 2365  2019-02-01 10:33:15 npm install
+ 2366  2019-02-01 10:33:26 npm cache clean
+ 2367  2019-02-01 10:33:34 sudo npm install -g npm
+ 2368  2019-02-01 10:34:27 ls -la
+ 2369  2019-02-01 10:34:42 npm install
+ 2370  2019-02-01 10:35:12 docker exec -it 1d1706f306ca bash
+ 2371  2019-02-01 10:51:13 ssh research01.misc.hst.phx2.redhat.com
+ 2372  2019-02-01 10:53:37 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2373  2019-02-01 11:20:38 scp -r wp-content/themes/research-rh/js/scripts.js root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/js/
+ 2374  2019-02-01 11:49:12 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2375  2019-02-01 12:02:28 scp -r wp-content/themes/research-rh/single-post-internships-gapi-modify.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2376  2019-02-01 12:13:20 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2377  2019-02-01 13:09:27 vim wp-content/themes/research-rh
+ 2378  2019-02-01 13:09:38 vim wp-content/themes/research-rh/test.txt
+ 2379  2019-02-01 13:10:19 scp -r wp-content/themes/research-rh/test.txt root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2380  2019-02-01 13:38:13 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2381  2019-02-04 13:03:41 ssh research01.misc.hst.phx2.redhat.com
+ 2382  2019-02-05 12:11:44 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2383  2019-02-05 14:50:32 echo "$HOME"
+ 2384  2019-02-05 14:51:21 export api-key=AIzaSyA61EDl3-F-4Ybsdd2sQzqoqktoQjajK7Y
+ 2385  2019-02-05 14:51:25 export apikey=AIzaSyA61EDl3-F-4Ybsdd2sQzqoqktoQjajK7Y
+ 2386  2019-02-05 14:51:31 echo "$apikey"
+ 2387  2019-02-05 14:54:04 echo "$SITE_HTMLROOT"
+ 2388  2019-02-05 14:55:19 vim ~/.bashrc 
+ 2389  2019-02-05 14:55:43 source ~/.bashrc
+ 2390  2019-02-04 13:05:07 cd docker/research/research_docker
+ 2391  2019-02-04 13:05:09 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2392  2019-02-04 13:07:36 scp -r wp-content/themes/research-rh/single-post-internships-gapi-modify.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2393  2019-02-05 12:11:00 ssh research01.misc.hst.phx2.redhat.com
+ 2394  2019-02-07 11:09:14 echo 'TEST=whatever2' > .env
+ 2395  2019-02-07 11:09:17 vim docker-compose.yml 
+ 2396  2019-02-07 11:10:04 docker-compose stop
+ 2397  2019-02-07 11:10:10 docker-compose up -d
+ 2398  2019-02-07 11:11:14 vim .env 
+ 2399  2019-02-07 14:54:25 vim echo.py
+ 2400  2019-02-07 15:22:33 #docker stop 59c34c10820b 24a9006fcc1e
+ 2401  2019-02-07 15:22:53 cat history | grep yum-config-manager --enable >> testak
+ 2402  2019-02-07 15:22:58 history | grep yum-config-manager --enable >> testak
+ 2403  2019-02-07 15:43:15 vim quickstart.py
+ 2404  2019-02-07 14:58:17 python /home/tgabriel/docker/project-x/php/echo.py 'param1test' 'param2test'
+ 2405  2019-02-07 15:15:48 vim echo.py 
+ 2406  2019-02-07 15:18:35 python echo.py 'param1test' 'param2test' 'param3test'
+ 2407  2019-02-07 15:40:09 cd ..
+ 2408  2019-02-07 15:40:15 cd research/research_docker
+ 2409  2019-02-07 15:41:23 docker exec -it d7e749d44879 bash
+ 2410  2019-02-07 15:53:49 docker exec -it 6e8a9aaee70f bash
+ 2411  2019-02-07 16:04:58 docker exec -it 42ff54f7178f bash
+ 2412  2019-02-07 10:09:08 man bash
+ 2413  2019-02-07 10:09:19 echo $TEST_VAR
+ 2414  2019-02-07 10:17:05 vim key_value_file.txt
+ 2415  2019-02-07 10:17:18 docker run --env-file key_value_file.txt $INSTANCE_ID
+ 2416  2019-02-07 10:18:21 docker exec -i 1d1706f306ca /bin/bash -c "export VAR1=VAL1 && export VAR2=VAL2 && run_cmd"
+ 2417  2019-02-07 10:19:03 docker stop
+ 2418  2019-02-07 10:19:08 docker-compose stop
+ 2419  2019-02-07 10:19:19 /var/lib/docker/containers/1d1706f306ca/config.json
+ 2420  2019-02-07 10:19:22 sudo /var/lib/docker/containers/1d1706f306ca/config.json
+ 2421  2019-02-07 10:19:36 sudo vim /var/lib/docker/containers/1d1706f306ca/config.json
+ 2422  2019-02-07 10:19:43 vim /var/lib/docker/containers/1d1706f306ca/config.json
+ 2423  2019-02-07 10:21:35 docker-compose up
+ 2424  2019-02-07 10:22:06 docker-compose up -d
+ 2425  2019-02-07 10:22:20 #docker exec -ti -e LINES=$LINES -e COLUMNS=$COLUMNS docker exec -ti -e LINES=$LINES -e COLUMNS=$COLUMNS $container bash bash
+ 2426  2019-02-07 10:22:29 #docker exec -ti -e LINES=$LINES -e COLUMNS=$COLUMNS  bash
+ 2427  2019-02-07 10:22:32 docker ps -a
+ 2428  2019-02-07 10:22:53 docker exec -ti -e LINES=$LINES -e COLUMNS=$COLUMNS 1d1706f306ca bash
+ 2429  2019-02-07 10:27:32 exec apache2 -DFOREGROUND
+ 2430  2019-02-07 10:28:16 docker ps -a
+ 2431  2019-02-07 10:29:45 #docker-compose delete
+ 2432  2019-02-07 10:29:46 cd ..
+ 2433  2019-02-07 10:29:53 cd wordpress_clean/
+ 2434  2019-02-07 10:30:29 docker-compose down --rmi local
+ 2435  2019-02-07 10:30:39 docker-compose up -d
+ 2436  2019-02-07 10:30:46 docker-compose down --rmi local
+ 2437  2019-02-07 10:31:08 docker-compose stop
+ 2438  2019-02-07 10:31:13 docker-compose down --rmi local
+ 2439  2019-02-07 10:32:42 docker-compose up -e MY_USER=test -e MY_PASS=1234
+ 2440  2019-02-07 10:33:47 export KB_DB_TAG_VERSION=kb-1.3.20-v1.0.0
+ 2441  2019-02-07 10:33:52 docker-compose up
+ 2442  2019-02-07 10:34:06 docker-compose up -d
+ 2443  2019-02-07 10:35:08 docker-compose stop -d
+ 2444  2019-02-07 10:35:13 docker-compose stop
+ 2445  2019-02-07 10:35:19 docker-compose down --rmi local
+ 2446  2019-02-07 10:35:23 docker-compose -e KB_DB_TAG_VERSION kb-1.3.20-v1.0.0 up
+ 2447  2019-02-07 10:37:07 vim docker-compose.yml
+ 2448  2019-02-07 10:37:31 cd ..c
+ 2449  2019-02-07 10:37:33 cd ..
+ 2450  2019-02-07 10:37:35 cd research/research_docker
+ 2451  2019-02-07 10:37:38 vim docker-compose.yml
+ 2452  2019-02-07 10:41:03 ls -la wp-content/themes/research-rh
+ 2453  2019-02-07 10:41:39 scp -r wp-content/themes/research-rh/single-post-internships-gapi.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh/
+ 2454  2019-02-07 10:50:04 vim docker-compose.yml
+ 2455  2019-02-07 10:54:56 cd ..
+ 2456  2019-02-07 10:55:03 cd docker/wordpress_clean/
+ 2457  2019-02-07 10:55:10 docker-compose stop
+ 2458  2019-02-07 10:55:16 docker-compose down --rmi local
+ 2459  2019-02-07 10:56:45 docker run --env TEST='xxx' /bin/echo $TEST
+ 2460  2019-02-07 10:58:28 echo 'TEST=whatever' > .env
+ 2461  2019-02-07 10:58:40 vim docker-compose.yml 
+ 2462  2019-02-07 10:59:03 docker-compose up -d
+ 2463  2019-02-07 11:06:40 vim wp-content/themes/twentyseventeen/functions.php
+ 2464  2019-02-07 11:09:24 vim docker-compose.yml 
+ 2465  2019-02-07 11:11:34 cd ..
+ 2466  2019-02-07 11:11:37 cd research/research_docker
+ 2467  2019-02-07 11:12:32 docker exec -it 1d1706f306ca bash
+ 2468  2019-02-07 11:12:41 docker ps -a
+ 2469  2019-02-07 11:12:55 docker exec -it ba6e733093ca bash
+ 2470  2019-02-07 11:13:57 cat history | grep AhojSvete >> test.txt
+ 2471  2019-02-07 11:14:13 history | grep AhojSvete >> test.txt
+ 2472  2019-02-07 11:14:20 vim test.txt 
+ 2473  2019-02-07 11:15:28 ls -la
+ 2474  2019-02-07 11:15:35 vim test
+ 2475  2019-02-07 11:15:41 rm test
+ 2476  2019-02-07 11:15:44 ls -la
+ 2477  2019-02-07 11:16:25 vim docker-compose.yml 
+ 2478  2019-02-07 11:16:46 docker-compose stop
+ 2479  2019-02-07 11:16:51 docker-compose up -d
+ 2480  2019-02-07 11:17:11 vim docker-compose.yml 
+ 2481  2019-02-07 11:18:24 docker-compose stop
+ 2482  2019-02-07 11:18:29 docker-compose up -d
+ 2483  2019-02-07 15:01:08 docker ps -a
+ 2484  2019-02-07 15:01:14 #python /home/tgabriel/docker/project-x/php/echo.py 'param1test' 'param2test'
+ 2485  2019-02-07 15:01:27 #docker exec -it ba6e733093ca bash
+ 2486  2019-02-07 15:01:29 docker ps -a
+ 2487  2019-02-07 15:01:41 docker exec -it d7e749d44879 bash
+ 2488  2019-02-07 16:04:25 docker-compose stop
+ 2489  2019-02-07 16:04:31 docker-compose up -d
+ 2490  2019-02-07 16:09:49 #docker exec -it 42ff54f7178f bash
+ 2491  2019-02-07 16:09:52 docker exec -it 42ff54f7178f bash
+ 2492  2019-02-07 16:48:35 docker-compose stop
+ 2493  2019-02-07 16:48:47 vim docker-compose.yml 
+ 2494  2019-02-07 16:48:57 docker-compose up -d
+ 2495  2019-02-07 16:49:05 docker ps -a
+ 2496  2019-02-07 16:49:12 docker exec -it ebcfe15c4b96 bash
+ 2497  2019-02-07 17:10:30 docker-compose stop
+ 2498  2019-02-07 17:10:38 vim docker-compose.yml 
+ 2499  2019-02-07 17:10:49 docker-compose up -d
+ 2500  2019-02-07 10:09:04 bash
+ 2501  2019-02-07 15:40:56 docker ps -a
+ 2502  2019-02-07 15:52:40 vim docker-compose.yml 
+ 2503  2019-02-07 15:53:20 docker-compose stop
+ 2504  2019-02-07 15:53:27 docker-compose up -d
+ 2505  2019-02-07 15:53:34 docker ps -a
+ 2506  2019-02-05 14:56:00 echo $DB_NAME
+ 2507  2019-02-05 14:56:58 man source
+ 2508  2019-02-05 15:57:41 echo "$apikey"
+ 2509  2019-02-05 16:01:53 docker exec -it 1d1706f306ca bash
+ 2510  2019-02-05 16:40:43 cd ..
+ 2511  2019-02-05 16:40:59 docker ps -a 
+ 2512  2019-02-05 16:41:37 docker exec -it 4f18bfc8d934 bash
+ 2513  2019-02-05 16:43:19 docker run --rm -v $(pwd):/app -w /app -e ENV_VAR='Hello World!' php:cli php index.php
+ 2514  2019-02-05 16:43:44 ls -la
+ 2515  2019-02-05 16:44:13 cd project-x/
+ 2516  2019-02-05 16:44:16 docker run --rm -v $(pwd):/app -w /app -e ENV_VAR='Hello World!' php:cli php index.php
+ 2517  2019-02-05 16:44:24 docker ps -a 
+ 2518  2019-02-05 16:46:15 cd ..
+ 2519  2019-02-05 16:46:19 re
+ 2520  2019-02-05 16:46:26 ls -la
+ 2521  2019-02-05 16:46:33 cd research/research_docker
+ 2522  2019-02-05 16:46:38 docker exec -it 1d1706f306ca bash
+ 2523  2019-02-05 16:57:17 docker exec 1d1706f306ca bash -c 'echo "$APIKEY"'
+ 2524  2019-02-05 16:57:26 docker exec -it 1d1706f306ca bash
+ 2525  2019-02-07 09:43:59 docker ps -a
+ 2526  2019-02-07 09:44:11 docker exec -it 1d1706f306ca bash
+ 2527  2019-02-07 09:45:12 ls -la
+ 2528  2019-02-07 09:45:18 vim .htaccess
+ 2529  2019-02-07 09:48:40 docker exec -it 1d1706f306ca bash
+ 2530  2019-02-07 09:54:57 ddb whois tgabriel
+ 2531  2019-02-07 09:55:04 whois tgabriel
+ 2532  2019-02-07 10:06:33 TEST_VAR='Hello World!'
+ 2533  2019-02-07 10:06:37 set | grep TEST_VAR
+ 2534  2019-02-07 10:06:46 printenv | grep TEST_VAR
+ 2535  2019-02-07 10:07:03 echo $TEST_VAR
+ 2536  2019-02-07 10:07:43 docker exec -it 1d1706f306ca bash
+ 2537  2019-02-07 10:39:15 ssh research01.misc.hst.phx2.redhat.com
+ 2538  2019-02-07 15:22:33 #docker stop 59c34c10820b 24a9006fcc1e
+ 2539  2019-02-07 15:22:53 cat history | grep yum-config-manager --enable >> testak
+ 2540  2019-02-07 15:22:58 history | grep yum-config-manager --enable >> testak
+ 2541  2019-02-07 15:23:09 history | grep yum-config-manager >> testak
+ 2542  2019-02-07 15:23:13 vim testak 
+ 2543  2019-02-07 17:19:56 ls -la
+ 2544  2019-02-08 10:26:39 ssh research01.misc.hst.phx2.redhat.com
+ 2545  2019-02-08 10:37:51 scp -r wp-content/themes/research-rh/css/bootstrap.min.css root@research01.misc.hst.phx2.redhat.com:/var/www/html/wp-content/themes/research-rh/css/
+ 2546  2019-02-08 10:44:27 cd docker/research/research_docker
+ 2547  2019-02-08 10:44:37 scp -r wp-content/themes/research-rh/css/bootstrap.min.css root@research01.misc.hst.phx2.redhat.com:/var/www/html/wp-content/themes/research-rh/css/
+ 2548  2019-02-12 13:37:30 cd docker/research/research_docker
+ 2549  2019-02-12 13:37:34 docker ps -a
+ 2550  2019-02-12 13:37:47 docker-compose up -d
+ 2551  2019-02-12 14:30:16 top
+ 2552  2019-02-15 12:08:41 cd docker/research/research_docker
+ 2553  2019-02-15 12:08:43 docker-compose up -d
+ 2554  2019-02-18 19:02:53 cd docker/research/research_docker
+ 2555  2019-02-18 19:02:54 docker-compose up -d
+ 2556  2019-02-18 19:42:08 ssh research01.misc.hst.phx2.redhat.com
+ 2557  2019-02-18 19:41:39 cd docker/research/research_docker
+ 2558  2019-02-18 19:41:43 cd /home/tgabriel/docker/research/research_docker/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public-style.css
+ 2559  2019-02-18 19:41:50 cd ~/
+ 2560  2019-02-18 19:41:51 cd /home/tgabriel/docker/research/research_docker/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public-style.css
+ 2561  2019-02-18 19:41:57 cd /home/tgabriel/docker/research/research_docker/wp-content/plugins/popup-anything-on-click/assets/css/
+ 2562  2019-02-18 19:42:00 ls -la
+ 2563  2019-02-18 19:42:12 pwd
+ 2564  2019-02-18 19:44:28 scp -r popupaoc-public-style.css root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/plugins/popup-anything-on-click/assets/css
+ 2565  2019-02-18 19:45:34 history | grep scp >> test.txt
+ 2566  2019-02-18 19:45:38 vim test.txt 
+ 2567  2019-02-18 19:46:18 ls -la
+ 2568  2019-02-18 19:46:22 rm test.txt
+ 2569  2019-02-18 19:46:24 ls -la
+ 2570  2019-02-19 22:11:05 ssh research01.misc.hst.phx2.redhat.com
+ 2571  2019-02-20 10:46:21 cd ~/
+ 2572  2019-02-20 10:46:25 cd Downloads/
+ 2573  2019-02-20 10:26:09 cd docker/research/research_docker/wp-content/themes/research-rh/
+ 2574  2019-02-20 10:26:16 ls -la
+ 2575  2019-02-20 10:27:42 scp -r single-post-internships-general.php root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 2576  2019-02-20 10:29:12 scp -r style.css root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/research-rh
+ 2577  2019-02-20 10:39:29 cd ..
+ 2578  2019-02-20 10:39:32 cd rh-parent/
+ 2579  2019-02-20 10:39:34 ls -la
+ 2580  2019-02-20 10:40:49 scp -r img_girl.jpg internships.png workshops.png root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/rh-parent
+ 2581  2019-02-20 10:47:30 scp -r teachers.jpg root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/rh-parent
+ 2582  2019-02-20 10:50:46 scp -r teachers.png root@research01.misc.hst.phx2.redhat.com:/var/www/html/beta/wp-content/themes/rh-parent
+ 2583  2019-02-22 21:04:25 python3 -m venv myvenv
+ 2584  2019-02-22 21:05:00 source myvenv/bin/activate
+ 2585  2019-02-22 21:05:16 pip install django==1.8
+ 2586  2019-02-22 21:05:35 pip install --upgrade pip
+ 2587  2019-02-22 21:09:02 django-admin startproject mysite .
+ 2588  2019-02-22 21:09:12 ls -la
+ 2589  2019-02-22 21:09:22 ls -la mysite/
+ 2590  2019-02-22 21:09:30 ls -la myvenv/
+ 2591  2019-02-22 21:09:55 django-admin startproject mysite .
+ 2592  2019-02-22 21:10:19 ls -la
+ 2593  2019-02-22 21:10:24 ls -la mysite/
+ 2594  2019-02-22 21:10:37 ls -la mysite/settings.py 
+ 2595  2019-02-22 21:10:55 vim mysite/settings.py 
+ 2596  2019-02-22 21:12:37 python manage.py migrate
+ 2597  2019-02-22 21:13:02 python manage.py runserver
+ 2598  2019-02-22 23:00:02 python manage.py startapp blog
+ 2599  2019-02-22 23:00:16 ls -la blog/
+ 2600  2019-02-22 23:01:03 cd mysite
+ 2601  2019-02-22 23:01:06 ls -la
+ 2602  2019-02-22 23:01:09 vim settings.py 
+ 2603  2019-02-22 23:01:42 cd ..
+ 2604  2019-02-22 23:01:50 vim blog/models.py 
+ 2605  2019-02-22 23:04:41 python manage.py makemigrations blog
+ 2606  2019-02-22 23:04:50 cd blog/
+ 2607  2019-02-22 23:04:51 python manage.py makemigrations blog
+ 2608  2019-02-22 23:04:59 ls -la
+ 2609  2019-02-22 23:05:02 cd ..
+ 2610  2019-02-22 23:05:04 python manage.py makemigrations blog
+ 2611  2019-02-22 23:05:16 vim settings.py 
+ 2612  2019-02-22 23:05:31 vim mysite/settings.py 
+ 2613  2019-02-22 23:06:02 python manage.py makemigrations blog
+ 2614  2019-02-22 23:06:35 python manage.py migrate blog
+ 2615  2019-02-22 23:07:02 vim blog/admin.py 
+ 2616  2019-02-22 23:07:29 python manage.py runserver
+ 2617  2019-02-22 23:08:17 vim mysite/settings.py 
+ 2618  2019-02-22 23:08:29 python manage.py makemigrations blog
+ 2619  2019-02-22 23:08:35 python manage.py runserver
+ 2620  2019-02-22 23:10:23 python manage.py createsuperuser
+ 2621  2019-02-22 23:11:04 python manage.py runserver
+ 2622  2019-02-22 23:25:54 sudo yum install git
+ 2623  2019-02-22 23:26:30 git init
+ 2624  2019-02-22 23:28:42 git config --global user.name "Tessg22"
+ 2625  2019-02-22 23:29:17 git config --global user.email terezagabrielova@yahoo.com
+ 2626  2019-02-22 23:29:43 ls -la
+ 2627  2019-02-22 23:29:54 vim .gitignore
+ 2628  2019-02-22 23:30:11 git status
+ 2629  2019-02-22 23:31:44 vim .gitignore 
+ 2630  2019-02-22 23:31:49 git status
+ 2631  2019-02-22 23:31:59 git add --all .
+ 2632  2019-02-22 23:32:05 git commit -m "My Django Girls app, first commit"
+ 2633  2019-02-22 23:35:04 python manage.py makemigrations blog
+ 2634  2019-02-22 23:39:47 python3 -m venv myvenv
+ 2635  2019-02-22 23:40:04 source myvenv/bin/activate
+ 2636  2019-02-22 23:40:10 python manage.py makemigrations blog
+ 2637  2019-02-22 23:40:34 python manage.py migrate blog
+ 2638  2019-02-22 23:40:58 python manage.py runserver
+ 2639  2019-02-22 23:44:12 python manage.py makemigrations blog
+ 2640  2019-02-22 23:44:30 python manage.py migrate blog
+ 2641  2019-02-22 23:48:42 python manage.py makemigrations blog
+ 2642  2019-02-22 23:48:49 python manage.py runserver
+ 2643  2019-02-22 23:49:06 python3 -m venv myvenv
+ 2644  2019-02-22 23:49:11 source myvenv/bin/activate
+ 2645  2019-02-22 23:49:13 python manage.py runserver
+ 2646  2019-02-23 00:24:53 vim terminal-comds.txt
+ 2647  2019-02-24 18:20:26 python3 -m venv myvenv
+ 2648  2019-02-24 18:20:30 source myvenv/bin/activate
+ 2649  2019-02-24 18:21:48 git remote add origin https://github.com/Tessg22/my-first-blog.git
+ 2650  2019-02-24 18:21:54 git push -u origin master
+ 2651  2019-02-21 12:11:55 ssh whmcscladmin@167.86.73.197
+ 2652  2019-02-22 23:09:03 python manage.py createsuperuser
+ 2653  2019-02-22 23:09:37 cd Projects/django/
+ 2654  2019-02-21 12:17:53 scp whmcscladmin@167.86.73.197:/home/whmcscladmin/website.tar .
+ 2655  2019-02-21 12:18:33 ls website.tar 
+ 2656  2019-02-21 12:18:46 mkdir cloudlelo
+ 2657  2019-02-21 12:18:48 cd cloudlelo/
+ 2658  2019-02-21 12:18:51 cd ..
+ 2659  2019-02-21 12:18:55 mv website.tar cloudlelo/
+ 2660  2019-02-21 12:18:57 cd cloudlelo/
+ 2661  2019-02-21 12:18:58 ls
+ 2662  2019-02-21 12:19:03 tar xvf website.tar 
+ 2663  2019-02-21 12:19:08 ls
+ 2664  2019-02-21 12:19:16 cd var/www/html/
+ 2665  2019-02-21 12:19:17 ls
+ 2666  2019-02-25 09:44:07 cd docker/research/research_docker
+ 2667  2019-02-25 09:44:12 docker ps -a
+ 2668  2019-02-25 09:44:30 docker exec -it 176b9b47c38e bash
+ 2669  2019-02-25 09:59:49 #docker run -it --rm 17408d0765ec php -m | grep -i pdo
+ 2670  2019-02-25 10:00:07 docker run -it --rm 176b9b47c38e php -m | grep -i pdo
+ 2671  2019-02-25 10:00:29 docker exec -it 176b9b47c38e bash
+ 2672  2019-02-25 10:08:15 docker-compose stop
+ 2673  2019-02-25 10:08:22 docker-compose run -d
+ 2674  2019-02-25 10:08:26 docker-compose up -d
+ 2675  2019-02-25 18:29:00 systemctl suspend -i
+ 2676  2019-02-26 17:54:40 ssh research01.misc.hst.phx2.redhat.com
+ 2677  2019-02-26 23:24:55 mkdir djangogirls
+ 2678  2019-02-26 23:24:58 cd djangogirls
+ 2679  2019-02-26 23:25:05 python3 -m venv myvenv
+ 2680* 2019-02-26 23:25:19 
+ 2681  2019-02-26 23:25:37 pip install django
+ 2682  2019-02-26 23:25:49 pip install --upgrade pip
+ 2683  2019-02-26 23:25:55 pip install django
+ 2684  2019-02-26 23:26:42 django-admin startproject mysite .
+ 2685  2019-02-26 23:27:02 tree .
+ 2686  2019-02-26 23:27:04 ls -la
+ 2687  2019-02-26 23:27:19 vim mysite/settings.py 
+ 2688  2019-02-26 23:28:10 python manage.py migrate
+ 2689  2019-02-26 23:28:27 python manage.py runserver
+ 2690  2019-02-26 23:29:12 python manage.py startapp blog
+ 2691  2019-02-26 23:29:26 vim mysite/settings.py
+ 2692  2019-02-26 23:30:09 vim blog/models.py
+ 2693  2019-02-26 23:30:40 python manage.py makemigrations blog
+ 2694  2019-02-26 23:30:48 python manage.py migrate blog
+ 2695  2019-02-26 23:31:05 vim blog/admin.py
+ 2696  2019-02-26 23:31:35 python manage.py runserver
+ 2697  2019-02-26 23:31:58 python manage.py createsuperuser
+ 2698  2019-02-26 23:32:59 python manage.py runserver
+ 2699  2019-02-26 23:34:37 sudo yum install git
+ 2700  2019-02-26 23:35:07 git init
+ 2701  2019-02-26 23:35:18 git config --global user.name "Tessg22"
+ 2702  2019-02-26 23:36:43 git config --global user.email terezagabrielova@yahoo.com
+ 2703  2019-02-26 23:37:40 vim .gitignore
+ 2704  2019-02-26 23:37:57 git status
+ 2705  2019-02-26 23:38:04 git add --all .
+ 2706  2019-02-26 23:38:09 git commit -m "My Django Girls app, first commit"
+ 2707  2019-02-26 23:39:55 git remote add origin https://github.com/Tessg22/my-first-blog.git
+ 2708  2019-02-26 23:40:00 git push -u origin master
+ 2709  2019-02-27 01:41:24 systemctl suspend -i
+ 2710  2019-02-27 10:24:25 vim mysite/urls.py
+ 2711  2019-02-27 10:27:37 vim blog/urls.py
+ 2712  2019-02-27 10:29:24 python manage.py runserver
+ 2713  2019-02-27 10:30:45 vim blog/views.py 
+ 2714  2019-02-27 10:32:41 cd blog/
+ 2715  2019-02-27 10:32:49 mkdir templates
+ 2716  2019-02-27 10:33:09 mkdir blog
+ 2717  2019-02-27 10:33:15 vim post_list.html
+ 2718  2019-02-27 10:33:52 python manage.py runserver -d
+ 2719  2019-02-27 10:33:55 cd ..
+ 2720  2019-02-27 10:33:57 python manage.py runserver -d
+ 2721  2019-02-27 10:34:03 python manage.py runserver
+ 2722  2019-02-27 10:34:50 cd blog/templates/
+ 2723  2019-02-27 10:34:52 ls -la
+ 2724  2019-02-27 10:35:02 pwd
+ 2725  2019-02-27 10:35:07 mkdir blog
+ 2726  2019-02-27 10:35:08 ls -la
+ 2727  2019-02-27 10:35:10 cd blog/
+ 2728  2019-02-27 10:35:17 vim post_list.html
+ 2729  2019-02-27 10:35:25 ls -la
+ 2730  2019-02-27 10:35:33 python manage.py runserver
+ 2731  2019-02-27 10:35:43 python ./manage.py runserver
+ 2732  2019-02-27 10:35:54 python ../blog/manage.py runserver
+ 2733  2019-02-27 10:35:59 python ../../manage.py runserver
+ 2734  2019-02-27 10:36:03 python ../../../manage.py runserver
+ 2735  2019-02-27 10:36:32 vim post_list.html
+ 2736  2019-02-27 10:36:39 python ../../../manage.py runserver
+ 2737  2019-02-27 10:37:09 vim post_list.html
+ 2738  2019-02-27 10:37:21 python ../../../manage.py runserver
+ 2739  2019-02-27 10:38:08 git status
+ 2740  2019-02-27 10:38:13 git add --all .
+ 2741  2019-02-27 10:38:18 git status
+ 2742  2019-02-27 10:38:22 git add --all .
+ 2743  2019-02-27 10:38:25 git status
+ 2744  2019-02-27 10:38:28 cd ..
+ 2745  2019-02-27 10:38:34 git status
+ 2746  2019-02-27 10:38:37 git add --all .
+ 2747  2019-02-27 10:38:38 git status
+ 2748  2019-02-27 10:38:46 git commit -m "Changed the HTML for the site."
+ 2749  2019-02-27 10:38:51 git push
+ 2750  2019-02-27 15:14:23 python manage.py shell
+ 2751  2019-02-27 15:20:28 vim blog/views.py 
+ 2752  2019-02-27 15:24:18 vim blog/templates/blog/post_list.html 
+ 2753  2019-02-27 15:24:58 python ../../../manage.py runserver
+ 2754  2019-02-27 15:25:06 python manage.py runserver
+ 2755  2019-02-27 15:25:40 vim blog/templates/blog/post_list.html 
+ 2756  2019-02-27 15:26:02 python manage.py runserver
+ 2757  2019-02-27 15:26:32 vim blog/templates/blog/post_list.html 
+ 2758  2019-02-27 15:26:57 python manage.py runserver
+ 2759  2019-02-27 15:27:23 git status
+ 2760  2019-02-27 15:27:31 git add --all .
+ 2761  2019-02-27 15:27:34 git status
+ 2762  2019-02-27 15:28:05 git commit -m "Modified templates to display posts from database."
+ 2763  2019-02-27 15:28:09 git push
+ 2764  2019-02-27 15:30:13 git status
+ 2765  2019-02-27 15:31:53 vim blog/templates/blog/post_list.html 
+ 2766  2019-02-27 15:32:19 python manage.py runserver
+ 2767  2019-02-27 15:33:07 mkdir blog/static
+ 2768  2019-02-27 15:33:29 mkdir blog/static/css
+ 2769  2019-02-27 15:33:36 vim blog/static/css/blog.css
+ 2770  2019-02-27 15:34:19 vim blog/templates/blog/post_list.html 
+ 2771  2019-02-27 15:35:10 python manage.py runserver
+ 2772  2019-02-27 15:35:32 vim blog/templates/blog/post_list.html 
+ 2773  2019-02-27 15:35:41 python manage.py runserver
+ 2774  2019-02-27 15:40:39 vim blog/templates/blog/post_list.html 
+ 2775  2019-02-27 15:41:13 vim blog/static/css/blog.css 
+ 2776  2019-02-27 15:41:35 vim blog/templates/blog/post_list.html 
+ 2777  2019-02-27 15:42:00 vim blog/static/css/blog.css 
+ 2778  2019-02-27 15:42:58 vim blog/templates/blog/post_list.html 
+ 2779  2019-02-27 15:45:03 python manage.py runserver
+ 2780  2019-02-27 15:45:37 vim blog/templates/blog/post_list.html 
+ 2781  2019-02-27 15:45:58 python manage.py runserver
+ 2782  2019-02-27 15:48:08 vim blog/static/css/blog.css 
+ 2783  2019-02-27 15:48:24 python manage.py runserver
+ 2784  2019-02-27 15:49:03 git status
+ 2785  2019-02-27 15:49:10 git commit -a .
+ 2786  2019-02-27 15:49:13 git commit -all .
+ 2787  2019-02-27 15:49:21 git add -all .
+ 2788  2019-02-27 15:49:26 git add --all .
+ 2789  2019-02-27 15:49:30 git status
+ 2790  2019-02-27 15:49:42 git push
+ 2791  2019-02-27 15:50:32 git commit -m "Styles templates to display posts from database."
+ 2792  2019-02-27 15:50:35 git push
+ 2793  2019-02-27 15:56:27 git status
+ 2794  2019-02-27 16:11:03 vim blog/post_list.html 
+ 2795  2019-02-27 16:11:45 git status
+ 2796  2019-02-27 16:11:50 git add --all .
+ 2797  2019-02-27 16:11:56 git commit -m "Styles2 templates to display posts from database."
+ 2798  2019-02-27 16:11:59 git push
+ 2799  2019-02-27 16:13:56 vim blog/post_list.html 
+ 2800  2019-02-27 16:19:46 python manage.py runserver
+ 2801  2019-02-28 14:54:17 history > test.txt
